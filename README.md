@@ -6,6 +6,7 @@
 **AllegroWin64** is bindings that allow you to use the <a href="https://github.com/liballeg/allegro5" target="_blank">Allegro</a> library and its addons with the <a href="https://www.embarcadero.com/products/delphi" target="_blank">Delphi</a> compiler.
 
 Included:
+- Allegro 5.2.7.0 **(Latest)** :cool:
 - Audio addon
 - Audio codecs
 - Color addon
