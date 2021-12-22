@@ -107,11 +107,6 @@ const
   ALLEGRO_TTF_MONOCHROME = 2;
   ALLEGRO_TTF_NO_AUTOHINT = 4;
 
-type
-  ALLEGRO_PIXEL_FORMAT = Integer;
-  PALLEGRO_PIXEL_FORMAT = ^ALLEGRO_PIXEL_FORMAT;
-
-const
   ALLEGRO_PIXEL_FORMAT_ANY = 0;
   ALLEGRO_PIXEL_FORMAT_ANY_NO_ALPHA = 1;
   ALLEGRO_PIXEL_FORMAT_ANY_WITH_ALPHA = 2;
@@ -145,11 +140,6 @@ const
   ALLEGRO_PIXEL_FORMAT_COMPRESSED_RGBA_DXT5 = 30;
   ALLEGRO_NUM_PIXEL_FORMATS = 31;
 
-type
-  _anonymous_type_1 = Integer;
-  P_anonymous_type_1 = ^_anonymous_type_1;
-
-const
   ALLEGRO_MEMORY_BITMAP = 1;
   _ALLEGRO_KEEP_BITMAP_FORMAT = 2;
   ALLEGRO_FORCE_LOCKING = 4;
@@ -163,46 +153,21 @@ const
   ALLEGRO_VIDEO_BITMAP = 1024;
   ALLEGRO_CONVERT_BITMAP = 4096;
 
-type
-  _anonymous_type_2 = Integer;
-  P_anonymous_type_2 = ^_anonymous_type_2;
-
-const
   ALLEGRO_FLIP_HORIZONTAL = 1;
   ALLEGRO_FLIP_VERTICAL = 2;
 
-type
-  ALLEGRO_SEEK = Integer;
-  PALLEGRO_SEEK = ^ALLEGRO_SEEK;
-
-const
   ALLEGRO_SEEK_SET = 0;
   ALLEGRO_SEEK_CUR = 1;
   ALLEGRO_SEEK_END = 2;
 
-type
-  _anonymous_type_3 = Integer;
-  P_anonymous_type_3 = ^_anonymous_type_3;
-
-const
   ALLEGRO_KEEP_BITMAP_FORMAT = 2;
   ALLEGRO_NO_PREMULTIPLIED_ALPHA = 512;
   ALLEGRO_KEEP_INDEX = 2048;
 
-type
-  _anonymous_type_4 = Integer;
-  P_anonymous_type_4 = ^_anonymous_type_4;
-
-const
   ALLEGRO_LOCK_READWRITE = 0;
   ALLEGRO_LOCK_READONLY = 1;
   ALLEGRO_LOCK_WRITEONLY = 2;
 
-type
-  ALLEGRO_BLEND_MODE = Integer;
-  PALLEGRO_BLEND_MODE = ^ALLEGRO_BLEND_MODE;
-
-const
   ALLEGRO_ZERO = 0;
   ALLEGRO_ONE = 1;
   ALLEGRO_ALPHA = 2;
@@ -215,21 +180,11 @@ const
   ALLEGRO_INVERSE_CONST_COLOR = 9;
   ALLEGRO_NUM_BLEND_MODES = 10;
 
-type
-  ALLEGRO_BLEND_OPERATIONS = Integer;
-  PALLEGRO_BLEND_OPERATIONS = ^ALLEGRO_BLEND_OPERATIONS;
-
-const
   ALLEGRO_ADD = 0;
   ALLEGRO_SRC_MINUS_DEST = 1;
   ALLEGRO_DEST_MINUS_SRC = 2;
   ALLEGRO_NUM_BLEND_OPERATIONS = 3;
 
-type
-  _anonymous_type_5 = Integer;
-  P_anonymous_type_5 = ^_anonymous_type_5;
-
-const
   ALLEGRO_EVENT_JOYSTICK_AXIS = 1;
   ALLEGRO_EVENT_JOYSTICK_BUTTON_DOWN = 2;
   ALLEGRO_EVENT_JOYSTICK_BUTTON_UP = 3;
@@ -261,11 +216,6 @@ const
   ALLEGRO_EVENT_DISPLAY_CONNECTED = 60;
   ALLEGRO_EVENT_DISPLAY_DISCONNECTED = 61;
 
-type
-  _anonymous_type_6 = Integer;
-  P_anonymous_type_6 = ^_anonymous_type_6;
-
-const
   ALLEGRO_WINDOWED = 1;
   ALLEGRO_FULLSCREEN = 2;
   ALLEGRO_OPENGL = 4;
@@ -284,11 +234,6 @@ const
   ALLEGRO_OPENGL_ES_PROFILE = 16384;
   ALLEGRO_OPENGL_CORE_PROFILE = 32768;
 
-type
-  ALLEGRO_DISPLAY_OPTIONS = Integer;
-  PALLEGRO_DISPLAY_OPTIONS = ^ALLEGRO_DISPLAY_OPTIONS;
-
-const
   ALLEGRO_RED_SIZE = 0;
   ALLEGRO_GREEN_SIZE = 1;
   ALLEGRO_BLUE_SIZE = 2;
@@ -326,20 +271,10 @@ const
   ALLEGRO_OPENGL_MINOR_VERSION = 34;
   ALLEGRO_DISPLAY_OPTIONS_COUNT = 35;
 
-type
-  _anonymous_type_7 = Integer;
-  P_anonymous_type_7 = ^_anonymous_type_7;
-
-const
   ALLEGRO_DONTCARE = 0;
   ALLEGRO_REQUIRE = 1;
   ALLEGRO_SUGGEST = 2;
 
-type
-  ALLEGRO_DISPLAY_ORIENTATION = Integer;
-  PALLEGRO_DISPLAY_ORIENTATION = ^ALLEGRO_DISPLAY_ORIENTATION;
-
-const
   ALLEGRO_DISPLAY_ORIENTATION_UNKNOWN = 0;
   ALLEGRO_DISPLAY_ORIENTATION_0_DEGREES = 1;
   ALLEGRO_DISPLAY_ORIENTATION_90_DEGREES = 2;
@@ -351,18 +286,8 @@ const
   ALLEGRO_DISPLAY_ORIENTATION_FACE_UP = 16;
   ALLEGRO_DISPLAY_ORIENTATION_FACE_DOWN = 32;
 
-type
-  _anonymous_type_8 = Integer;
-  P_anonymous_type_8 = ^_anonymous_type_8;
-
-const
   _ALLEGRO_PRIM_MAX_USER_ATTR = 10;
 
-type
-  ALLEGRO_FILE_MODE = Integer;
-  PALLEGRO_FILE_MODE = ^ALLEGRO_FILE_MODE;
-
-const
   ALLEGRO_FILEMODE_READ = 1;
   ALLEGRO_FILEMODE_WRITE = 2;
   ALLEGRO_FILEMODE_EXECUTE = 4;
@@ -370,29 +295,14 @@ const
   ALLEGRO_FILEMODE_ISFILE = 16;
   ALLEGRO_FILEMODE_ISDIR = 32;
 
-type
-  ALLEGRO_FOR_EACH_FS_ENTRY_RESULT = Integer;
-  PALLEGRO_FOR_EACH_FS_ENTRY_RESULT = ^ALLEGRO_FOR_EACH_FS_ENTRY_RESULT;
-
-const
   ALLEGRO_FOR_EACH_FS_ENTRY_ERROR = -1;
   ALLEGRO_FOR_EACH_FS_ENTRY_OK = 0;
   ALLEGRO_FOR_EACH_FS_ENTRY_SKIP = 1;
   ALLEGRO_FOR_EACH_FS_ENTRY_STOP = 2;
 
-type
-  ALLEGRO_JOYFLAGS = Integer;
-  PALLEGRO_JOYFLAGS = ^ALLEGRO_JOYFLAGS;
-
-const
   ALLEGRO_JOYFLAG_DIGITAL = 1;
   ALLEGRO_JOYFLAG_ANALOGUE = 2;
 
-type
-  _anonymous_type_9 = Integer;
-  P_anonymous_type_9 = ^_anonymous_type_9;
-
-const
   ALLEGRO_KEY_A = 1;
   ALLEGRO_KEY_B = 2;
   ALLEGRO_KEY_C = 3;
@@ -536,11 +446,6 @@ const
   ALLEGRO_KEY_CAPSLOCK = 226;
   ALLEGRO_KEY_MAX = 227;
 
-type
-  _anonymous_type_10 = Integer;
-  P_anonymous_type_10 = ^_anonymous_type_10;
-
-const
   ALLEGRO_KEYMOD_SHIFT = 1;
   ALLEGRO_KEYMOD_CTRL = 2;
   ALLEGRO_KEYMOD_ALT = 4;
@@ -558,22 +463,12 @@ const
   ALLEGRO_KEYMOD_ACCENT3 = 16384;
   ALLEGRO_KEYMOD_ACCENT4 = 32768;
 
-type
-  ALLEGRO_MOUSE_EMULATION_MODE = Integer;
-  PALLEGRO_MOUSE_EMULATION_MODE = ^ALLEGRO_MOUSE_EMULATION_MODE;
-
-const
   ALLEGRO_MOUSE_EMULATION_NONE = 0;
   ALLEGRO_MOUSE_EMULATION_TRANSPARENT = 1;
   ALLEGRO_MOUSE_EMULATION_INCLUSIVE = 2;
   ALLEGRO_MOUSE_EMULATION_EXCLUSIVE = 3;
   ALLEGRO_MOUSE_EMULATION_5_0_x = 4;
 
-type
-  ALLEGRO_HAPTIC_CONSTANTS = Integer;
-  PALLEGRO_HAPTIC_CONSTANTS = ^ALLEGRO_HAPTIC_CONSTANTS;
-
-const
   ALLEGRO_HAPTIC_RUMBLE = 1;
   ALLEGRO_HAPTIC_PERIODIC = 2;
   ALLEGRO_HAPTIC_CONSTANT = 4;
@@ -594,18 +489,8 @@ const
   ALLEGRO_HAPTIC_AZIMUTH = 131072;
   ALLEGRO_HAPTIC_AUTOCENTER = 262144;
 
-type
-  _anonymous_type_11 = Integer;
-  P_anonymous_type_11 = ^_anonymous_type_11;
-
-const
   ALLEGRO_DEFAULT_DISPLAY_ADAPTER = -1;
 
-type
-  ALLEGRO_SYSTEM_MOUSE_CURSOR = Integer;
-  PALLEGRO_SYSTEM_MOUSE_CURSOR = ^ALLEGRO_SYSTEM_MOUSE_CURSOR;
-
-const
   ALLEGRO_SYSTEM_MOUSE_CURSOR_NONE = 0;
   ALLEGRO_SYSTEM_MOUSE_CURSOR_DEFAULT = 1;
   ALLEGRO_SYSTEM_MOUSE_CURSOR_ARROW = 2;
@@ -628,11 +513,6 @@ const
   ALLEGRO_SYSTEM_MOUSE_CURSOR_UNAVAILABLE = 19;
   ALLEGRO_NUM_SYSTEM_MOUSE_CURSORS = 20;
 
-type
-  ALLEGRO_RENDER_STATE = Integer;
-  PALLEGRO_RENDER_STATE = ^ALLEGRO_RENDER_STATE;
-
-const
   ALLEGRO_ALPHA_TEST = 16;
   ALLEGRO_WRITE_MASK = 17;
   ALLEGRO_DEPTH_TEST = 18;
@@ -640,11 +520,6 @@ const
   ALLEGRO_ALPHA_FUNCTION = 20;
   ALLEGRO_ALPHA_TEST_VALUE = 21;
 
-type
-  ALLEGRO_RENDER_FUNCTION = Integer;
-  PALLEGRO_RENDER_FUNCTION = ^ALLEGRO_RENDER_FUNCTION;
-
-const
   ALLEGRO_RENDER_NEVER = 0;
   ALLEGRO_RENDER_ALWAYS = 1;
   ALLEGRO_RENDER_LESS = 2;
@@ -654,11 +529,6 @@ const
   ALLEGRO_RENDER_NOT_EQUAL = 6;
   ALLEGRO_RENDER_GREATER_EQUAL = 7;
 
-type
-  ALLEGRO_WRITE_MASK_FLAGS = Integer;
-  PALLEGRO_WRITE_MASK_FLAGS = ^ALLEGRO_WRITE_MASK_FLAGS;
-
-const
   ALLEGRO_MASK_RED = 1;
   ALLEGRO_MASK_GREEN = 2;
   ALLEGRO_MASK_BLUE = 4;
@@ -667,28 +537,13 @@ const
   ALLEGRO_MASK_RGB = 7;
   ALLEGRO_MASK_RGBA = 15;
 
-type
-  ALLEGRO_SHADER_TYPE = Integer;
-  PALLEGRO_SHADER_TYPE = ^ALLEGRO_SHADER_TYPE;
-
-const
   ALLEGRO_VERTEX_SHADER = 1;
   ALLEGRO_PIXEL_SHADER = 2;
 
-type
-  ALLEGRO_SHADER_PLATFORM = Integer;
-  PALLEGRO_SHADER_PLATFORM = ^ALLEGRO_SHADER_PLATFORM;
-
-const
   ALLEGRO_SHADER_AUTO = 0;
   ALLEGRO_SHADER_GLSL = 1;
   ALLEGRO_SHADER_HLSL = 2;
 
-type
-  ALLEGRO_SYSTEM_ID = Integer;
-  PALLEGRO_SYSTEM_ID = ^ALLEGRO_SYSTEM_ID;
-
-const
   ALLEGRO_SYSTEM_ID_UNKNOWN = 0;
   ALLEGRO_SYSTEM_ID_XGLX = 1481067608;
   ALLEGRO_SYSTEM_ID_WINDOWS = 1464421956;
@@ -699,11 +554,6 @@ const
   ALLEGRO_SYSTEM_ID_RASPBERRYPI = 1380012880;
   ALLEGRO_SYSTEM_ID_SDL = 1396984882;
 
-type
-  _anonymous_type_12 = Integer;
-  P_anonymous_type_12 = ^_anonymous_type_12;
-
-const
   ALLEGRO_RESOURCES_PATH = 0;
   ALLEGRO_TEMP_PATH = 1;
   ALLEGRO_USER_DATA_PATH = 2;
@@ -713,11 +563,6 @@ const
   ALLEGRO_EXENAME_PATH = 6;
   ALLEGRO_LAST_PATH = 7;
 
-type
-  ALLEGRO_STATE_FLAGS = Integer;
-  PALLEGRO_STATE_FLAGS = ^ALLEGRO_STATE_FLAGS;
-
-const
   ALLEGRO_STATE_NEW_DISPLAY_PARAMETERS = 1;
   ALLEGRO_STATE_NEW_BITMAP_PARAMETERS = 2;
   ALLEGRO_STATE_DISPLAY = 4;
@@ -729,21 +574,11 @@ const
   ALLEGRO_STATE_BITMAP = 10;
   ALLEGRO_STATE_ALL = 65535;
 
-type
-  ALLEGRO_AUDIO_EVENT_TYPE = Integer;
-  PALLEGRO_AUDIO_EVENT_TYPE = ^ALLEGRO_AUDIO_EVENT_TYPE;
-
-const
   _KCM_STREAM_FEEDER_QUIT_EVENT_TYPE = 512;
   ALLEGRO_EVENT_AUDIO_STREAM_FRAGMENT = 513;
   ALLEGRO_EVENT_AUDIO_STREAM_FINISHED = 514;
   ALLEGRO_EVENT_AUDIO_RECORDER_FRAGMENT = 515;
 
-type
-  ALLEGRO_AUDIO_DEPTH = Integer;
-  PALLEGRO_AUDIO_DEPTH = ^ALLEGRO_AUDIO_DEPTH;
-
-const
   ALLEGRO_AUDIO_DEPTH_INT8 = 0;
   ALLEGRO_AUDIO_DEPTH_INT16 = 1;
   ALLEGRO_AUDIO_DEPTH_INT24 = 2;
@@ -753,11 +588,6 @@ const
   ALLEGRO_AUDIO_DEPTH_UINT16 = 9;
   ALLEGRO_AUDIO_DEPTH_UINT24 = 10;
 
-type
-  ALLEGRO_CHANNEL_CONF = Integer;
-  PALLEGRO_CHANNEL_CONF = ^ALLEGRO_CHANNEL_CONF;
-
-const
   ALLEGRO_CHANNEL_CONF_1 = 16;
   ALLEGRO_CHANNEL_CONF_2 = 32;
   ALLEGRO_CHANNEL_CONF_3 = 48;
@@ -766,31 +596,16 @@ const
   ALLEGRO_CHANNEL_CONF_6_1 = 97;
   ALLEGRO_CHANNEL_CONF_7_1 = 113;
 
-type
-  ALLEGRO_PLAYMODE = Integer;
-  PALLEGRO_PLAYMODE = ^ALLEGRO_PLAYMODE;
-
-const
   ALLEGRO_PLAYMODE_ONCE = 256;
   ALLEGRO_PLAYMODE_LOOP = 257;
   ALLEGRO_PLAYMODE_BIDIR = 258;
   _ALLEGRO_PLAYMODE_STREAM_ONCE = 259;
   _ALLEGRO_PLAYMODE_STREAM_ONEDIR = 260;
 
-type
-  ALLEGRO_MIXER_QUALITY = Integer;
-  PALLEGRO_MIXER_QUALITY = ^ALLEGRO_MIXER_QUALITY;
-
-const
   ALLEGRO_MIXER_QUALITY_POINT = 272;
   ALLEGRO_MIXER_QUALITY_LINEAR = 273;
   ALLEGRO_MIXER_QUALITY_CUBIC = 274;
 
-type
-  _anonymous_type_13 = Integer;
-  P_anonymous_type_13 = ^_anonymous_type_13;
-
-const
   ALLEGRO_NO_KERNING = -1;
   ALLEGRO_ALIGN_LEFT = 0;
   ALLEGRO_ALIGN_CENTRE = 1;
@@ -798,11 +613,6 @@ const
   ALLEGRO_ALIGN_RIGHT = 2;
   ALLEGRO_ALIGN_INTEGER = 4;
 
-type
-  _anonymous_type_14 = Integer;
-  P_anonymous_type_14 = ^_anonymous_type_14;
-
-const
   ALLEGRO_FILECHOOSER_FILE_MUST_EXIST = 1;
   ALLEGRO_FILECHOOSER_SAVE = 2;
   ALLEGRO_FILECHOOSER_FOLDER = 4;
@@ -810,48 +620,23 @@ const
   ALLEGRO_FILECHOOSER_SHOW_HIDDEN = 16;
   ALLEGRO_FILECHOOSER_MULTIPLE = 32;
 
-type
-  _anonymous_type_15 = Integer;
-  P_anonymous_type_15 = ^_anonymous_type_15;
-
-const
   ALLEGRO_MESSAGEBOX_WARN = 1;
   ALLEGRO_MESSAGEBOX_ERROR = 2;
   ALLEGRO_MESSAGEBOX_OK_CANCEL = 4;
   ALLEGRO_MESSAGEBOX_YES_NO = 8;
   ALLEGRO_MESSAGEBOX_QUESTION = 16;
 
-type
-  _anonymous_type_16 = Integer;
-  P_anonymous_type_16 = ^_anonymous_type_16;
-
-const
   ALLEGRO_TEXTLOG_NO_CLOSE = 1;
   ALLEGRO_TEXTLOG_MONOSPACE = 2;
 
-type
-  _anonymous_type_17 = Integer;
-  P_anonymous_type_17 = ^_anonymous_type_17;
-
-const
   ALLEGRO_EVENT_NATIVE_DIALOG_CLOSE = 600;
   ALLEGRO_EVENT_MENU_CLICK = 601;
 
-type
-  _anonymous_type_18 = Integer;
-  P_anonymous_type_18 = ^_anonymous_type_18;
-
-const
   ALLEGRO_MENU_ITEM_ENABLED = 0;
   ALLEGRO_MENU_ITEM_CHECKBOX = 1;
   ALLEGRO_MENU_ITEM_CHECKED = 2;
   ALLEGRO_MENU_ITEM_DISABLED = 4;
 
-type
-  ALLEGRO_PRIM_TYPE = Integer;
-  PALLEGRO_PRIM_TYPE = ^ALLEGRO_PRIM_TYPE;
-
-const
   ALLEGRO_PRIM_LINE_LIST = 0;
   ALLEGRO_PRIM_LINE_STRIP = 1;
   ALLEGRO_PRIM_LINE_LOOP = 2;
@@ -861,18 +646,8 @@ const
   ALLEGRO_PRIM_POINT_LIST = 6;
   ALLEGRO_PRIM_NUM_TYPES = 7;
 
-type
-  _anonymous_type_19 = Integer;
-  P_anonymous_type_19 = ^_anonymous_type_19;
-
-const
   ALLEGRO_PRIM_MAX_USER_ATTR = 10;
 
-type
-  ALLEGRO_PRIM_ATTR = Integer;
-  PALLEGRO_PRIM_ATTR = ^ALLEGRO_PRIM_ATTR;
-
-const
   ALLEGRO_PRIM_POSITION = 1;
   ALLEGRO_PRIM_COLOR_ATTR = 2;
   ALLEGRO_PRIM_TEX_COORD = 3;
@@ -880,11 +655,6 @@ const
   ALLEGRO_PRIM_USER_ATTR = 5;
   ALLEGRO_PRIM_ATTR_NUM = 15;
 
-type
-  ALLEGRO_PRIM_STORAGE = Integer;
-  PALLEGRO_PRIM_STORAGE = ^ALLEGRO_PRIM_STORAGE;
-
-const
   ALLEGRO_PRIM_FLOAT_2 = 0;
   ALLEGRO_PRIM_FLOAT_3 = 1;
   ALLEGRO_PRIM_SHORT_2 = 2;
@@ -900,57 +670,185 @@ const
   ALLEGRO_PRIM_HALF_FLOAT_2 = 12;
   ALLEGRO_PRIM_HALF_FLOAT_4 = 13;
 
-type
-  ALLEGRO_LINE_JOIN = Integer;
-  PALLEGRO_LINE_JOIN = ^ALLEGRO_LINE_JOIN;
-
-const
   ALLEGRO_LINE_JOIN_NONE = 0;
   ALLEGRO_LINE_JOIN_BEVEL = 1;
   ALLEGRO_LINE_JOIN_ROUND = 2;
   ALLEGRO_LINE_JOIN_MITER = 3;
   ALLEGRO_LINE_JOIN_MITRE = 3;
 
-type
-  ALLEGRO_LINE_CAP = Integer;
-  PALLEGRO_LINE_CAP = ^ALLEGRO_LINE_CAP;
-
-const
   ALLEGRO_LINE_CAP_NONE = 0;
   ALLEGRO_LINE_CAP_SQUARE = 1;
   ALLEGRO_LINE_CAP_ROUND = 2;
   ALLEGRO_LINE_CAP_TRIANGLE = 3;
   ALLEGRO_LINE_CAP_CLOSED = 4;
 
-type
-  ALLEGRO_PRIM_BUFFER_FLAGS = Integer;
-  PALLEGRO_PRIM_BUFFER_FLAGS = ^ALLEGRO_PRIM_BUFFER_FLAGS;
-
-const
   ALLEGRO_PRIM_BUFFER_STREAM = 1;
   ALLEGRO_PRIM_BUFFER_STATIC = 2;
   ALLEGRO_PRIM_BUFFER_DYNAMIC = 4;
   ALLEGRO_PRIM_BUFFER_READWRITE = 8;
 
-type
-  ALLEGRO_VIDEO_EVENT_TYPE = Integer;
-  PALLEGRO_VIDEO_EVENT_TYPE = ^ALLEGRO_VIDEO_EVENT_TYPE;
-
-const
   ALLEGRO_EVENT_VIDEO_FRAME_SHOW = 550;
   ALLEGRO_EVENT_VIDEO_FINISHED = 551;
   _ALLEGRO_EVENT_VIDEO_SEEK = 552;
 
-type
-  ALLEGRO_VIDEO_POSITION_TYPE = Integer;
-  PALLEGRO_VIDEO_POSITION_TYPE = ^ALLEGRO_VIDEO_POSITION_TYPE;
-
-const
   ALLEGRO_VIDEO_POSITION_ACTUAL = 0;
   ALLEGRO_VIDEO_POSITION_VIDEO_DECODE = 1;
   ALLEGRO_VIDEO_POSITION_AUDIO_DECODE = 2;
 
 type
+  ALLEGRO_PIXEL_FORMAT = Integer;
+  PALLEGRO_PIXEL_FORMAT = ^ALLEGRO_PIXEL_FORMAT;
+
+  _anonymous_type_1 = Integer;
+  P_anonymous_type_1 = ^_anonymous_type_1;
+
+  _anonymous_type_2 = Integer;
+  P_anonymous_type_2 = ^_anonymous_type_2;
+
+  ALLEGRO_SEEK = Integer;
+  PALLEGRO_SEEK = ^ALLEGRO_SEEK;
+
+  _anonymous_type_3 = Integer;
+  P_anonymous_type_3 = ^_anonymous_type_3;
+
+  _anonymous_type_4 = Integer;
+  P_anonymous_type_4 = ^_anonymous_type_4;
+
+  ALLEGRO_BLEND_MODE = Integer;
+  PALLEGRO_BLEND_MODE = ^ALLEGRO_BLEND_MODE;
+
+  ALLEGRO_BLEND_OPERATIONS = Integer;
+  PALLEGRO_BLEND_OPERATIONS = ^ALLEGRO_BLEND_OPERATIONS;
+
+  _anonymous_type_5 = Integer;
+  P_anonymous_type_5 = ^_anonymous_type_5;
+
+  _anonymous_type_6 = Integer;
+  P_anonymous_type_6 = ^_anonymous_type_6;
+
+  ALLEGRO_DISPLAY_OPTIONS = Integer;
+  PALLEGRO_DISPLAY_OPTIONS = ^ALLEGRO_DISPLAY_OPTIONS;
+
+  _anonymous_type_7 = Integer;
+  P_anonymous_type_7 = ^_anonymous_type_7;
+
+  ALLEGRO_DISPLAY_ORIENTATION = Integer;
+  PALLEGRO_DISPLAY_ORIENTATION = ^ALLEGRO_DISPLAY_ORIENTATION;
+
+  _anonymous_type_8 = Integer;
+  P_anonymous_type_8 = ^_anonymous_type_8;
+
+  ALLEGRO_FILE_MODE = Integer;
+  PALLEGRO_FILE_MODE = ^ALLEGRO_FILE_MODE;
+
+  ALLEGRO_FOR_EACH_FS_ENTRY_RESULT = Integer;
+  PALLEGRO_FOR_EACH_FS_ENTRY_RESULT = ^ALLEGRO_FOR_EACH_FS_ENTRY_RESULT;
+
+  ALLEGRO_JOYFLAGS = Integer;
+  PALLEGRO_JOYFLAGS = ^ALLEGRO_JOYFLAGS;
+
+  _anonymous_type_9 = Integer;
+  P_anonymous_type_9 = ^_anonymous_type_9;
+
+  _anonymous_type_10 = Integer;
+  P_anonymous_type_10 = ^_anonymous_type_10;
+
+  ALLEGRO_MOUSE_EMULATION_MODE = Integer;
+  PALLEGRO_MOUSE_EMULATION_MODE = ^ALLEGRO_MOUSE_EMULATION_MODE;
+
+  ALLEGRO_HAPTIC_CONSTANTS = Integer;
+  PALLEGRO_HAPTIC_CONSTANTS = ^ALLEGRO_HAPTIC_CONSTANTS;
+
+  _anonymous_type_11 = Integer;
+  P_anonymous_type_11 = ^_anonymous_type_11;
+
+  ALLEGRO_SYSTEM_MOUSE_CURSOR = Integer;
+  PALLEGRO_SYSTEM_MOUSE_CURSOR = ^ALLEGRO_SYSTEM_MOUSE_CURSOR;
+
+  ALLEGRO_RENDER_STATE = Integer;
+  PALLEGRO_RENDER_STATE = ^ALLEGRO_RENDER_STATE;
+
+  ALLEGRO_RENDER_FUNCTION = Integer;
+  PALLEGRO_RENDER_FUNCTION = ^ALLEGRO_RENDER_FUNCTION;
+
+  ALLEGRO_WRITE_MASK_FLAGS = Integer;
+  PALLEGRO_WRITE_MASK_FLAGS = ^ALLEGRO_WRITE_MASK_FLAGS;
+
+  ALLEGRO_SHADER_TYPE = Integer;
+  PALLEGRO_SHADER_TYPE = ^ALLEGRO_SHADER_TYPE;
+
+  ALLEGRO_SHADER_PLATFORM = Integer;
+  PALLEGRO_SHADER_PLATFORM = ^ALLEGRO_SHADER_PLATFORM;
+
+  ALLEGRO_SYSTEM_ID = Integer;
+  PALLEGRO_SYSTEM_ID = ^ALLEGRO_SYSTEM_ID;
+
+  _anonymous_type_12 = Integer;
+  P_anonymous_type_12 = ^_anonymous_type_12;
+
+  ALLEGRO_STATE_FLAGS = Integer;
+  PALLEGRO_STATE_FLAGS = ^ALLEGRO_STATE_FLAGS;
+
+  ALLEGRO_AUDIO_EVENT_TYPE = Integer;
+  PALLEGRO_AUDIO_EVENT_TYPE = ^ALLEGRO_AUDIO_EVENT_TYPE;
+
+  ALLEGRO_AUDIO_DEPTH = Integer;
+  PALLEGRO_AUDIO_DEPTH = ^ALLEGRO_AUDIO_DEPTH;
+
+  ALLEGRO_CHANNEL_CONF = Integer;
+  PALLEGRO_CHANNEL_CONF = ^ALLEGRO_CHANNEL_CONF;
+
+  ALLEGRO_PLAYMODE = Integer;
+  PALLEGRO_PLAYMODE = ^ALLEGRO_PLAYMODE;
+
+  ALLEGRO_MIXER_QUALITY = Integer;
+  PALLEGRO_MIXER_QUALITY = ^ALLEGRO_MIXER_QUALITY;
+
+  _anonymous_type_13 = Integer;
+  P_anonymous_type_13 = ^_anonymous_type_13;
+
+  _anonymous_type_14 = Integer;
+  P_anonymous_type_14 = ^_anonymous_type_14;
+
+  _anonymous_type_15 = Integer;
+  P_anonymous_type_15 = ^_anonymous_type_15;
+
+  _anonymous_type_16 = Integer;
+  P_anonymous_type_16 = ^_anonymous_type_16;
+
+  _anonymous_type_17 = Integer;
+  P_anonymous_type_17 = ^_anonymous_type_17;
+
+  _anonymous_type_18 = Integer;
+  P_anonymous_type_18 = ^_anonymous_type_18;
+
+  ALLEGRO_PRIM_TYPE = Integer;
+  PALLEGRO_PRIM_TYPE = ^ALLEGRO_PRIM_TYPE;
+
+  _anonymous_type_19 = Integer;
+  P_anonymous_type_19 = ^_anonymous_type_19;
+
+  ALLEGRO_PRIM_ATTR = Integer;
+  PALLEGRO_PRIM_ATTR = ^ALLEGRO_PRIM_ATTR;
+
+  ALLEGRO_PRIM_STORAGE = Integer;
+  PALLEGRO_PRIM_STORAGE = ^ALLEGRO_PRIM_STORAGE;
+
+  ALLEGRO_LINE_JOIN = Integer;
+  PALLEGRO_LINE_JOIN = ^ALLEGRO_LINE_JOIN;
+
+  ALLEGRO_LINE_CAP = Integer;
+  PALLEGRO_LINE_CAP = ^ALLEGRO_LINE_CAP;
+
+  ALLEGRO_PRIM_BUFFER_FLAGS = Integer;
+  PALLEGRO_PRIM_BUFFER_FLAGS = ^ALLEGRO_PRIM_BUFFER_FLAGS;
+
+  ALLEGRO_VIDEO_EVENT_TYPE = Integer;
+  PALLEGRO_VIDEO_EVENT_TYPE = ^ALLEGRO_VIDEO_EVENT_TYPE;
+
+  ALLEGRO_VIDEO_POSITION_TYPE = Integer;
+  PALLEGRO_VIDEO_POSITION_TYPE = ^ALLEGRO_VIDEO_POSITION_TYPE;
+
   // Forward declarations
   PPUTF8Char = ^PUTF8Char;
   PUInt16 = ^UInt16;
@@ -1194,7 +1092,6 @@ type
   PALLEGRO_CONFIG_ENTRY = Pointer;
   PPALLEGRO_CONFIG_ENTRY = ^PALLEGRO_CONFIG_ENTRY;
   al_fixed = Int32;
-
   ALLEGRO_FS_ENTRY = record
     vtable: PALLEGRO_FS_INTERFACE;
   end;
@@ -1478,1913 +1375,934 @@ type
   PPALLEGRO_VIDEO = ^PALLEGRO_VIDEO;
 
 
-var
-al_get_allegro_version: function(): UInt32; cdecl;
-
-type
   al_run_main_ = function(p1: Integer; p2: PPUTF8Char): Integer; cdecl;
-
-
-var
-al_get_time: function(): Double; cdecl;
-
-al_rest: procedure(seconds: Double); cdecl;
-
-al_init_timeout: procedure(timeout: PALLEGRO_TIMEOUT; seconds: Double); cdecl;
-
-al_map_rgb: function(r: Byte; g: Byte; b: Byte): ALLEGRO_COLOR; cdecl;
-
-al_map_rgba: function(r: Byte; g: Byte; b: Byte; a: Byte): ALLEGRO_COLOR; cdecl;
-
-al_map_rgb_f: function(r: Single; g: Single; b: Single): ALLEGRO_COLOR; cdecl;
-
-al_map_rgba_f: function(r: Single; g: Single; b: Single; a: Single): ALLEGRO_COLOR; cdecl;
-
-al_premul_rgba: function(r: Byte; g: Byte; b: Byte; a: Byte): ALLEGRO_COLOR; cdecl;
-
-al_premul_rgba_f: function(r: Single; g: Single; b: Single; a: Single): ALLEGRO_COLOR; cdecl;
-
-al_unmap_rgb: procedure(color: ALLEGRO_COLOR; r: PByte; g: PByte; b: PByte); cdecl;
-
-al_unmap_rgba: procedure(color: ALLEGRO_COLOR; r: PByte; g: PByte; b: PByte; a: PByte); cdecl;
-
-al_unmap_rgb_f: procedure(color: ALLEGRO_COLOR; r: PSingle; g: PSingle; b: PSingle); cdecl;
-
-al_unmap_rgba_f: procedure(color: ALLEGRO_COLOR; r: PSingle; g: PSingle; b: PSingle; a: PSingle); cdecl;
-
-al_get_pixel_size: function(format: Integer): Integer; cdecl;
-
-al_get_pixel_format_bits: function(format: Integer): Integer; cdecl;
-
-al_get_pixel_block_size: function(format: Integer): Integer; cdecl;
-
-al_get_pixel_block_width: function(format: Integer): Integer; cdecl;
-
-al_get_pixel_block_height: function(format: Integer): Integer; cdecl;
-
-al_set_new_bitmap_format: procedure(format: Integer); cdecl;
-
-al_set_new_bitmap_flags: procedure(flags: Integer); cdecl;
-
-al_get_new_bitmap_format: function(): Integer; cdecl;
-
-al_get_new_bitmap_flags: function(): Integer; cdecl;
-
-al_add_new_bitmap_flag: procedure(flag: Integer); cdecl;
-
-al_get_new_bitmap_depth: function(): Integer; cdecl;
-
-al_set_new_bitmap_depth: procedure(depth: Integer); cdecl;
-
-al_get_new_bitmap_samples: function(): Integer; cdecl;
-
-al_set_new_bitmap_samples: procedure(samples: Integer); cdecl;
-
-al_get_bitmap_width: function(bitmap: PALLEGRO_BITMAP): Integer; cdecl;
-
-al_get_bitmap_height: function(bitmap: PALLEGRO_BITMAP): Integer; cdecl;
-
-al_get_bitmap_format: function(bitmap: PALLEGRO_BITMAP): Integer; cdecl;
-
-al_get_bitmap_flags: function(bitmap: PALLEGRO_BITMAP): Integer; cdecl;
-
-al_get_bitmap_depth: function(bitmap: PALLEGRO_BITMAP): Integer; cdecl;
-
-al_get_bitmap_samples: function(bitmap: PALLEGRO_BITMAP): Integer; cdecl;
-
-al_create_bitmap: function(w: Integer; h: Integer): PALLEGRO_BITMAP; cdecl;
-
-al_destroy_bitmap: procedure(bitmap: PALLEGRO_BITMAP); cdecl;
-
-al_put_pixel: procedure(x: Integer; y: Integer; color: ALLEGRO_COLOR); cdecl;
-
-al_put_blended_pixel: procedure(x: Integer; y: Integer; color: ALLEGRO_COLOR); cdecl;
-
-al_get_pixel: function(bitmap: PALLEGRO_BITMAP; x: Integer; y: Integer): ALLEGRO_COLOR; cdecl;
-
-al_convert_mask_to_alpha: procedure(bitmap: PALLEGRO_BITMAP; mask_color: ALLEGRO_COLOR); cdecl;
-
-al_get_bitmap_blend_color: function(): ALLEGRO_COLOR; cdecl;
-
-al_get_bitmap_blender: procedure(op: PInteger; src: PInteger; dst: PInteger); cdecl;
-
-al_get_separate_bitmap_blender: procedure(op: PInteger; src: PInteger; dst: PInteger; alpha_op: PInteger; alpha_src: PInteger; alpha_dst: PInteger); cdecl;
-
-al_set_bitmap_blend_color: procedure(color: ALLEGRO_COLOR); cdecl;
-
-al_set_bitmap_blender: procedure(op: Integer; src: Integer; dst: Integer); cdecl;
-
-al_set_separate_bitmap_blender: procedure(op: Integer; src: Integer; dst: Integer; alpha_op: Integer; alpha_src: Integer; alpha_dst: Integer); cdecl;
-
-al_reset_bitmap_blender: procedure(); cdecl;
-
-al_set_clipping_rectangle: procedure(x: Integer; y: Integer; width: Integer; height: Integer); cdecl;
-
-al_reset_clipping_rectangle: procedure(); cdecl;
-
-al_get_clipping_rectangle: procedure(x: PInteger; y: PInteger; w: PInteger; h: PInteger); cdecl;
-
-al_create_sub_bitmap: function(parent: PALLEGRO_BITMAP; x: Integer; y: Integer; w: Integer; h: Integer): PALLEGRO_BITMAP; cdecl;
-
-al_is_sub_bitmap: function(bitmap: PALLEGRO_BITMAP): Boolean; cdecl;
-
-al_get_parent_bitmap: function(bitmap: PALLEGRO_BITMAP): PALLEGRO_BITMAP; cdecl;
-
-al_get_bitmap_x: function(bitmap: PALLEGRO_BITMAP): Integer; cdecl;
-
-al_get_bitmap_y: function(bitmap: PALLEGRO_BITMAP): Integer; cdecl;
-
-al_reparent_bitmap: procedure(bitmap: PALLEGRO_BITMAP; parent: PALLEGRO_BITMAP; x: Integer; y: Integer; w: Integer; h: Integer); cdecl;
-
-al_clone_bitmap: function(bitmap: PALLEGRO_BITMAP): PALLEGRO_BITMAP; cdecl;
-
-al_convert_bitmap: procedure(bitmap: PALLEGRO_BITMAP); cdecl;
-
-al_convert_memory_bitmaps: procedure(); cdecl;
-
-al_backup_dirty_bitmap: procedure(bitmap: PALLEGRO_BITMAP); cdecl;
-
-al_draw_bitmap: procedure(bitmap: PALLEGRO_BITMAP; dx: Single; dy: Single; flags: Integer); cdecl;
-
-al_draw_bitmap_region: procedure(bitmap: PALLEGRO_BITMAP; sx: Single; sy: Single; sw: Single; sh: Single; dx: Single; dy: Single; flags: Integer); cdecl;
-
-al_draw_scaled_bitmap: procedure(bitmap: PALLEGRO_BITMAP; sx: Single; sy: Single; sw: Single; sh: Single; dx: Single; dy: Single; dw: Single; dh: Single; flags: Integer); cdecl;
-
-al_draw_rotated_bitmap: procedure(bitmap: PALLEGRO_BITMAP; cx: Single; cy: Single; dx: Single; dy: Single; angle: Single; flags: Integer); cdecl;
-
-al_draw_scaled_rotated_bitmap: procedure(bitmap: PALLEGRO_BITMAP; cx: Single; cy: Single; dx: Single; dy: Single; xscale: Single; yscale: Single; angle: Single; flags: Integer); cdecl;
-
-al_draw_tinted_bitmap: procedure(bitmap: PALLEGRO_BITMAP; tint: ALLEGRO_COLOR; dx: Single; dy: Single; flags: Integer); cdecl;
-
-al_draw_tinted_bitmap_region: procedure(bitmap: PALLEGRO_BITMAP; tint: ALLEGRO_COLOR; sx: Single; sy: Single; sw: Single; sh: Single; dx: Single; dy: Single; flags: Integer); cdecl;
-
-al_draw_tinted_scaled_bitmap: procedure(bitmap: PALLEGRO_BITMAP; tint: ALLEGRO_COLOR; sx: Single; sy: Single; sw: Single; sh: Single; dx: Single; dy: Single; dw: Single; dh: Single; flags: Integer); cdecl;
-
-al_draw_tinted_rotated_bitmap: procedure(bitmap: PALLEGRO_BITMAP; tint: ALLEGRO_COLOR; cx: Single; cy: Single; dx: Single; dy: Single; angle: Single; flags: Integer); cdecl;
-
-al_draw_tinted_scaled_rotated_bitmap: procedure(bitmap: PALLEGRO_BITMAP; tint: ALLEGRO_COLOR; cx: Single; cy: Single; dx: Single; dy: Single; xscale: Single; yscale: Single; angle: Single; flags: Integer); cdecl;
-
-al_draw_tinted_scaled_rotated_bitmap_region: procedure(bitmap: PALLEGRO_BITMAP; sx: Single; sy: Single; sw: Single; sh: Single; tint: ALLEGRO_COLOR; cx: Single; cy: Single; dx: Single; dy: Single; xscale: Single; yscale: Single; angle: Single; flags: Integer); cdecl;
-
-al_ustr_new: function(const s: PUTF8Char): PALLEGRO_USTR; cdecl;
-
-al_ustr_new_from_buffer: function(const s: PUTF8Char; size: NativeUInt): PALLEGRO_USTR; cdecl;
-
-al_ustr_newf: function(const fmt: PUTF8Char): PALLEGRO_USTR varargs; cdecl;
-
-al_ustr_free: procedure(us: PALLEGRO_USTR); cdecl;
-
-al_cstr: function(const us: PALLEGRO_USTR): PUTF8Char; cdecl;
-
-al_ustr_to_buffer: procedure(const us: PALLEGRO_USTR; buffer: PUTF8Char; size: Integer); cdecl;
-
-al_cstr_dup: function(const us: PALLEGRO_USTR): PUTF8Char; cdecl;
-
-al_ustr_dup: function(const us: PALLEGRO_USTR): PALLEGRO_USTR; cdecl;
-
-al_ustr_dup_substr: function(const us: PALLEGRO_USTR; start_pos: Integer; end_pos: Integer): PALLEGRO_USTR; cdecl;
-
-al_ustr_empty_string: function(): PALLEGRO_USTR; cdecl;
-
-al_ref_cstr: function(info: PALLEGRO_USTR_INFO; const s: PUTF8Char): PALLEGRO_USTR; cdecl;
-
-al_ref_buffer: function(info: PALLEGRO_USTR_INFO; const s: PUTF8Char; size: NativeUInt): PALLEGRO_USTR; cdecl;
-
-al_ref_ustr: function(info: PALLEGRO_USTR_INFO; const us: PALLEGRO_USTR; start_pos: Integer; end_pos: Integer): PALLEGRO_USTR; cdecl;
-
-al_ustr_size: function(const us: PALLEGRO_USTR): NativeUInt; cdecl;
-
-al_ustr_length: function(const us: PALLEGRO_USTR): NativeUInt; cdecl;
-
-al_ustr_offset: function(const us: PALLEGRO_USTR; index: Integer): Integer; cdecl;
-
-al_ustr_next: function(const us: PALLEGRO_USTR; pos: PInteger): Boolean; cdecl;
-
-al_ustr_prev: function(const us: PALLEGRO_USTR; pos: PInteger): Boolean; cdecl;
-
-al_ustr_get: function(const us: PALLEGRO_USTR; pos: Integer): Int32; cdecl;
-
-al_ustr_get_next: function(const us: PALLEGRO_USTR; pos: PInteger): Int32; cdecl;
-
-al_ustr_prev_get: function(const us: PALLEGRO_USTR; pos: PInteger): Int32; cdecl;
-
-al_ustr_insert: function(us1: PALLEGRO_USTR; pos: Integer; const us2: PALLEGRO_USTR): Boolean; cdecl;
-
-al_ustr_insert_cstr: function(us: PALLEGRO_USTR; pos: Integer; const us2: PUTF8Char): Boolean; cdecl;
-
-al_ustr_insert_chr: function(us: PALLEGRO_USTR; pos: Integer; c: Int32): NativeUInt; cdecl;
-
-al_ustr_append: function(us1: PALLEGRO_USTR; const us2: PALLEGRO_USTR): Boolean; cdecl;
-
-al_ustr_append_cstr: function(us: PALLEGRO_USTR; const s: PUTF8Char): Boolean; cdecl;
-
-al_ustr_append_chr: function(us: PALLEGRO_USTR; c: Int32): NativeUInt; cdecl;
-
-al_ustr_appendf: function(us: PALLEGRO_USTR; const fmt: PUTF8Char): Boolean varargs; cdecl;
-
-al_ustr_vappendf: function(us: PALLEGRO_USTR; const fmt: PUTF8Char; ap: Pointer): Boolean; cdecl;
-
-al_ustr_remove_chr: function(us: PALLEGRO_USTR; pos: Integer): Boolean; cdecl;
-
-al_ustr_remove_range: function(us: PALLEGRO_USTR; start_pos: Integer; end_pos: Integer): Boolean; cdecl;
-
-al_ustr_truncate: function(us: PALLEGRO_USTR; start_pos: Integer): Boolean; cdecl;
-
-al_ustr_ltrim_ws: function(us: PALLEGRO_USTR): Boolean; cdecl;
-
-al_ustr_rtrim_ws: function(us: PALLEGRO_USTR): Boolean; cdecl;
-
-al_ustr_trim_ws: function(us: PALLEGRO_USTR): Boolean; cdecl;
-
-al_ustr_assign: function(us1: PALLEGRO_USTR; const us2: PALLEGRO_USTR): Boolean; cdecl;
-
-al_ustr_assign_substr: function(us1: PALLEGRO_USTR; const us2: PALLEGRO_USTR; start_pos: Integer; end_pos: Integer): Boolean; cdecl;
-
-al_ustr_assign_cstr: function(us1: PALLEGRO_USTR; const s: PUTF8Char): Boolean; cdecl;
-
-al_ustr_set_chr: function(us: PALLEGRO_USTR; pos: Integer; c: Int32): NativeUInt; cdecl;
-
-al_ustr_replace_range: function(us1: PALLEGRO_USTR; start_pos1: Integer; end_pos1: Integer; const us2: PALLEGRO_USTR): Boolean; cdecl;
-
-al_ustr_find_chr: function(const us: PALLEGRO_USTR; start_pos: Integer; c: Int32): Integer; cdecl;
-
-al_ustr_rfind_chr: function(const us: PALLEGRO_USTR; start_pos: Integer; c: Int32): Integer; cdecl;
-
-al_ustr_find_set: function(const us: PALLEGRO_USTR; start_pos: Integer; const accept: PALLEGRO_USTR): Integer; cdecl;
-
-al_ustr_find_set_cstr: function(const us: PALLEGRO_USTR; start_pos: Integer; const accept: PUTF8Char): Integer; cdecl;
-
-al_ustr_find_cset: function(const us: PALLEGRO_USTR; start_pos: Integer; const reject: PALLEGRO_USTR): Integer; cdecl;
-
-al_ustr_find_cset_cstr: function(const us: PALLEGRO_USTR; start_pos: Integer; const reject: PUTF8Char): Integer; cdecl;
-
-al_ustr_find_str: function(const haystack: PALLEGRO_USTR; start_pos: Integer; const needle: PALLEGRO_USTR): Integer; cdecl;
-
-al_ustr_find_cstr: function(const haystack: PALLEGRO_USTR; start_pos: Integer; const needle: PUTF8Char): Integer; cdecl;
-
-al_ustr_rfind_str: function(const haystack: PALLEGRO_USTR; start_pos: Integer; const needle: PALLEGRO_USTR): Integer; cdecl;
-
-al_ustr_rfind_cstr: function(const haystack: PALLEGRO_USTR; start_pos: Integer; const needle: PUTF8Char): Integer; cdecl;
-
-al_ustr_find_replace: function(us: PALLEGRO_USTR; start_pos: Integer; const find: PALLEGRO_USTR; const replace: PALLEGRO_USTR): Boolean; cdecl;
-
-al_ustr_find_replace_cstr: function(us: PALLEGRO_USTR; start_pos: Integer; const find: PUTF8Char; const replace: PUTF8Char): Boolean; cdecl;
-
-al_ustr_equal: function(const us1: PALLEGRO_USTR; const us2: PALLEGRO_USTR): Boolean; cdecl;
-
-al_ustr_compare: function(const u: PALLEGRO_USTR; const v: PALLEGRO_USTR): Integer; cdecl;
-
-al_ustr_ncompare: function(const us1: PALLEGRO_USTR; const us2: PALLEGRO_USTR; n: Integer): Integer; cdecl;
-
-al_ustr_has_prefix: function(const u: PALLEGRO_USTR; const v: PALLEGRO_USTR): Boolean; cdecl;
-
-al_ustr_has_prefix_cstr: function(const u: PALLEGRO_USTR; const s: PUTF8Char): Boolean; cdecl;
-
-al_ustr_has_suffix: function(const u: PALLEGRO_USTR; const v: PALLEGRO_USTR): Boolean; cdecl;
-
-al_ustr_has_suffix_cstr: function(const us1: PALLEGRO_USTR; const s: PUTF8Char): Boolean; cdecl;
-
-al_utf8_width: function(c: Int32): NativeUInt; cdecl;
-
-al_utf8_encode: function(s: PUTF8Char; c: Int32): NativeUInt; cdecl;
-
-al_ustr_new_from_utf16: function(const s: PUInt16): PALLEGRO_USTR; cdecl;
-
-al_ustr_size_utf16: function(const us: PALLEGRO_USTR): NativeUInt; cdecl;
-
-al_ustr_encode_utf16: function(const us: PALLEGRO_USTR; s: PUInt16; n: NativeUInt): NativeUInt; cdecl;
-
-al_utf16_width: function(c: Integer): NativeUInt; cdecl;
-
-al_utf16_encode: function(s: PUInt16; c: Int32): NativeUInt; cdecl;
-
-al_create_path: function(const str: PUTF8Char): PALLEGRO_PATH; cdecl;
-
-al_create_path_for_directory: function(const str: PUTF8Char): PALLEGRO_PATH; cdecl;
-
-al_clone_path: function(const path: PALLEGRO_PATH): PALLEGRO_PATH; cdecl;
-
-al_get_path_num_components: function(const path: PALLEGRO_PATH): Integer; cdecl;
-
-al_get_path_component: function(const path: PALLEGRO_PATH; i: Integer): PUTF8Char; cdecl;
-
-al_replace_path_component: procedure(path: PALLEGRO_PATH; i: Integer; const s: PUTF8Char); cdecl;
-
-al_remove_path_component: procedure(path: PALLEGRO_PATH; i: Integer); cdecl;
-
-al_insert_path_component: procedure(path: PALLEGRO_PATH; i: Integer; const s: PUTF8Char); cdecl;
-
-al_get_path_tail: function(const path: PALLEGRO_PATH): PUTF8Char; cdecl;
-
-al_drop_path_tail: procedure(path: PALLEGRO_PATH); cdecl;
-
-al_append_path_component: procedure(path: PALLEGRO_PATH; const s: PUTF8Char); cdecl;
-
-al_join_paths: function(path: PALLEGRO_PATH; const tail: PALLEGRO_PATH): Boolean; cdecl;
-
-al_rebase_path: function(const head: PALLEGRO_PATH; tail: PALLEGRO_PATH): Boolean; cdecl;
-
-al_path_cstr: function(const path: PALLEGRO_PATH; delim: UTF8Char): PUTF8Char; cdecl;
-
-al_path_ustr: function(const path: PALLEGRO_PATH; delim: UTF8Char): PALLEGRO_USTR; cdecl;
-
-al_destroy_path: procedure(path: PALLEGRO_PATH); cdecl;
-
-al_set_path_drive: procedure(path: PALLEGRO_PATH; const drive: PUTF8Char); cdecl;
-
-al_get_path_drive: function(const path: PALLEGRO_PATH): PUTF8Char; cdecl;
-
-al_set_path_filename: procedure(path: PALLEGRO_PATH; const filename: PUTF8Char); cdecl;
-
-al_get_path_filename: function(const path: PALLEGRO_PATH): PUTF8Char; cdecl;
-
-al_get_path_extension: function(const path: PALLEGRO_PATH): PUTF8Char; cdecl;
-
-al_set_path_extension: function(path: PALLEGRO_PATH; const extension: PUTF8Char): Boolean; cdecl;
-
-al_get_path_basename: function(const path: PALLEGRO_PATH): PUTF8Char; cdecl;
-
-al_make_path_canonical: function(path: PALLEGRO_PATH): Boolean; cdecl;
-
-al_fopen: function(const path: PUTF8Char; const mode: PUTF8Char): PALLEGRO_FILE; cdecl;
-
-al_fopen_interface: function(const vt: PALLEGRO_FILE_INTERFACE; const path: PUTF8Char; const mode: PUTF8Char): PALLEGRO_FILE; cdecl;
-
-al_create_file_handle: function(const vt: PALLEGRO_FILE_INTERFACE; userdata: Pointer): PALLEGRO_FILE; cdecl;
-
-al_fclose: function(f: PALLEGRO_FILE): Boolean; cdecl;
-
-al_fread: function(f: PALLEGRO_FILE; ptr: Pointer; size: NativeUInt): NativeUInt; cdecl;
-
-al_fwrite: function(f: PALLEGRO_FILE; const ptr: Pointer; size: NativeUInt): NativeUInt; cdecl;
-
-al_fflush: function(f: PALLEGRO_FILE): Boolean; cdecl;
-
-al_ftell: function(f: PALLEGRO_FILE): Int64; cdecl;
-
-al_fseek: function(f: PALLEGRO_FILE; offset: Int64; whence: Integer): Boolean; cdecl;
-
-al_feof: function(f: PALLEGRO_FILE): Boolean; cdecl;
-
-al_ferror: function(f: PALLEGRO_FILE): Integer; cdecl;
-
-al_ferrmsg: function(f: PALLEGRO_FILE): PUTF8Char; cdecl;
-
-al_fclearerr: procedure(f: PALLEGRO_FILE); cdecl;
-
-al_fungetc: function(f: PALLEGRO_FILE; c: Integer): Integer; cdecl;
-
-al_fsize: function(f: PALLEGRO_FILE): Int64; cdecl;
-
-al_fgetc: function(f: PALLEGRO_FILE): Integer; cdecl;
-
-al_fputc: function(f: PALLEGRO_FILE; c: Integer): Integer; cdecl;
-
-al_fread16le: function(f: PALLEGRO_FILE): Int16; cdecl;
-
-al_fread16be: function(f: PALLEGRO_FILE): Int16; cdecl;
-
-al_fwrite16le: function(f: PALLEGRO_FILE; w: Int16): NativeUInt; cdecl;
-
-al_fwrite16be: function(f: PALLEGRO_FILE; w: Int16): NativeUInt; cdecl;
-
-al_fread32le: function(f: PALLEGRO_FILE): Int32; cdecl;
-
-al_fread32be: function(f: PALLEGRO_FILE): Int32; cdecl;
-
-al_fwrite32le: function(f: PALLEGRO_FILE; l: Int32): NativeUInt; cdecl;
-
-al_fwrite32be: function(f: PALLEGRO_FILE; l: Int32): NativeUInt; cdecl;
-
-al_fgets: function(f: PALLEGRO_FILE; const p: PUTF8Char; max: NativeUInt): PUTF8Char; cdecl;
-
-al_fget_ustr: function(f: PALLEGRO_FILE): PALLEGRO_USTR; cdecl;
-
-al_fputs: function(f: PALLEGRO_FILE; const p: PUTF8Char): Integer; cdecl;
-
-al_fprintf: function(f: PALLEGRO_FILE; const format: PUTF8Char): Integer varargs; cdecl;
-
-al_vfprintf: function(f: PALLEGRO_FILE; const format: PUTF8Char; args: Pointer): Integer; cdecl;
-
-al_fopen_fd: function(fd: Integer; const mode: PUTF8Char): PALLEGRO_FILE; cdecl;
-
-al_make_temp_file: function(const tmpl: PUTF8Char; ret_path: PPALLEGRO_PATH): PALLEGRO_FILE; cdecl;
-
-al_fopen_slice: function(fp: PALLEGRO_FILE; initial_size: NativeUInt; const mode: PUTF8Char): PALLEGRO_FILE; cdecl;
-
-al_get_new_file_interface: function(): PALLEGRO_FILE_INTERFACE; cdecl;
-
-al_set_new_file_interface: procedure(const file_interface: PALLEGRO_FILE_INTERFACE); cdecl;
-
-al_set_standard_file_interface: procedure(); cdecl;
-
-al_get_file_userdata: function(f: PALLEGRO_FILE): Pointer; cdecl;
-
-al_register_bitmap_loader: function(const ext: PUTF8Char; loader: ALLEGRO_IIO_LOADER_FUNCTION): Boolean; cdecl;
-
-al_register_bitmap_saver: function(const ext: PUTF8Char; saver: ALLEGRO_IIO_SAVER_FUNCTION): Boolean; cdecl;
-
-al_register_bitmap_loader_f: function(const ext: PUTF8Char; fs_loader: ALLEGRO_IIO_FS_LOADER_FUNCTION): Boolean; cdecl;
-
-al_register_bitmap_saver_f: function(const ext: PUTF8Char; fs_saver: ALLEGRO_IIO_FS_SAVER_FUNCTION): Boolean; cdecl;
-
-al_register_bitmap_identifier: function(const ext: PUTF8Char; identifier: ALLEGRO_IIO_IDENTIFIER_FUNCTION): Boolean; cdecl;
-
-al_load_bitmap: function(const filename: PUTF8Char): PALLEGRO_BITMAP; cdecl;
-
-al_load_bitmap_flags: function(const filename: PUTF8Char; flags: Integer): PALLEGRO_BITMAP; cdecl;
-
-al_load_bitmap_f: function(fp: PALLEGRO_FILE; const ident: PUTF8Char): PALLEGRO_BITMAP; cdecl;
-
-al_load_bitmap_flags_f: function(fp: PALLEGRO_FILE; const ident: PUTF8Char; flags: Integer): PALLEGRO_BITMAP; cdecl;
-
-al_save_bitmap: function(const filename: PUTF8Char; bitmap: PALLEGRO_BITMAP): Boolean; cdecl;
-
-al_save_bitmap_f: function(fp: PALLEGRO_FILE; const ident: PUTF8Char; bitmap: PALLEGRO_BITMAP): Boolean; cdecl;
-
-al_identify_bitmap_f: function(fp: PALLEGRO_FILE): PUTF8Char; cdecl;
-
-al_identify_bitmap: function(const filename: PUTF8Char): PUTF8Char; cdecl;
-
-al_lock_bitmap: function(bitmap: PALLEGRO_BITMAP; format: Integer; flags: Integer): PALLEGRO_LOCKED_REGION; cdecl;
-
-al_lock_bitmap_region: function(bitmap: PALLEGRO_BITMAP; x: Integer; y: Integer; width: Integer; height: Integer; format: Integer; flags: Integer): PALLEGRO_LOCKED_REGION; cdecl;
-
-al_lock_bitmap_blocked: function(bitmap: PALLEGRO_BITMAP; flags: Integer): PALLEGRO_LOCKED_REGION; cdecl;
-
-al_lock_bitmap_region_blocked: function(bitmap: PALLEGRO_BITMAP; x_block: Integer; y_block: Integer; width_block: Integer; height_block: Integer; flags: Integer): PALLEGRO_LOCKED_REGION; cdecl;
-
-al_unlock_bitmap: procedure(bitmap: PALLEGRO_BITMAP); cdecl;
-
-al_is_bitmap_locked: function(bitmap: PALLEGRO_BITMAP): Boolean; cdecl;
-
-al_set_blender: procedure(op: Integer; source: Integer; dest: Integer); cdecl;
-
-al_set_blend_color: procedure(color: ALLEGRO_COLOR); cdecl;
-
-al_get_blender: procedure(op: PInteger; source: PInteger; dest: PInteger); cdecl;
-
-al_get_blend_color: function(): ALLEGRO_COLOR; cdecl;
-
-al_set_separate_blender: procedure(op: Integer; source: Integer; dest: Integer; alpha_op: Integer; alpha_source: Integer; alpha_dest: Integer); cdecl;
-
-al_get_separate_blender: procedure(op: PInteger; source: PInteger; dest: PInteger; alpha_op: PInteger; alpha_src: PInteger; alpha_dest: PInteger); cdecl;
-
-al_init_user_event_source: procedure(p1: PALLEGRO_EVENT_SOURCE); cdecl;
-
-al_destroy_user_event_source: procedure(p1: PALLEGRO_EVENT_SOURCE); cdecl;
-
-type
   al_emit_user_event_dtor = procedure(p1: PALLEGRO_USER_EVENT); cdecl;
-
-var
-al_emit_user_event: function(p1: PALLEGRO_EVENT_SOURCE; p2: PALLEGRO_EVENT; dtor: al_emit_user_event_dtor): Boolean; cdecl;
-
-al_unref_user_event: procedure(p1: PALLEGRO_USER_EVENT); cdecl;
-
-al_set_event_source_data: procedure(p1: PALLEGRO_EVENT_SOURCE; data: IntPtr); cdecl;
-
-al_get_event_source_data: function(const p1: PALLEGRO_EVENT_SOURCE): IntPtr; cdecl;
-
-al_create_event_queue: function(): PALLEGRO_EVENT_QUEUE; cdecl;
-
-al_destroy_event_queue: procedure(p1: PALLEGRO_EVENT_QUEUE); cdecl;
-
-al_is_event_source_registered: function(p1: PALLEGRO_EVENT_QUEUE; p2: PALLEGRO_EVENT_SOURCE): Boolean; cdecl;
-
-al_register_event_source: procedure(p1: PALLEGRO_EVENT_QUEUE; p2: PALLEGRO_EVENT_SOURCE); cdecl;
-
-al_unregister_event_source: procedure(p1: PALLEGRO_EVENT_QUEUE; p2: PALLEGRO_EVENT_SOURCE); cdecl;
-
-al_pause_event_queue: procedure(p1: PALLEGRO_EVENT_QUEUE; p2: Boolean); cdecl;
-
-al_is_event_queue_paused: function(const p1: PALLEGRO_EVENT_QUEUE): Boolean; cdecl;
-
-al_is_event_queue_empty: function(p1: PALLEGRO_EVENT_QUEUE): Boolean; cdecl;
-
-al_get_next_event: function(p1: PALLEGRO_EVENT_QUEUE; ret_event: PALLEGRO_EVENT): Boolean; cdecl;
-
-al_peek_next_event: function(p1: PALLEGRO_EVENT_QUEUE; ret_event: PALLEGRO_EVENT): Boolean; cdecl;
-
-al_drop_next_event: function(p1: PALLEGRO_EVENT_QUEUE): Boolean; cdecl;
-
-al_flush_event_queue: procedure(p1: PALLEGRO_EVENT_QUEUE); cdecl;
-
-al_wait_for_event: procedure(p1: PALLEGRO_EVENT_QUEUE; ret_event: PALLEGRO_EVENT); cdecl;
-
-al_wait_for_event_timed: function(p1: PALLEGRO_EVENT_QUEUE; ret_event: PALLEGRO_EVENT; secs: Single): Boolean; cdecl;
-
-al_wait_for_event_until: function(queue: PALLEGRO_EVENT_QUEUE; ret_event: PALLEGRO_EVENT; timeout: PALLEGRO_TIMEOUT): Boolean; cdecl;
-
-al_set_new_display_refresh_rate: procedure(refresh_rate: Integer); cdecl;
-
-al_set_new_display_flags: procedure(flags: Integer); cdecl;
-
-al_get_new_display_refresh_rate: function(): Integer; cdecl;
-
-al_get_new_display_flags: function(): Integer; cdecl;
-
-al_set_new_window_title: procedure(const title: PUTF8Char); cdecl;
-
-al_get_new_window_title: function(): PUTF8Char; cdecl;
-
-al_get_display_width: function(display: PALLEGRO_DISPLAY): Integer; cdecl;
-
-al_get_display_height: function(display: PALLEGRO_DISPLAY): Integer; cdecl;
-
-al_get_display_format: function(display: PALLEGRO_DISPLAY): Integer; cdecl;
-
-al_get_display_refresh_rate: function(display: PALLEGRO_DISPLAY): Integer; cdecl;
-
-al_get_display_flags: function(display: PALLEGRO_DISPLAY): Integer; cdecl;
-
-al_get_display_orientation: function(display: PALLEGRO_DISPLAY): Integer; cdecl;
-
-al_set_display_flag: function(display: PALLEGRO_DISPLAY; flag: Integer; onoff: Boolean): Boolean; cdecl;
-
-al_create_display: function(w: Integer; h: Integer): PALLEGRO_DISPLAY; cdecl;
-
-al_destroy_display: procedure(display: PALLEGRO_DISPLAY); cdecl;
-
-al_get_current_display: function(): PALLEGRO_DISPLAY; cdecl;
-
-al_set_target_bitmap: procedure(bitmap: PALLEGRO_BITMAP); cdecl;
-
-al_set_target_backbuffer: procedure(display: PALLEGRO_DISPLAY); cdecl;
-
-al_get_backbuffer: function(display: PALLEGRO_DISPLAY): PALLEGRO_BITMAP; cdecl;
-
-al_get_target_bitmap: function(): PALLEGRO_BITMAP; cdecl;
-
-al_acknowledge_resize: function(display: PALLEGRO_DISPLAY): Boolean; cdecl;
-
-al_resize_display: function(display: PALLEGRO_DISPLAY; width: Integer; height: Integer): Boolean; cdecl;
-
-al_flip_display: procedure(); cdecl;
-
-al_update_display_region: procedure(x: Integer; y: Integer; width: Integer; height: Integer); cdecl;
-
-al_is_compatible_bitmap: function(bitmap: PALLEGRO_BITMAP): Boolean; cdecl;
-
-al_wait_for_vsync: function(): Boolean; cdecl;
-
-al_get_display_event_source: function(display: PALLEGRO_DISPLAY): PALLEGRO_EVENT_SOURCE; cdecl;
-
-al_set_display_icon: procedure(display: PALLEGRO_DISPLAY; icon: PALLEGRO_BITMAP); cdecl;
-
-al_set_display_icons: procedure(display: PALLEGRO_DISPLAY; num_icons: Integer; icons: PPALLEGRO_BITMAP); cdecl;
-
-al_get_new_display_adapter: function(): Integer; cdecl;
-
-al_set_new_display_adapter: procedure(adapter: Integer); cdecl;
-
-al_set_new_window_position: procedure(x: Integer; y: Integer); cdecl;
-
-al_get_new_window_position: procedure(x: PInteger; y: PInteger); cdecl;
-
-al_set_window_position: procedure(display: PALLEGRO_DISPLAY; x: Integer; y: Integer); cdecl;
-
-al_get_window_position: procedure(display: PALLEGRO_DISPLAY; x: PInteger; y: PInteger); cdecl;
-
-al_set_window_constraints: function(display: PALLEGRO_DISPLAY; min_w: Integer; min_h: Integer; max_w: Integer; max_h: Integer): Boolean; cdecl;
-
-al_get_window_constraints: function(display: PALLEGRO_DISPLAY; min_w: PInteger; min_h: PInteger; max_w: PInteger; max_h: PInteger): Boolean; cdecl;
-
-al_apply_window_constraints: procedure(display: PALLEGRO_DISPLAY; onoff: Boolean); cdecl;
-
-al_set_window_title: procedure(display: PALLEGRO_DISPLAY; const title: PUTF8Char); cdecl;
-
-al_set_new_display_option: procedure(option: Integer; value: Integer; importance: Integer); cdecl;
-
-al_get_new_display_option: function(option: Integer; importance: PInteger): Integer; cdecl;
-
-al_reset_new_display_options: procedure(); cdecl;
-
-al_set_display_option: procedure(display: PALLEGRO_DISPLAY; option: Integer; value: Integer); cdecl;
-
-al_get_display_option: function(display: PALLEGRO_DISPLAY; option: Integer): Integer; cdecl;
-
-al_hold_bitmap_drawing: procedure(hold: Boolean); cdecl;
-
-al_is_bitmap_drawing_held: function(): Boolean; cdecl;
-
-al_acknowledge_drawing_halt: procedure(display: PALLEGRO_DISPLAY); cdecl;
-
-al_acknowledge_drawing_resume: procedure(display: PALLEGRO_DISPLAY); cdecl;
-
-al_backup_dirty_bitmaps: procedure(display: PALLEGRO_DISPLAY); cdecl;
-
-al_get_clipboard_text: function(display: PALLEGRO_DISPLAY): PUTF8Char; cdecl;
-
-al_set_clipboard_text: function(display: PALLEGRO_DISPLAY; const text: PUTF8Char): Boolean; cdecl;
-
-al_clipboard_has_text: function(display: PALLEGRO_DISPLAY): Boolean; cdecl;
-
-al_create_config: function(): PALLEGRO_CONFIG; cdecl;
-
-al_add_config_section: procedure(config: PALLEGRO_CONFIG; const name: PUTF8Char); cdecl;
-
-al_set_config_value: procedure(config: PALLEGRO_CONFIG; const section: PUTF8Char; const key: PUTF8Char; const value: PUTF8Char); cdecl;
-
-al_add_config_comment: procedure(config: PALLEGRO_CONFIG; const section: PUTF8Char; const comment: PUTF8Char); cdecl;
-
-al_get_config_value: function(const config: PALLEGRO_CONFIG; const section: PUTF8Char; const key: PUTF8Char): PUTF8Char; cdecl;
-
-al_load_config_file: function(const filename: PUTF8Char): PALLEGRO_CONFIG; cdecl;
-
-al_load_config_file_f: function(filename: PALLEGRO_FILE): PALLEGRO_CONFIG; cdecl;
-
-al_save_config_file: function(const filename: PUTF8Char; const config: PALLEGRO_CONFIG): Boolean; cdecl;
-
-al_save_config_file_f: function(&file: PALLEGRO_FILE; const config: PALLEGRO_CONFIG): Boolean; cdecl;
-
-al_merge_config_into: procedure(master: PALLEGRO_CONFIG; const add: PALLEGRO_CONFIG); cdecl;
-
-al_merge_config: function(const cfg1: PALLEGRO_CONFIG; const cfg2: PALLEGRO_CONFIG): PALLEGRO_CONFIG; cdecl;
-
-al_destroy_config: procedure(config: PALLEGRO_CONFIG); cdecl;
-
-al_remove_config_section: function(config: PALLEGRO_CONFIG; const section: PUTF8Char): Boolean; cdecl;
-
-al_remove_config_key: function(config: PALLEGRO_CONFIG; const section: PUTF8Char; const key: PUTF8Char): Boolean; cdecl;
-
-al_get_first_config_section: function(const config: PALLEGRO_CONFIG; iterator: PPALLEGRO_CONFIG_SECTION): PUTF8Char; cdecl;
-
-al_get_next_config_section: function(iterator: PPALLEGRO_CONFIG_SECTION): PUTF8Char; cdecl;
-
-al_get_first_config_entry: function(const config: PALLEGRO_CONFIG; const section: PUTF8Char; iterator: PPALLEGRO_CONFIG_ENTRY): PUTF8Char; cdecl;
-
-al_get_next_config_entry: function(iterator: PPALLEGRO_CONFIG_ENTRY): PUTF8Char; cdecl;
-
-al_get_cpu_count: function(): Integer; cdecl;
-
-al_get_ram_size: function(): Integer; cdecl;
-
-_al_trace_prefix: function(const channel: PUTF8Char; level: Integer; const &file: PUTF8Char; line: Integer; const &function: PUTF8Char): Boolean; cdecl;
-
-_al_trace_suffix: procedure(const msg: PUTF8Char) varargs; cdecl;
-
-type
   al_register_assert_handler_handler = procedure(const expr: PUTF8Char; const &file: PUTF8Char; line: Integer; const func: PUTF8Char); cdecl;
-
-var
-al_register_assert_handler: procedure(handler: al_register_assert_handler_handler); cdecl;
-
-type
   al_register_trace_handler_handler = procedure(const p1: PUTF8Char); cdecl;
-
-var
-al_register_trace_handler: procedure(handler: al_register_trace_handler_handler); cdecl;
-
-al_clear_to_color: procedure(color: ALLEGRO_COLOR); cdecl;
-
-al_clear_depth_buffer: procedure(x: Single); cdecl;
-
-al_draw_pixel: procedure(x: Single; y: Single; color: ALLEGRO_COLOR); cdecl;
-
-al_get_errno: function(): Integer; cdecl;
-
-al_set_errno: procedure(errnum: Integer); cdecl;
-
-al_fixsqrt: function(x: al_fixed): al_fixed; cdecl;
-
-al_fixhypot: function(x: al_fixed; y: al_fixed): al_fixed; cdecl;
-
-al_fixatan: function(x: al_fixed): al_fixed; cdecl;
-
-al_fixatan2: function(y: al_fixed; x: al_fixed): al_fixed; cdecl;
-
-al_create_fs_entry: function(const path: PUTF8Char): PALLEGRO_FS_ENTRY; cdecl;
-
-al_destroy_fs_entry: procedure(e: PALLEGRO_FS_ENTRY); cdecl;
-
-al_get_fs_entry_name: function(e: PALLEGRO_FS_ENTRY): PUTF8Char; cdecl;
-
-al_update_fs_entry: function(e: PALLEGRO_FS_ENTRY): Boolean; cdecl;
-
-al_get_fs_entry_mode: function(e: PALLEGRO_FS_ENTRY): UInt32; cdecl;
-
-al_get_fs_entry_atime: function(e: PALLEGRO_FS_ENTRY): Longint; cdecl;
-
-al_get_fs_entry_mtime: function(e: PALLEGRO_FS_ENTRY): Longint; cdecl;
-
-al_get_fs_entry_ctime: function(e: PALLEGRO_FS_ENTRY): Longint; cdecl;
-
-al_get_fs_entry_size: function(e: PALLEGRO_FS_ENTRY): off_t; cdecl;
-
-al_fs_entry_exists: function(e: PALLEGRO_FS_ENTRY): Boolean; cdecl;
-
-al_remove_fs_entry: function(e: PALLEGRO_FS_ENTRY): Boolean; cdecl;
-
-al_open_directory: function(e: PALLEGRO_FS_ENTRY): Boolean; cdecl;
-
-al_read_directory: function(e: PALLEGRO_FS_ENTRY): PALLEGRO_FS_ENTRY; cdecl;
-
-al_close_directory: function(e: PALLEGRO_FS_ENTRY): Boolean; cdecl;
-
-al_filename_exists: function(const path: PUTF8Char): Boolean; cdecl;
-
-al_remove_filename: function(const path: PUTF8Char): Boolean; cdecl;
-
-al_get_current_directory: function(): PUTF8Char; cdecl;
-
-al_change_directory: function(const path: PUTF8Char): Boolean; cdecl;
-
-al_make_directory: function(const path: PUTF8Char): Boolean; cdecl;
-
-al_open_fs_entry: function(e: PALLEGRO_FS_ENTRY; const mode: PUTF8Char): PALLEGRO_FILE; cdecl;
-
-type
   al_for_each_fs_entry_callback = function(entry: PALLEGRO_FS_ENTRY; extra: Pointer): Integer; cdecl;
-
-var
-al_for_each_fs_entry: function(dir: PALLEGRO_FS_ENTRY; callback: al_for_each_fs_entry_callback; extra: Pointer): Integer; cdecl;
-
-al_get_fs_interface: function(): PALLEGRO_FS_INTERFACE; cdecl;
-
-al_set_fs_interface: procedure(const vtable: PALLEGRO_FS_INTERFACE); cdecl;
-
-al_set_standard_fs_interface: procedure(); cdecl;
-
-al_get_num_display_modes: function(): Integer; cdecl;
-
-al_get_display_mode: function(index: Integer; mode: PALLEGRO_DISPLAY_MODE): PALLEGRO_DISPLAY_MODE; cdecl;
-
-al_install_joystick: function(): Boolean; cdecl;
-
-al_uninstall_joystick: procedure(); cdecl;
-
-al_is_joystick_installed: function(): Boolean; cdecl;
-
-al_reconfigure_joysticks: function(): Boolean; cdecl;
-
-al_get_num_joysticks: function(): Integer; cdecl;
-
-al_get_joystick: function(joyn: Integer): PALLEGRO_JOYSTICK; cdecl;
-
-al_release_joystick: procedure(p1: PALLEGRO_JOYSTICK); cdecl;
-
-al_get_joystick_active: function(p1: PALLEGRO_JOYSTICK): Boolean; cdecl;
-
-al_get_joystick_name: function(p1: PALLEGRO_JOYSTICK): PUTF8Char; cdecl;
-
-al_get_joystick_num_sticks: function(p1: PALLEGRO_JOYSTICK): Integer; cdecl;
-
-al_get_joystick_stick_flags: function(p1: PALLEGRO_JOYSTICK; stick: Integer): Integer; cdecl;
-
-al_get_joystick_stick_name: function(p1: PALLEGRO_JOYSTICK; stick: Integer): PUTF8Char; cdecl;
-
-al_get_joystick_num_axes: function(p1: PALLEGRO_JOYSTICK; stick: Integer): Integer; cdecl;
-
-al_get_joystick_axis_name: function(p1: PALLEGRO_JOYSTICK; stick: Integer; axis: Integer): PUTF8Char; cdecl;
-
-al_get_joystick_num_buttons: function(p1: PALLEGRO_JOYSTICK): Integer; cdecl;
-
-al_get_joystick_button_name: function(p1: PALLEGRO_JOYSTICK; buttonn: Integer): PUTF8Char; cdecl;
-
-al_get_joystick_state: procedure(p1: PALLEGRO_JOYSTICK; ret_state: PALLEGRO_JOYSTICK_STATE); cdecl;
-
-al_get_joystick_event_source: function(): PALLEGRO_EVENT_SOURCE; cdecl;
-
-al_is_keyboard_installed: function(): Boolean; cdecl;
-
-al_install_keyboard: function(): Boolean; cdecl;
-
-al_uninstall_keyboard: procedure(); cdecl;
-
-al_set_keyboard_leds: function(leds: Integer): Boolean; cdecl;
-
-al_keycode_to_name: function(keycode: Integer): PUTF8Char; cdecl;
-
-al_get_keyboard_state: procedure(ret_state: PALLEGRO_KEYBOARD_STATE); cdecl;
-
-al_clear_keyboard_state: procedure(display: PALLEGRO_DISPLAY); cdecl;
-
-al_key_down: function(const p1: PALLEGRO_KEYBOARD_STATE; keycode: Integer): Boolean; cdecl;
-
-al_get_keyboard_event_source: function(): PALLEGRO_EVENT_SOURCE; cdecl;
-
-al_is_mouse_installed: function(): Boolean; cdecl;
-
-al_install_mouse: function(): Boolean; cdecl;
-
-al_uninstall_mouse: procedure(); cdecl;
-
-al_get_mouse_num_buttons: function(): Cardinal; cdecl;
-
-al_get_mouse_num_axes: function(): Cardinal; cdecl;
-
-al_set_mouse_xy: function(display: PALLEGRO_DISPLAY; x: Integer; y: Integer): Boolean; cdecl;
-
-al_set_mouse_z: function(z: Integer): Boolean; cdecl;
-
-al_set_mouse_w: function(w: Integer): Boolean; cdecl;
-
-al_set_mouse_axis: function(axis: Integer; value: Integer): Boolean; cdecl;
-
-al_get_mouse_state: procedure(ret_state: PALLEGRO_MOUSE_STATE); cdecl;
-
-al_mouse_button_down: function(const state: PALLEGRO_MOUSE_STATE; button: Integer): Boolean; cdecl;
-
-al_get_mouse_state_axis: function(const state: PALLEGRO_MOUSE_STATE; axis: Integer): Integer; cdecl;
-
-al_get_mouse_cursor_position: function(ret_x: PInteger; ret_y: PInteger): Boolean; cdecl;
-
-al_grab_mouse: function(display: PALLEGRO_DISPLAY): Boolean; cdecl;
-
-al_ungrab_mouse: function(): Boolean; cdecl;
-
-al_set_mouse_wheel_precision: procedure(precision: Integer); cdecl;
-
-al_get_mouse_wheel_precision: function(): Integer; cdecl;
-
-al_get_mouse_event_source: function(): PALLEGRO_EVENT_SOURCE; cdecl;
-
-al_is_touch_input_installed: function(): Boolean; cdecl;
-
-al_install_touch_input: function(): Boolean; cdecl;
-
-al_uninstall_touch_input: procedure(); cdecl;
-
-al_get_touch_input_state: procedure(ret_state: PALLEGRO_TOUCH_INPUT_STATE); cdecl;
-
-al_get_touch_input_event_source: function(): PALLEGRO_EVENT_SOURCE; cdecl;
-
-al_set_mouse_emulation_mode: procedure(mode: Integer); cdecl;
-
-al_get_mouse_emulation_mode: function(): Integer; cdecl;
-
-al_get_touch_input_mouse_emulation_event_source: function(): PALLEGRO_EVENT_SOURCE; cdecl;
-
-al_install_haptic: function(): Boolean; cdecl;
-
-al_uninstall_haptic: procedure(); cdecl;
-
-al_is_haptic_installed: function(): Boolean; cdecl;
-
-al_is_mouse_haptic: function(p1: PALLEGRO_MOUSE): Boolean; cdecl;
-
-al_is_joystick_haptic: function(p1: PALLEGRO_JOYSTICK): Boolean; cdecl;
-
-al_is_keyboard_haptic: function(p1: PALLEGRO_KEYBOARD): Boolean; cdecl;
-
-al_is_display_haptic: function(p1: PALLEGRO_DISPLAY): Boolean; cdecl;
-
-al_is_touch_input_haptic: function(p1: PALLEGRO_TOUCH_INPUT): Boolean; cdecl;
-
-al_get_haptic_from_mouse: function(p1: PALLEGRO_MOUSE): PALLEGRO_HAPTIC; cdecl;
-
-al_get_haptic_from_joystick: function(p1: PALLEGRO_JOYSTICK): PALLEGRO_HAPTIC; cdecl;
-
-al_get_haptic_from_keyboard: function(p1: PALLEGRO_KEYBOARD): PALLEGRO_HAPTIC; cdecl;
-
-al_get_haptic_from_display: function(p1: PALLEGRO_DISPLAY): PALLEGRO_HAPTIC; cdecl;
-
-al_get_haptic_from_touch_input: function(p1: PALLEGRO_TOUCH_INPUT): PALLEGRO_HAPTIC; cdecl;
-
-al_release_haptic: function(p1: PALLEGRO_HAPTIC): Boolean; cdecl;
-
-al_is_haptic_active: function(p1: PALLEGRO_HAPTIC): Boolean; cdecl;
-
-al_get_haptic_capabilities: function(p1: PALLEGRO_HAPTIC): Integer; cdecl;
-
-al_is_haptic_capable: function(p1: PALLEGRO_HAPTIC; p2: Integer): Boolean; cdecl;
-
-al_set_haptic_gain: function(p1: PALLEGRO_HAPTIC; p2: Double): Boolean; cdecl;
-
-al_get_haptic_gain: function(p1: PALLEGRO_HAPTIC): Double; cdecl;
-
-al_set_haptic_autocenter: function(p1: PALLEGRO_HAPTIC; p2: Double): Boolean; cdecl;
-
-al_get_haptic_autocenter: function(p1: PALLEGRO_HAPTIC): Double; cdecl;
-
-al_get_max_haptic_effects: function(p1: PALLEGRO_HAPTIC): Integer; cdecl;
-
-al_is_haptic_effect_ok: function(p1: PALLEGRO_HAPTIC; p2: PALLEGRO_HAPTIC_EFFECT): Boolean; cdecl;
-
-al_upload_haptic_effect: function(p1: PALLEGRO_HAPTIC; p2: PALLEGRO_HAPTIC_EFFECT; p3: PALLEGRO_HAPTIC_EFFECT_ID): Boolean; cdecl;
-
-al_play_haptic_effect: function(p1: PALLEGRO_HAPTIC_EFFECT_ID; p2: Integer): Boolean; cdecl;
-
-al_upload_and_play_haptic_effect: function(p1: PALLEGRO_HAPTIC; p2: PALLEGRO_HAPTIC_EFFECT; p3: PALLEGRO_HAPTIC_EFFECT_ID; p4: Integer): Boolean; cdecl;
-
-al_stop_haptic_effect: function(p1: PALLEGRO_HAPTIC_EFFECT_ID): Boolean; cdecl;
-
-al_is_haptic_effect_playing: function(p1: PALLEGRO_HAPTIC_EFFECT_ID): Boolean; cdecl;
-
-al_release_haptic_effect: function(p1: PALLEGRO_HAPTIC_EFFECT_ID): Boolean; cdecl;
-
-al_get_haptic_effect_duration: function(p1: PALLEGRO_HAPTIC_EFFECT): Double; cdecl;
-
-al_rumble_haptic: function(p1: PALLEGRO_HAPTIC; p2: Double; p3: Double; p4: PALLEGRO_HAPTIC_EFFECT_ID): Boolean; cdecl;
-
-al_set_memory_interface: procedure(iface: PALLEGRO_MEMORY_INTERFACE); cdecl;
-
-al_malloc_with_context: function(n: NativeUInt; line: Integer; const &file: PUTF8Char; const func: PUTF8Char): Pointer; cdecl;
-
-al_free_with_context: procedure(ptr: Pointer; line: Integer; const &file: PUTF8Char; const func: PUTF8Char); cdecl;
-
-al_realloc_with_context: function(ptr: Pointer; n: NativeUInt; line: Integer; const &file: PUTF8Char; const func: PUTF8Char): Pointer; cdecl;
-
-al_calloc_with_context: function(count: NativeUInt; n: NativeUInt; line: Integer; const &file: PUTF8Char; const func: PUTF8Char): Pointer; cdecl;
-
-al_get_num_video_adapters: function(): Integer; cdecl;
-
-al_get_monitor_info: function(adapter: Integer; info: PALLEGRO_MONITOR_INFO): Boolean; cdecl;
-
-al_get_monitor_dpi: function(adapter: Integer): Integer; cdecl;
-
-al_get_monitor_refresh_rate: function(adapter: Integer): Integer; cdecl;
-
-al_create_mouse_cursor: function(sprite: PALLEGRO_BITMAP; xfocus: Integer; yfocus: Integer): PALLEGRO_MOUSE_CURSOR; cdecl;
-
-al_destroy_mouse_cursor: procedure(p1: PALLEGRO_MOUSE_CURSOR); cdecl;
-
-al_set_mouse_cursor: function(display: PALLEGRO_DISPLAY; cursor: PALLEGRO_MOUSE_CURSOR): Boolean; cdecl;
-
-al_set_system_mouse_cursor: function(display: PALLEGRO_DISPLAY; cursor_id: ALLEGRO_SYSTEM_MOUSE_CURSOR): Boolean; cdecl;
-
-al_show_mouse_cursor: function(display: PALLEGRO_DISPLAY): Boolean; cdecl;
-
-al_hide_mouse_cursor: function(display: PALLEGRO_DISPLAY): Boolean; cdecl;
-
-al_set_render_state: procedure(state: ALLEGRO_RENDER_STATE; value: Integer); cdecl;
-
-al_use_transform: procedure(const trans: PALLEGRO_TRANSFORM); cdecl;
-
-al_use_projection_transform: procedure(const trans: PALLEGRO_TRANSFORM); cdecl;
-
-al_copy_transform: procedure(dest: PALLEGRO_TRANSFORM; const src: PALLEGRO_TRANSFORM); cdecl;
-
-al_identity_transform: procedure(trans: PALLEGRO_TRANSFORM); cdecl;
-
-al_build_transform: procedure(trans: PALLEGRO_TRANSFORM; x: Single; y: Single; sx: Single; sy: Single; theta: Single); cdecl;
-
-al_build_camera_transform: procedure(trans: PALLEGRO_TRANSFORM; position_x: Single; position_y: Single; position_z: Single; look_x: Single; look_y: Single; look_z: Single; up_x: Single; up_y: Single; up_z: Single); cdecl;
-
-al_translate_transform: procedure(trans: PALLEGRO_TRANSFORM; x: Single; y: Single); cdecl;
-
-al_translate_transform_3d: procedure(trans: PALLEGRO_TRANSFORM; x: Single; y: Single; z: Single); cdecl;
-
-al_rotate_transform: procedure(trans: PALLEGRO_TRANSFORM; theta: Single); cdecl;
-
-al_rotate_transform_3d: procedure(trans: PALLEGRO_TRANSFORM; x: Single; y: Single; z: Single; angle: Single); cdecl;
-
-al_scale_transform: procedure(trans: PALLEGRO_TRANSFORM; sx: Single; sy: Single); cdecl;
-
-al_scale_transform_3d: procedure(trans: PALLEGRO_TRANSFORM; sx: Single; sy: Single; sz: Single); cdecl;
-
-al_transform_coordinates: procedure(const trans: PALLEGRO_TRANSFORM; x: PSingle; y: PSingle); cdecl;
-
-al_transform_coordinates_3d: procedure(const trans: PALLEGRO_TRANSFORM; x: PSingle; y: PSingle; z: PSingle); cdecl;
-
-al_transform_coordinates_4d: procedure(const trans: PALLEGRO_TRANSFORM; x: PSingle; y: PSingle; z: PSingle; w: PSingle); cdecl;
-
-al_transform_coordinates_3d_projective: procedure(const trans: PALLEGRO_TRANSFORM; x: PSingle; y: PSingle; z: PSingle); cdecl;
-
-al_compose_transform: procedure(trans: PALLEGRO_TRANSFORM; const other: PALLEGRO_TRANSFORM); cdecl;
-
-al_get_current_transform: function(): PALLEGRO_TRANSFORM; cdecl;
-
-al_get_current_inverse_transform: function(): PALLEGRO_TRANSFORM; cdecl;
-
-al_get_current_projection_transform: function(): PALLEGRO_TRANSFORM; cdecl;
-
-al_invert_transform: procedure(trans: PALLEGRO_TRANSFORM); cdecl;
-
-al_transpose_transform: procedure(trans: PALLEGRO_TRANSFORM); cdecl;
-
-al_check_inverse: function(const trans: PALLEGRO_TRANSFORM; tol: Single): Integer; cdecl;
-
-al_orthographic_transform: procedure(trans: PALLEGRO_TRANSFORM; left: Single; top: Single; n: Single; right: Single; bottom: Single; f: Single); cdecl;
-
-al_perspective_transform: procedure(trans: PALLEGRO_TRANSFORM; left: Single; top: Single; n: Single; right: Single; bottom: Single; f: Single); cdecl;
-
-al_horizontal_shear_transform: procedure(trans: PALLEGRO_TRANSFORM; theta: Single); cdecl;
-
-al_vertical_shear_transform: procedure(trans: PALLEGRO_TRANSFORM; theta: Single); cdecl;
-
-al_create_shader: function(&platform: ALLEGRO_SHADER_PLATFORM): PALLEGRO_SHADER; cdecl;
-
-al_attach_shader_source: function(shader: PALLEGRO_SHADER; &type: ALLEGRO_SHADER_TYPE; const source: PUTF8Char): Boolean; cdecl;
-
-al_attach_shader_source_file: function(shader: PALLEGRO_SHADER; &type: ALLEGRO_SHADER_TYPE; const filename: PUTF8Char): Boolean; cdecl;
-
-al_build_shader: function(shader: PALLEGRO_SHADER): Boolean; cdecl;
-
-al_get_shader_log: function(shader: PALLEGRO_SHADER): PUTF8Char; cdecl;
-
-al_get_shader_platform: function(shader: PALLEGRO_SHADER): ALLEGRO_SHADER_PLATFORM; cdecl;
-
-al_use_shader: function(shader: PALLEGRO_SHADER): Boolean; cdecl;
-
-al_destroy_shader: procedure(shader: PALLEGRO_SHADER); cdecl;
-
-al_set_shader_sampler: function(const name: PUTF8Char; bitmap: PALLEGRO_BITMAP; &unit: Integer): Boolean; cdecl;
-
-al_set_shader_matrix: function(const name: PUTF8Char; const matrix: PALLEGRO_TRANSFORM): Boolean; cdecl;
-
-al_set_shader_int: function(const name: PUTF8Char; i: Integer): Boolean; cdecl;
-
-al_set_shader_float: function(const name: PUTF8Char; f: Single): Boolean; cdecl;
-
-al_set_shader_int_vector: function(const name: PUTF8Char; num_components: Integer; const i: PInteger; num_elems: Integer): Boolean; cdecl;
-
-al_set_shader_float_vector: function(const name: PUTF8Char; num_components: Integer; const f: PSingle; num_elems: Integer): Boolean; cdecl;
-
-al_set_shader_bool: function(const name: PUTF8Char; b: Boolean): Boolean; cdecl;
-
-al_get_default_shader_source: function(&platform: ALLEGRO_SHADER_PLATFORM; &type: ALLEGRO_SHADER_TYPE): PUTF8Char; cdecl;
-
-type
   atexit_ptr_ = Pointer;
   al_install_system_atexit_ptr = function(p1: atexit_ptr_): Integer; cdecl;
-
-var
-al_install_system: function(version: Integer; atexit_ptr: al_install_system_atexit_ptr): Boolean; cdecl;
-
-al_uninstall_system: procedure(); cdecl;
-
-al_is_system_installed: function(): Boolean; cdecl;
-
-al_get_system_driver: function(): PALLEGRO_SYSTEM; cdecl;
-
-al_get_system_config: function(): PALLEGRO_CONFIG; cdecl;
-
-al_get_system_id: function(): ALLEGRO_SYSTEM_ID; cdecl;
-
-al_get_standard_path: function(id: Integer): PALLEGRO_PATH; cdecl;
-
-al_set_exe_name: procedure(const path: PUTF8Char); cdecl;
-
-al_set_org_name: procedure(const org_name: PUTF8Char); cdecl;
-
-al_set_app_name: procedure(const app_name: PUTF8Char); cdecl;
-
-al_get_org_name: function(): PUTF8Char; cdecl;
-
-al_get_app_name: function(): PUTF8Char; cdecl;
-
-al_inhibit_screensaver: function(inhibit: Boolean): Boolean; cdecl;
-
-type
   al_create_thread_proc = function(thread: PALLEGRO_THREAD; arg: Pointer): Pointer; cdecl;
-
-var
-al_create_thread: function(proc: al_create_thread_proc; arg: Pointer): PALLEGRO_THREAD; cdecl;
-
-type
   al_create_thread_with_stacksize_proc = function(thread: PALLEGRO_THREAD; arg: Pointer): Pointer; cdecl;
-
-var
-al_create_thread_with_stacksize: function(proc: al_create_thread_with_stacksize_proc; arg: Pointer; stacksize: NativeUInt): PALLEGRO_THREAD; cdecl;
-
-al_start_thread: procedure(outer: PALLEGRO_THREAD); cdecl;
-
-al_join_thread: procedure(outer: PALLEGRO_THREAD; ret_value: PPointer); cdecl;
-
-al_set_thread_should_stop: procedure(outer: PALLEGRO_THREAD); cdecl;
-
-al_get_thread_should_stop: function(outer: PALLEGRO_THREAD): Boolean; cdecl;
-
-al_destroy_thread: procedure(thread: PALLEGRO_THREAD); cdecl;
-
-type
   al_run_detached_thread_proc = function(arg: Pointer): Pointer; cdecl;
-
-var
-al_run_detached_thread: procedure(proc: al_run_detached_thread_proc; arg: Pointer); cdecl;
-
-al_create_mutex: function(): PALLEGRO_MUTEX; cdecl;
-
-al_create_mutex_recursive: function(): PALLEGRO_MUTEX; cdecl;
-
-al_lock_mutex: procedure(mutex: PALLEGRO_MUTEX); cdecl;
-
-al_unlock_mutex: procedure(mutex: PALLEGRO_MUTEX); cdecl;
-
-al_destroy_mutex: procedure(mutex: PALLEGRO_MUTEX); cdecl;
-
-al_create_cond: function(): PALLEGRO_COND; cdecl;
-
-al_destroy_cond: procedure(cond: PALLEGRO_COND); cdecl;
-
-al_wait_cond: procedure(cond: PALLEGRO_COND; mutex: PALLEGRO_MUTEX); cdecl;
-
-al_wait_cond_until: function(cond: PALLEGRO_COND; mutex: PALLEGRO_MUTEX; const timeout: PALLEGRO_TIMEOUT): Integer; cdecl;
-
-al_broadcast_cond: procedure(cond: PALLEGRO_COND); cdecl;
-
-al_signal_cond: procedure(cond: PALLEGRO_COND); cdecl;
-
-al_create_timer: function(speed_secs: Double): PALLEGRO_TIMER; cdecl;
-
-al_destroy_timer: procedure(timer: PALLEGRO_TIMER); cdecl;
-
-al_start_timer: procedure(timer: PALLEGRO_TIMER); cdecl;
-
-al_stop_timer: procedure(timer: PALLEGRO_TIMER); cdecl;
-
-al_resume_timer: procedure(timer: PALLEGRO_TIMER); cdecl;
-
-var
-al_get_timer_started: function(const timer: PALLEGRO_TIMER): Boolean; cdecl;
-
-var
-al_get_timer_speed: function(const timer: PALLEGRO_TIMER): Double; cdecl;
-
-al_set_timer_speed: procedure(timer: PALLEGRO_TIMER; speed_secs: Double); cdecl;
-
-var
-al_get_timer_count: function(const timer: PALLEGRO_TIMER): Int64; cdecl;
-
-al_set_timer_count: procedure(timer: PALLEGRO_TIMER; count: Int64); cdecl;
-
-al_add_timer_count: procedure(timer: PALLEGRO_TIMER; diff: Int64); cdecl;
-
-var
-al_get_timer_event_source: function(timer: PALLEGRO_TIMER): PALLEGRO_EVENT_SOURCE; cdecl;
-
-al_store_state: procedure(state: PALLEGRO_STATE; flags: Integer); cdecl;
-
-al_restore_state: procedure(const state: PALLEGRO_STATE); cdecl;
-
-al_create_sample: function(buf: Pointer; samples: Cardinal; freq: Cardinal; depth: ALLEGRO_AUDIO_DEPTH; chan_conf: ALLEGRO_CHANNEL_CONF; free_buf: Boolean): PALLEGRO_SAMPLE; cdecl;
-
-al_destroy_sample: procedure(spl: PALLEGRO_SAMPLE); cdecl;
-
-al_create_sample_instance: function(data: PALLEGRO_SAMPLE): PALLEGRO_SAMPLE_INSTANCE; cdecl;
-
-al_destroy_sample_instance: procedure(spl: PALLEGRO_SAMPLE_INSTANCE); cdecl;
-
-al_get_sample_frequency: function(const spl: PALLEGRO_SAMPLE): Cardinal; cdecl;
-
-al_get_sample_length: function(const spl: PALLEGRO_SAMPLE): Cardinal; cdecl;
-
-al_get_sample_depth: function(const spl: PALLEGRO_SAMPLE): ALLEGRO_AUDIO_DEPTH; cdecl;
-
-al_get_sample_channels: function(const spl: PALLEGRO_SAMPLE): ALLEGRO_CHANNEL_CONF; cdecl;
-
-al_get_sample_data: function(const spl: PALLEGRO_SAMPLE): Pointer; cdecl;
-
-al_get_sample_instance_frequency: function(const spl: PALLEGRO_SAMPLE_INSTANCE): Cardinal; cdecl;
-
-al_get_sample_instance_length: function(const spl: PALLEGRO_SAMPLE_INSTANCE): Cardinal; cdecl;
-
-al_get_sample_instance_position: function(const spl: PALLEGRO_SAMPLE_INSTANCE): Cardinal; cdecl;
-
-al_get_sample_instance_speed: function(const spl: PALLEGRO_SAMPLE_INSTANCE): Single; cdecl;
-
-al_get_sample_instance_gain: function(const spl: PALLEGRO_SAMPLE_INSTANCE): Single; cdecl;
-
-al_get_sample_instance_pan: function(const spl: PALLEGRO_SAMPLE_INSTANCE): Single; cdecl;
-
-al_get_sample_instance_time: function(const spl: PALLEGRO_SAMPLE_INSTANCE): Single; cdecl;
-
-al_get_sample_instance_depth: function(const spl: PALLEGRO_SAMPLE_INSTANCE): ALLEGRO_AUDIO_DEPTH; cdecl;
-
-al_get_sample_instance_channels: function(const spl: PALLEGRO_SAMPLE_INSTANCE): ALLEGRO_CHANNEL_CONF; cdecl;
-
-al_get_sample_instance_playmode: function(const spl: PALLEGRO_SAMPLE_INSTANCE): ALLEGRO_PLAYMODE; cdecl;
-
-al_get_sample_instance_playing: function(const spl: PALLEGRO_SAMPLE_INSTANCE): Boolean; cdecl;
-
-al_get_sample_instance_attached: function(const spl: PALLEGRO_SAMPLE_INSTANCE): Boolean; cdecl;
-
-al_set_sample_instance_position: function(spl: PALLEGRO_SAMPLE_INSTANCE; val: Cardinal): Boolean; cdecl;
-
-al_set_sample_instance_length: function(spl: PALLEGRO_SAMPLE_INSTANCE; val: Cardinal): Boolean; cdecl;
-
-al_set_sample_instance_speed: function(spl: PALLEGRO_SAMPLE_INSTANCE; val: Single): Boolean; cdecl;
-
-al_set_sample_instance_gain: function(spl: PALLEGRO_SAMPLE_INSTANCE; val: Single): Boolean; cdecl;
-
-al_set_sample_instance_pan: function(spl: PALLEGRO_SAMPLE_INSTANCE; val: Single): Boolean; cdecl;
-
-al_set_sample_instance_playmode: function(spl: PALLEGRO_SAMPLE_INSTANCE; val: ALLEGRO_PLAYMODE): Boolean; cdecl;
-
-al_set_sample_instance_playing: function(spl: PALLEGRO_SAMPLE_INSTANCE; val: Boolean): Boolean; cdecl;
-
-al_detach_sample_instance: function(spl: PALLEGRO_SAMPLE_INSTANCE): Boolean; cdecl;
-
-al_set_sample: function(spl: PALLEGRO_SAMPLE_INSTANCE; data: PALLEGRO_SAMPLE): Boolean; cdecl;
-
-al_get_sample: function(spl: PALLEGRO_SAMPLE_INSTANCE): PALLEGRO_SAMPLE; cdecl;
-
-al_play_sample_instance: function(spl: PALLEGRO_SAMPLE_INSTANCE): Boolean; cdecl;
-
-al_stop_sample_instance: function(spl: PALLEGRO_SAMPLE_INSTANCE): Boolean; cdecl;
-
-al_set_sample_instance_channel_matrix: function(spl: PALLEGRO_SAMPLE_INSTANCE; const matrix: PSingle): Boolean; cdecl;
-
-al_create_audio_stream: function(buffer_count: NativeUInt; samples: Cardinal; freq: Cardinal; depth: ALLEGRO_AUDIO_DEPTH; chan_conf: ALLEGRO_CHANNEL_CONF): PALLEGRO_AUDIO_STREAM; cdecl;
-
-al_destroy_audio_stream: procedure(stream: PALLEGRO_AUDIO_STREAM); cdecl;
-
-al_drain_audio_stream: procedure(stream: PALLEGRO_AUDIO_STREAM); cdecl;
-
-al_get_audio_stream_frequency: function(const stream: PALLEGRO_AUDIO_STREAM): Cardinal; cdecl;
-
-al_get_audio_stream_length: function(const stream: PALLEGRO_AUDIO_STREAM): Cardinal; cdecl;
-
-al_get_audio_stream_fragments: function(const stream: PALLEGRO_AUDIO_STREAM): Cardinal; cdecl;
-
-al_get_available_audio_stream_fragments: function(const stream: PALLEGRO_AUDIO_STREAM): Cardinal; cdecl;
-
-al_get_audio_stream_speed: function(const stream: PALLEGRO_AUDIO_STREAM): Single; cdecl;
-
-al_get_audio_stream_gain: function(const stream: PALLEGRO_AUDIO_STREAM): Single; cdecl;
-
-al_get_audio_stream_pan: function(const stream: PALLEGRO_AUDIO_STREAM): Single; cdecl;
-
-al_get_audio_stream_channels: function(const stream: PALLEGRO_AUDIO_STREAM): ALLEGRO_CHANNEL_CONF; cdecl;
-
-al_get_audio_stream_depth: function(const stream: PALLEGRO_AUDIO_STREAM): ALLEGRO_AUDIO_DEPTH; cdecl;
-
-al_get_audio_stream_playmode: function(const stream: PALLEGRO_AUDIO_STREAM): ALLEGRO_PLAYMODE; cdecl;
-
-al_get_audio_stream_playing: function(const spl: PALLEGRO_AUDIO_STREAM): Boolean; cdecl;
-
-al_get_audio_stream_attached: function(const spl: PALLEGRO_AUDIO_STREAM): Boolean; cdecl;
-
-al_get_audio_stream_played_samples: function(const stream: PALLEGRO_AUDIO_STREAM): UInt64; cdecl;
-
-al_get_audio_stream_fragment: function(const stream: PALLEGRO_AUDIO_STREAM): Pointer; cdecl;
-
-al_set_audio_stream_speed: function(stream: PALLEGRO_AUDIO_STREAM; val: Single): Boolean; cdecl;
-
-al_set_audio_stream_gain: function(stream: PALLEGRO_AUDIO_STREAM; val: Single): Boolean; cdecl;
-
-al_set_audio_stream_pan: function(stream: PALLEGRO_AUDIO_STREAM; val: Single): Boolean; cdecl;
-
-al_set_audio_stream_playmode: function(stream: PALLEGRO_AUDIO_STREAM; val: ALLEGRO_PLAYMODE): Boolean; cdecl;
-
-al_set_audio_stream_playing: function(stream: PALLEGRO_AUDIO_STREAM; val: Boolean): Boolean; cdecl;
-
-al_detach_audio_stream: function(stream: PALLEGRO_AUDIO_STREAM): Boolean; cdecl;
-
-al_set_audio_stream_fragment: function(stream: PALLEGRO_AUDIO_STREAM; val: Pointer): Boolean; cdecl;
-
-al_rewind_audio_stream: function(stream: PALLEGRO_AUDIO_STREAM): Boolean; cdecl;
-
-al_seek_audio_stream_secs: function(stream: PALLEGRO_AUDIO_STREAM; time: Double): Boolean; cdecl;
-
-al_get_audio_stream_position_secs: function(stream: PALLEGRO_AUDIO_STREAM): Double; cdecl;
-
-al_get_audio_stream_length_secs: function(stream: PALLEGRO_AUDIO_STREAM): Double; cdecl;
-
-al_set_audio_stream_loop_secs: function(stream: PALLEGRO_AUDIO_STREAM; start: Double; &end: Double): Boolean; cdecl;
-
-al_get_audio_stream_event_source: function(stream: PALLEGRO_AUDIO_STREAM): PALLEGRO_EVENT_SOURCE; cdecl;
-
-al_set_audio_stream_channel_matrix: function(stream: PALLEGRO_AUDIO_STREAM; const matrix: PSingle): Boolean; cdecl;
-
-al_create_mixer: function(freq: Cardinal; depth: ALLEGRO_AUDIO_DEPTH; chan_conf: ALLEGRO_CHANNEL_CONF): PALLEGRO_MIXER; cdecl;
-
-al_destroy_mixer: procedure(mixer: PALLEGRO_MIXER); cdecl;
-
-al_attach_sample_instance_to_mixer: function(stream: PALLEGRO_SAMPLE_INSTANCE; mixer: PALLEGRO_MIXER): Boolean; cdecl;
-
-al_attach_audio_stream_to_mixer: function(stream: PALLEGRO_AUDIO_STREAM; mixer: PALLEGRO_MIXER): Boolean; cdecl;
-
-al_attach_mixer_to_mixer: function(stream: PALLEGRO_MIXER; mixer: PALLEGRO_MIXER): Boolean; cdecl;
-
-type
   al_set_mixer_postprocess_callback_cb = procedure(buf: Pointer; samples: Cardinal; data: Pointer); cdecl;
-
-var
-al_set_mixer_postprocess_callback: function(mixer: PALLEGRO_MIXER; cb: al_set_mixer_postprocess_callback_cb; data: Pointer): Boolean; cdecl;
-
-al_get_mixer_frequency: function(const mixer: PALLEGRO_MIXER): Cardinal; cdecl;
-
-al_get_mixer_channels: function(const mixer: PALLEGRO_MIXER): ALLEGRO_CHANNEL_CONF; cdecl;
-
-al_get_mixer_depth: function(const mixer: PALLEGRO_MIXER): ALLEGRO_AUDIO_DEPTH; cdecl;
-
-al_get_mixer_quality: function(const mixer: PALLEGRO_MIXER): ALLEGRO_MIXER_QUALITY; cdecl;
-
-al_get_mixer_gain: function(const mixer: PALLEGRO_MIXER): Single; cdecl;
-
-al_get_mixer_playing: function(const mixer: PALLEGRO_MIXER): Boolean; cdecl;
-
-al_get_mixer_attached: function(const mixer: PALLEGRO_MIXER): Boolean; cdecl;
-
-al_set_mixer_frequency: function(mixer: PALLEGRO_MIXER; val: Cardinal): Boolean; cdecl;
-
-al_set_mixer_quality: function(mixer: PALLEGRO_MIXER; val: ALLEGRO_MIXER_QUALITY): Boolean; cdecl;
-
-al_set_mixer_gain: function(mixer: PALLEGRO_MIXER; gain: Single): Boolean; cdecl;
-
-al_set_mixer_playing: function(mixer: PALLEGRO_MIXER; val: Boolean): Boolean; cdecl;
-
-al_detach_mixer: function(mixer: PALLEGRO_MIXER): Boolean; cdecl;
-
-al_create_voice: function(freq: Cardinal; depth: ALLEGRO_AUDIO_DEPTH; chan_conf: ALLEGRO_CHANNEL_CONF): PALLEGRO_VOICE; cdecl;
-
-al_destroy_voice: procedure(voice: PALLEGRO_VOICE); cdecl;
-
-al_attach_sample_instance_to_voice: function(stream: PALLEGRO_SAMPLE_INSTANCE; voice: PALLEGRO_VOICE): Boolean; cdecl;
-
-al_attach_audio_stream_to_voice: function(stream: PALLEGRO_AUDIO_STREAM; voice: PALLEGRO_VOICE): Boolean; cdecl;
-
-al_attach_mixer_to_voice: function(mixer: PALLEGRO_MIXER; voice: PALLEGRO_VOICE): Boolean; cdecl;
-
-al_detach_voice: procedure(voice: PALLEGRO_VOICE); cdecl;
-
-al_get_voice_frequency: function(const voice: PALLEGRO_VOICE): Cardinal; cdecl;
-
-al_get_voice_position: function(const voice: PALLEGRO_VOICE): Cardinal; cdecl;
-
-al_get_voice_channels: function(const voice: PALLEGRO_VOICE): ALLEGRO_CHANNEL_CONF; cdecl;
-
-al_get_voice_depth: function(const voice: PALLEGRO_VOICE): ALLEGRO_AUDIO_DEPTH; cdecl;
-
-al_get_voice_playing: function(const voice: PALLEGRO_VOICE): Boolean; cdecl;
-
-al_set_voice_position: function(voice: PALLEGRO_VOICE; val: Cardinal): Boolean; cdecl;
-
-al_set_voice_playing: function(voice: PALLEGRO_VOICE; val: Boolean): Boolean; cdecl;
-
-al_install_audio: function(): Boolean; cdecl;
-
-al_uninstall_audio: procedure(); cdecl;
-
-al_is_audio_installed: function(): Boolean; cdecl;
-
-al_get_allegro_audio_version: function(): UInt32; cdecl;
-
-al_get_channel_count: function(conf: ALLEGRO_CHANNEL_CONF): NativeUInt; cdecl;
-
-al_get_audio_depth_size: function(conf: ALLEGRO_AUDIO_DEPTH): NativeUInt; cdecl;
-
-al_fill_silence: procedure(buf: Pointer; samples: Cardinal; depth: ALLEGRO_AUDIO_DEPTH; chan_conf: ALLEGRO_CHANNEL_CONF); cdecl;
-
-al_get_num_audio_output_devices: function(): Integer; cdecl;
-
-al_get_audio_output_device: function(index: Integer): PALLEGRO_AUDIO_DEVICE; cdecl;
-
-al_get_audio_device_name: function(const device: PALLEGRO_AUDIO_DEVICE): PUTF8Char; cdecl;
-
-al_reserve_samples: function(reserve_samples: Integer): Boolean; cdecl;
-
-al_get_default_mixer: function(): PALLEGRO_MIXER; cdecl;
-
-al_set_default_mixer: function(mixer: PALLEGRO_MIXER): Boolean; cdecl;
-
-al_restore_default_mixer: function(): Boolean; cdecl;
-
-al_play_sample: function(data: PALLEGRO_SAMPLE; gain: Single; pan: Single; speed: Single; loop: ALLEGRO_PLAYMODE; ret_id: PALLEGRO_SAMPLE_ID): Boolean; cdecl;
-
-al_stop_sample: procedure(spl_id: PALLEGRO_SAMPLE_ID); cdecl;
-
-al_stop_samples: procedure(); cdecl;
-
-al_get_default_voice: function(): PALLEGRO_VOICE; cdecl;
-
-al_set_default_voice: procedure(voice: PALLEGRO_VOICE); cdecl;
-
-al_lock_sample_id: function(spl_id: PALLEGRO_SAMPLE_ID): PALLEGRO_SAMPLE_INSTANCE; cdecl;
-
-al_unlock_sample_id: procedure(spl_id: PALLEGRO_SAMPLE_ID); cdecl;
-
-type
   al_register_sample_loader_loader = function(const filename: PUTF8Char): PALLEGRO_SAMPLE; cdecl;
-
-var
-al_register_sample_loader: function(const ext: PUTF8Char; loader: al_register_sample_loader_loader): Boolean; cdecl;
-
-type
   al_register_sample_saver_saver = function(const filename: PUTF8Char; spl: PALLEGRO_SAMPLE): Boolean; cdecl;
-
-var
-al_register_sample_saver: function(const ext: PUTF8Char; saver: al_register_sample_saver_saver): Boolean; cdecl;
-
-type
   al_register_audio_stream_loader_stream_loader = function(const filename: PUTF8Char; buffer_count: NativeUInt; samples: Cardinal): PALLEGRO_AUDIO_STREAM; cdecl;
-
-var
-al_register_audio_stream_loader: function(const ext: PUTF8Char; stream_loader: al_register_audio_stream_loader_stream_loader): Boolean; cdecl;
-
-type
   al_register_sample_loader_f_loader = function(fp: PALLEGRO_FILE): PALLEGRO_SAMPLE; cdecl;
-
-var
-al_register_sample_loader_f: function(const ext: PUTF8Char; loader: al_register_sample_loader_f_loader): Boolean; cdecl;
-
-type
   al_register_sample_saver_f_saver = function(fp: PALLEGRO_FILE; spl: PALLEGRO_SAMPLE): Boolean; cdecl;
-
-var
-al_register_sample_saver_f: function(const ext: PUTF8Char; saver: al_register_sample_saver_f_saver): Boolean; cdecl;
-
-type
   al_register_audio_stream_loader_f_stream_loader = function(fp: PALLEGRO_FILE; buffer_count: NativeUInt; samples: Cardinal): PALLEGRO_AUDIO_STREAM; cdecl;
-
-var
-al_register_audio_stream_loader_f: function(const ext: PUTF8Char; stream_loader: al_register_audio_stream_loader_f_stream_loader): Boolean; cdecl;
-
-type
   al_register_sample_identifier_identifier = function(fp: PALLEGRO_FILE): Boolean; cdecl;
-
-var
-al_register_sample_identifier: function(const ext: PUTF8Char; identifier: al_register_sample_identifier_identifier): Boolean; cdecl;
-
-al_load_sample: function(const filename: PUTF8Char): PALLEGRO_SAMPLE; cdecl;
-
-al_save_sample: function(const filename: PUTF8Char; spl: PALLEGRO_SAMPLE): Boolean; cdecl;
-
-al_load_audio_stream: function(const filename: PUTF8Char; buffer_count: NativeUInt; samples: Cardinal): PALLEGRO_AUDIO_STREAM; cdecl;
-
-al_load_sample_f: function(fp: PALLEGRO_FILE; const ident: PUTF8Char): PALLEGRO_SAMPLE; cdecl;
-
-al_save_sample_f: function(fp: PALLEGRO_FILE; const ident: PUTF8Char; spl: PALLEGRO_SAMPLE): Boolean; cdecl;
-
-al_load_audio_stream_f: function(fp: PALLEGRO_FILE; const ident: PUTF8Char; buffer_count: NativeUInt; samples: Cardinal): PALLEGRO_AUDIO_STREAM; cdecl;
-
-al_identify_sample_f: function(fp: PALLEGRO_FILE): PUTF8Char; cdecl;
-
-al_identify_sample: function(const filename: PUTF8Char): PUTF8Char; cdecl;
-
-al_create_audio_recorder: function(fragment_count: NativeUInt; samples: Cardinal; freq: Cardinal; depth: ALLEGRO_AUDIO_DEPTH; chan_conf: ALLEGRO_CHANNEL_CONF): PALLEGRO_AUDIO_RECORDER; cdecl;
-
-al_start_audio_recorder: function(r: PALLEGRO_AUDIO_RECORDER): Boolean; cdecl;
-
-al_stop_audio_recorder: procedure(r: PALLEGRO_AUDIO_RECORDER); cdecl;
-
-al_is_audio_recorder_recording: function(r: PALLEGRO_AUDIO_RECORDER): Boolean; cdecl;
-
-al_get_audio_recorder_event_source: function(r: PALLEGRO_AUDIO_RECORDER): PALLEGRO_EVENT_SOURCE; cdecl;
-
-al_get_audio_recorder_event: function(event: PALLEGRO_EVENT): PALLEGRO_AUDIO_RECORDER_EVENT; cdecl;
-
-al_destroy_audio_recorder: procedure(r: PALLEGRO_AUDIO_RECORDER); cdecl;
-
-al_init_acodec_addon: function(): Boolean; cdecl;
-
-al_is_acodec_addon_initialized: function(): Boolean; cdecl;
-
-al_get_allegro_acodec_version: function(): UInt32; cdecl;
-
-al_get_allegro_color_version: function(): UInt32; cdecl;
-
-al_color_hsv_to_rgb: procedure(hue: Single; saturation: Single; value: Single; red: PSingle; green: PSingle; blue: PSingle); cdecl;
-
-al_color_rgb_to_hsl: procedure(red: Single; green: Single; blue: Single; hue: PSingle; saturation: PSingle; lightness: PSingle); cdecl;
-
-al_color_rgb_to_hsv: procedure(red: Single; green: Single; blue: Single; hue: PSingle; saturation: PSingle; value: PSingle); cdecl;
-
-al_color_hsl_to_rgb: procedure(hue: Single; saturation: Single; lightness: Single; red: PSingle; green: PSingle; blue: PSingle); cdecl;
-
-al_color_name_to_rgb: function(const name: PUTF8Char; r: PSingle; g: PSingle; b: PSingle): Boolean; cdecl;
-
-al_color_rgb_to_name: function(r: Single; g: Single; b: Single): PUTF8Char; cdecl;
-
-al_color_cmyk_to_rgb: procedure(cyan: Single; magenta: Single; yellow: Single; key: Single; red: PSingle; green: PSingle; blue: PSingle); cdecl;
-
-al_color_rgb_to_cmyk: procedure(red: Single; green: Single; blue: Single; cyan: PSingle; magenta: PSingle; yellow: PSingle; key: PSingle); cdecl;
-
-al_color_yuv_to_rgb: procedure(y: Single; u: Single; v: Single; red: PSingle; green: PSingle; blue: PSingle); cdecl;
-
-al_color_rgb_to_yuv: procedure(red: Single; green: Single; blue: Single; y: PSingle; u: PSingle; v: PSingle); cdecl;
-
-al_color_rgb_to_html: procedure(red: Single; green: Single; blue: Single; &string: PUTF8Char); cdecl;
-
-al_color_html_to_rgb: function(const &string: PUTF8Char; red: PSingle; green: PSingle; blue: PSingle): Boolean; cdecl;
-
-al_color_yuv: function(y: Single; u: Single; v: Single): ALLEGRO_COLOR; cdecl;
-
-al_color_cmyk: function(c: Single; m: Single; y: Single; k: Single): ALLEGRO_COLOR; cdecl;
-
-al_color_hsl: function(h: Single; s: Single; l: Single): ALLEGRO_COLOR; cdecl;
-
-al_color_hsv: function(h: Single; s: Single; v: Single): ALLEGRO_COLOR; cdecl;
-
-al_color_name: function(const name: PUTF8Char): ALLEGRO_COLOR; cdecl;
-
-al_color_html: function(const &string: PUTF8Char): ALLEGRO_COLOR; cdecl;
-
-al_color_xyz_to_rgb: procedure(x: Single; y: Single; z: Single; red: PSingle; green: PSingle; blue: PSingle); cdecl;
-
-al_color_rgb_to_xyz: procedure(red: Single; green: Single; blue: Single; x: PSingle; y: PSingle; z: PSingle); cdecl;
-
-al_color_xyz: function(x: Single; y: Single; z: Single): ALLEGRO_COLOR; cdecl;
-
-al_color_lab_to_rgb: procedure(l: Single; a: Single; b: Single; red: PSingle; green: PSingle; blue: PSingle); cdecl;
-
-al_color_rgb_to_lab: procedure(red: Single; green: Single; blue: Single; l: PSingle; a: PSingle; b: PSingle); cdecl;
-
-al_color_lab: function(l: Single; a: Single; b: Single): ALLEGRO_COLOR; cdecl;
-
-al_color_xyy_to_rgb: procedure(x: Single; y: Single; y2: Single; red: PSingle; green: PSingle; blue: PSingle); cdecl;
-
-al_color_rgb_to_xyy: procedure(red: Single; green: Single; blue: Single; x: PSingle; y: PSingle; y2: PSingle); cdecl;
-
-al_color_xyy: function(x: Single; y: Single; y2: Single): ALLEGRO_COLOR; cdecl;
-
-al_color_distance_ciede2000: function(c1: ALLEGRO_COLOR; c2: ALLEGRO_COLOR): Double; cdecl;
-
-al_color_lch_to_rgb: procedure(l: Single; c: Single; h: Single; red: PSingle; green: PSingle; blue: PSingle); cdecl;
-
-al_color_rgb_to_lch: procedure(red: Single; green: Single; blue: Single; l: PSingle; c: PSingle; h: PSingle); cdecl;
-
-al_color_lch: function(l: Single; c: Single; h: Single): ALLEGRO_COLOR; cdecl;
-
-al_is_color_valid: function(color: ALLEGRO_COLOR): Boolean; cdecl;
-
-al_color_oklab_to_rgb: procedure(l: Single; a: Single; b: Single; red: PSingle; green: PSingle; blue: PSingle); cdecl;
-
-al_color_rgb_to_oklab: procedure(red: Single; green: Single; blue: Single; l: PSingle; a: PSingle; b: PSingle); cdecl;
-
-al_color_oklab: function(l: Single; a: Single; b: Single): ALLEGRO_COLOR; cdecl;
-
-al_color_linear_to_rgb: procedure(x: Single; y: Single; z: Single; red: PSingle; green: PSingle; blue: PSingle); cdecl;
-
-al_color_rgb_to_linear: procedure(red: Single; green: Single; blue: Single; x: PSingle; y: PSingle; z: PSingle); cdecl;
-
-al_color_linear: function(r: Single; g: Single; b: Single): ALLEGRO_COLOR; cdecl;
-
-type
   al_register_font_loader_load = function(const filename: PUTF8Char; size: Integer; flags: Integer): PALLEGRO_FONT; cdecl;
-
-var
-al_register_font_loader: function(const ext: PUTF8Char; load: al_register_font_loader_load): Boolean; cdecl;
-
-al_load_bitmap_font: function(const filename: PUTF8Char): PALLEGRO_FONT; cdecl;
-
-al_load_bitmap_font_flags: function(const filename: PUTF8Char; flags: Integer): PALLEGRO_FONT; cdecl;
-
-al_load_font: function(const filename: PUTF8Char; size: Integer; flags: Integer): PALLEGRO_FONT; cdecl;
-
-al_grab_font_from_bitmap: function(bmp: PALLEGRO_BITMAP; n: Integer; ranges: PInteger): PALLEGRO_FONT; cdecl;
-
-al_create_builtin_font: function(): PALLEGRO_FONT; cdecl;
-
-al_draw_ustr: procedure(const font: PALLEGRO_FONT; color: ALLEGRO_COLOR; x: Single; y: Single; flags: Integer; const ustr: PALLEGRO_USTR); cdecl;
-
-al_draw_text: procedure(const font: PALLEGRO_FONT; color: ALLEGRO_COLOR; x: Single; y: Single; flags: Integer; const text: PUTF8Char); cdecl;
-
-al_draw_justified_text: procedure(const font: PALLEGRO_FONT; color: ALLEGRO_COLOR; x1: Single; x2: Single; y: Single; diff: Single; flags: Integer; const text: PUTF8Char); cdecl;
-
-al_draw_justified_ustr: procedure(const font: PALLEGRO_FONT; color: ALLEGRO_COLOR; x1: Single; x2: Single; y: Single; diff: Single; flags: Integer; const text: PALLEGRO_USTR); cdecl;
-
-al_draw_textf: procedure(const font: PALLEGRO_FONT; color: ALLEGRO_COLOR; x: Single; y: Single; flags: Integer; const format: PUTF8Char) varargs; cdecl;
-
-al_draw_justified_textf: procedure(const font: PALLEGRO_FONT; color: ALLEGRO_COLOR; x1: Single; x2: Single; y: Single; diff: Single; flags: Integer; const format: PUTF8Char) varargs; cdecl;
-
-al_get_text_width: function(const f: PALLEGRO_FONT; const str: PUTF8Char): Integer; cdecl;
-
-al_get_ustr_width: function(const f: PALLEGRO_FONT; const ustr: PALLEGRO_USTR): Integer; cdecl;
-
-al_get_font_line_height: function(const f: PALLEGRO_FONT): Integer; cdecl;
-
-al_get_font_ascent: function(const f: PALLEGRO_FONT): Integer; cdecl;
-
-al_get_font_descent: function(const f: PALLEGRO_FONT): Integer; cdecl;
-
-al_destroy_font: procedure(f: PALLEGRO_FONT); cdecl;
-
-al_get_ustr_dimensions: procedure(const f: PALLEGRO_FONT; const text: PALLEGRO_USTR; bbx: PInteger; bby: PInteger; bbw: PInteger; bbh: PInteger); cdecl;
-
-al_get_text_dimensions: procedure(const f: PALLEGRO_FONT; const text: PUTF8Char; bbx: PInteger; bby: PInteger; bbw: PInteger; bbh: PInteger); cdecl;
-
-al_init_font_addon: function(): Boolean; cdecl;
-
-al_is_font_addon_initialized: function(): Boolean; cdecl;
-
-al_shutdown_font_addon: procedure(); cdecl;
-
-al_get_allegro_font_version: function(): UInt32; cdecl;
-
-al_get_font_ranges: function(font: PALLEGRO_FONT; ranges_count: Integer; ranges: PInteger): Integer; cdecl;
-
-al_draw_glyph: procedure(const font: PALLEGRO_FONT; color: ALLEGRO_COLOR; x: Single; y: Single; codepoint: Integer); cdecl;
-
-al_get_glyph_width: function(const f: PALLEGRO_FONT; codepoint: Integer): Integer; cdecl;
-
-al_get_glyph_dimensions: function(const f: PALLEGRO_FONT; codepoint: Integer; bbx: PInteger; bby: PInteger; bbw: PInteger; bbh: PInteger): Boolean; cdecl;
-
-al_get_glyph_advance: function(const f: PALLEGRO_FONT; codepoint1: Integer; codepoint2: Integer): Integer; cdecl;
-
-al_get_glyph: function(const f: PALLEGRO_FONT; prev_codepoint: Integer; codepoint: Integer; glyph: PALLEGRO_GLYPH): Boolean; cdecl;
-
-al_draw_multiline_text: procedure(const font: PALLEGRO_FONT; color: ALLEGRO_COLOR; x: Single; y: Single; max_width: Single; line_height: Single; flags: Integer; const text: PUTF8Char); cdecl;
-
-al_draw_multiline_textf: procedure(const font: PALLEGRO_FONT; color: ALLEGRO_COLOR; x: Single; y: Single; max_width: Single; line_height: Single; flags: Integer; const format: PUTF8Char) varargs; cdecl;
-
-al_draw_multiline_ustr: procedure(const font: PALLEGRO_FONT; color: ALLEGRO_COLOR; x: Single; y: Single; max_width: Single; line_height: Single; flags: Integer; const text: PALLEGRO_USTR); cdecl;
-
-type
   al_do_multiline_text_cb = function(line_num: Integer; const line: PUTF8Char; size: Integer; extra: Pointer): Boolean; cdecl;
-
-var
-al_do_multiline_text: procedure(const font: PALLEGRO_FONT; max_width: Single; const text: PUTF8Char; cb: al_do_multiline_text_cb; extra: Pointer); cdecl;
-
-type
   al_do_multiline_ustr_cb = function(line_num: Integer; const line: PALLEGRO_USTR; extra: Pointer): Boolean; cdecl;
-
-var
-al_do_multiline_ustr: procedure(const font: PALLEGRO_FONT; max_width: Single; const ustr: PALLEGRO_USTR; cb: al_do_multiline_ustr_cb; extra: Pointer); cdecl;
-
-al_set_fallback_font: procedure(font: PALLEGRO_FONT; fallback: PALLEGRO_FONT); cdecl;
-
-al_get_fallback_font: function(font: PALLEGRO_FONT): PALLEGRO_FONT; cdecl;
-
-al_init_image_addon: function(): Boolean; cdecl;
-
-al_is_image_addon_initialized: function(): Boolean; cdecl;
-
-al_shutdown_image_addon: procedure(); cdecl;
-
-al_get_allegro_image_version: function(): UInt32; cdecl;
-
-al_open_memfile: function(mem: Pointer; size: Int64; const mode: PUTF8Char): PALLEGRO_FILE; cdecl;
-
-al_get_allegro_memfile_version: function(): UInt32; cdecl;
-
-al_init_native_dialog_addon: function(): Boolean; cdecl;
-
-al_is_native_dialog_addon_initialized: function(): Boolean; cdecl;
-
-al_shutdown_native_dialog_addon: procedure(); cdecl;
-
-al_create_native_file_dialog: function(const initial_path: PUTF8Char; const title: PUTF8Char; const patterns: PUTF8Char; mode: Integer): PALLEGRO_FILECHOOSER; cdecl;
-
-al_show_native_file_dialog: function(display: PALLEGRO_DISPLAY; dialog: PALLEGRO_FILECHOOSER): Boolean; cdecl;
-
-al_get_native_file_dialog_count: function(const dialog: PALLEGRO_FILECHOOSER): Integer; cdecl;
-
-al_get_native_file_dialog_path: function(const dialog: PALLEGRO_FILECHOOSER; index: NativeUInt): PUTF8Char; cdecl;
-
-al_destroy_native_file_dialog: procedure(dialog: PALLEGRO_FILECHOOSER); cdecl;
-
-al_show_native_message_box: function(display: PALLEGRO_DISPLAY; const title: PUTF8Char; const heading: PUTF8Char; const text: PUTF8Char; const buttons: PUTF8Char; flags: Integer): Integer; cdecl;
-
-al_open_native_text_log: function(const title: PUTF8Char; flags: Integer): PALLEGRO_TEXTLOG; cdecl;
-
-al_close_native_text_log: procedure(textlog: PALLEGRO_TEXTLOG); cdecl;
-
-al_append_native_text_log: procedure(textlog: PALLEGRO_TEXTLOG; const format: PUTF8Char) varargs; cdecl;
-
-al_get_native_text_log_event_source: function(textlog: PALLEGRO_TEXTLOG): PALLEGRO_EVENT_SOURCE; cdecl;
-
-al_create_menu: function(): PALLEGRO_MENU; cdecl;
-
-al_create_popup_menu: function(): PALLEGRO_MENU; cdecl;
-
-al_build_menu: function(info: PALLEGRO_MENU_INFO): PALLEGRO_MENU; cdecl;
-
-al_append_menu_item: function(parent: PALLEGRO_MENU; const title: PUTF8Char; id: UInt16; flags: Integer; icon: PALLEGRO_BITMAP; submenu: PALLEGRO_MENU): Integer; cdecl;
-
-al_insert_menu_item: function(parent: PALLEGRO_MENU; pos: Integer; const title: PUTF8Char; id: UInt16; flags: Integer; icon: PALLEGRO_BITMAP; submenu: PALLEGRO_MENU): Integer; cdecl;
-
-al_remove_menu_item: function(menu: PALLEGRO_MENU; pos: Integer): Boolean; cdecl;
-
-al_clone_menu: function(menu: PALLEGRO_MENU): PALLEGRO_MENU; cdecl;
-
-al_clone_menu_for_popup: function(menu: PALLEGRO_MENU): PALLEGRO_MENU; cdecl;
-
-al_destroy_menu: procedure(menu: PALLEGRO_MENU); cdecl;
-
-al_get_menu_item_caption: function(menu: PALLEGRO_MENU; pos: Integer): PUTF8Char; cdecl;
-
-al_set_menu_item_caption: procedure(menu: PALLEGRO_MENU; pos: Integer; const caption: PUTF8Char); cdecl;
-
-al_get_menu_item_flags: function(menu: PALLEGRO_MENU; pos: Integer): Integer; cdecl;
-
-al_set_menu_item_flags: procedure(menu: PALLEGRO_MENU; pos: Integer; flags: Integer); cdecl;
-
-al_get_menu_item_icon: function(menu: PALLEGRO_MENU; pos: Integer): PALLEGRO_BITMAP; cdecl;
-
-al_set_menu_item_icon: procedure(menu: PALLEGRO_MENU; pos: Integer; icon: PALLEGRO_BITMAP); cdecl;
-
-al_toggle_menu_item_flags: function(menu: PALLEGRO_MENU; pos: Integer; flags: Integer): Integer; cdecl;
-
-al_find_menu: function(haystack: PALLEGRO_MENU; id: UInt16): PALLEGRO_MENU; cdecl;
-
-al_find_menu_item: function(haystack: PALLEGRO_MENU; id: UInt16; menu: PPALLEGRO_MENU; index: PInteger): Boolean; cdecl;
-
-al_get_default_menu_event_source: function(): PALLEGRO_EVENT_SOURCE; cdecl;
-
-al_enable_menu_event_source: function(menu: PALLEGRO_MENU): PALLEGRO_EVENT_SOURCE; cdecl;
-
-al_disable_menu_event_source: procedure(menu: PALLEGRO_MENU); cdecl;
-
-al_get_display_menu: function(display: PALLEGRO_DISPLAY): PALLEGRO_MENU; cdecl;
-
-al_set_display_menu: function(display: PALLEGRO_DISPLAY; menu: PALLEGRO_MENU): Boolean; cdecl;
-
-al_popup_menu: function(popup: PALLEGRO_MENU; display: PALLEGRO_DISPLAY): Boolean; cdecl;
-
-al_remove_display_menu: function(display: PALLEGRO_DISPLAY): PALLEGRO_MENU; cdecl;
-
-al_get_allegro_native_dialog_version: function(): UInt32; cdecl;
-
-al_get_allegro_primitives_version: function(): UInt32; cdecl;
-
-al_init_primitives_addon: function(): Boolean; cdecl;
-
-al_is_primitives_addon_initialized: function(): Boolean; cdecl;
-
-al_shutdown_primitives_addon: procedure(); cdecl;
-
-al_draw_prim: function(const vtxs: Pointer; const decl: PALLEGRO_VERTEX_DECL; texture: PALLEGRO_BITMAP; start: Integer; &end: Integer; &type: Integer): Integer; cdecl;
-
-al_draw_indexed_prim: function(const vtxs: Pointer; const decl: PALLEGRO_VERTEX_DECL; texture: PALLEGRO_BITMAP; const indices: PInteger; num_vtx: Integer; &type: Integer): Integer; cdecl;
-
-al_draw_vertex_buffer: function(vertex_buffer: PALLEGRO_VERTEX_BUFFER; texture: PALLEGRO_BITMAP; start: Integer; &end: Integer; &type: Integer): Integer; cdecl;
-
-al_draw_indexed_buffer: function(vertex_buffer: PALLEGRO_VERTEX_BUFFER; texture: PALLEGRO_BITMAP; index_buffer: PALLEGRO_INDEX_BUFFER; start: Integer; &end: Integer; &type: Integer): Integer; cdecl;
-
-al_create_vertex_decl: function(const elements: PALLEGRO_VERTEX_ELEMENT; stride: Integer): PALLEGRO_VERTEX_DECL; cdecl;
-
-al_destroy_vertex_decl: procedure(decl: PALLEGRO_VERTEX_DECL); cdecl;
-
-al_create_vertex_buffer: function(decl: PALLEGRO_VERTEX_DECL; const initial_data: Pointer; num_vertices: Integer; flags: Integer): PALLEGRO_VERTEX_BUFFER; cdecl;
-
-al_destroy_vertex_buffer: procedure(buffer: PALLEGRO_VERTEX_BUFFER); cdecl;
-
-al_lock_vertex_buffer: function(buffer: PALLEGRO_VERTEX_BUFFER; offset: Integer; length: Integer; flags: Integer): Pointer; cdecl;
-
-al_unlock_vertex_buffer: procedure(buffer: PALLEGRO_VERTEX_BUFFER); cdecl;
-
-al_get_vertex_buffer_size: function(buffer: PALLEGRO_VERTEX_BUFFER): Integer; cdecl;
-
-al_create_index_buffer: function(index_size: Integer; const initial_data: Pointer; num_indices: Integer; flags: Integer): PALLEGRO_INDEX_BUFFER; cdecl;
-
-al_destroy_index_buffer: procedure(buffer: PALLEGRO_INDEX_BUFFER); cdecl;
-
-al_lock_index_buffer: function(buffer: PALLEGRO_INDEX_BUFFER; offset: Integer; length: Integer; flags: Integer): Pointer; cdecl;
-
-al_unlock_index_buffer: procedure(buffer: PALLEGRO_INDEX_BUFFER); cdecl;
-
-al_get_index_buffer_size: function(buffer: PALLEGRO_INDEX_BUFFER): Integer; cdecl;
-
-type
   al_triangulate_polygon_emit_triangle = procedure(p1: Integer; p2: Integer; p3: Integer; p4: Pointer); cdecl;
-
-var
-al_triangulate_polygon: function(const vertices: PSingle; vertex_stride: NativeUInt; const vertex_counts: PInteger; emit_triangle: al_triangulate_polygon_emit_triangle; userdata: Pointer): Boolean; cdecl;
-
-type
   al_draw_soft_triangle_init = procedure(p1: UIntPtr; p2: PALLEGRO_VERTEX; p3: PALLEGRO_VERTEX; p4: PALLEGRO_VERTEX); cdecl;
-
-type
   al_draw_soft_triangle_first = procedure(p1: UIntPtr; p2: Integer; p3: Integer; p4: Integer; p5: Integer); cdecl;
-
-type
   al_draw_soft_triangle_step = procedure(p1: UIntPtr; p2: Integer); cdecl;
-
-type
   al_draw_soft_triangle_draw = procedure(p1: UIntPtr; p2: Integer; p3: Integer; p4: Integer); cdecl;
-
-var
-al_draw_soft_triangle: procedure(v1: PALLEGRO_VERTEX; v2: PALLEGRO_VERTEX; v3: PALLEGRO_VERTEX; state: UIntPtr; init: al_draw_soft_triangle_init; first: al_draw_soft_triangle_first; step: al_draw_soft_triangle_step; draw: al_draw_soft_triangle_draw); cdecl;
-
-type
   al_draw_soft_line_first = procedure(p1: UIntPtr; p2: Integer; p3: Integer; p4: PALLEGRO_VERTEX; p5: PALLEGRO_VERTEX); cdecl;
-
-type
   al_draw_soft_line_step = procedure(p1: UIntPtr; p2: Integer); cdecl;
-
-type
   al_draw_soft_line_draw = procedure(p1: UIntPtr; p2: Integer; p3: Integer); cdecl;
-
-var
-al_draw_soft_line: procedure(v1: PALLEGRO_VERTEX; v2: PALLEGRO_VERTEX; state: UIntPtr; first: al_draw_soft_line_first; step: al_draw_soft_line_step; draw: al_draw_soft_line_draw); cdecl;
-
-al_draw_line: procedure(x1: Single; y1: Single; x2: Single; y2: Single; color: ALLEGRO_COLOR; thickness: Single); cdecl;
-
-al_draw_triangle: procedure(x1: Single; y1: Single; x2: Single; y2: Single; x3: Single; y3: Single; color: ALLEGRO_COLOR; thickness: Single); cdecl;
-
-al_draw_rectangle: procedure(x1: Single; y1: Single; x2: Single; y2: Single; color: ALLEGRO_COLOR; thickness: Single); cdecl;
-
-al_draw_rounded_rectangle: procedure(x1: Single; y1: Single; x2: Single; y2: Single; rx: Single; ry: Single; color: ALLEGRO_COLOR; thickness: Single); cdecl;
-
-al_calculate_arc: procedure(dest: PSingle; stride: Integer; cx: Single; cy: Single; rx: Single; ry: Single; start_theta: Single; delta_theta: Single; thickness: Single; num_points: Integer); cdecl;
-
-al_draw_circle: procedure(cx: Single; cy: Single; r: Single; color: ALLEGRO_COLOR; thickness: Single); cdecl;
-
-al_draw_ellipse: procedure(cx: Single; cy: Single; rx: Single; ry: Single; color: ALLEGRO_COLOR; thickness: Single); cdecl;
-
-al_draw_arc: procedure(cx: Single; cy: Single; r: Single; start_theta: Single; delta_theta: Single; color: ALLEGRO_COLOR; thickness: Single); cdecl;
-
-al_draw_elliptical_arc: procedure(cx: Single; cy: Single; rx: Single; ry: Single; start_theta: Single; delta_theta: Single; color: ALLEGRO_COLOR; thickness: Single); cdecl;
-
-al_draw_pieslice: procedure(cx: Single; cy: Single; r: Single; start_theta: Single; delta_theta: Single; color: ALLEGRO_COLOR; thickness: Single); cdecl;
-
-al_calculate_spline: procedure(dest: PSingle; stride: Integer; points: PSingle; thickness: Single; num_segments: Integer); cdecl;
-
-al_draw_spline: procedure(points: PSingle; color: ALLEGRO_COLOR; thickness: Single); cdecl;
-
-al_calculate_ribbon: procedure(dest: PSingle; dest_stride: Integer; const points: PSingle; points_stride: Integer; thickness: Single; num_segments: Integer); cdecl;
-
-al_draw_ribbon: procedure(const points: PSingle; points_stride: Integer; color: ALLEGRO_COLOR; thickness: Single; num_segments: Integer); cdecl;
-
-al_draw_filled_triangle: procedure(x1: Single; y1: Single; x2: Single; y2: Single; x3: Single; y3: Single; color: ALLEGRO_COLOR); cdecl;
-
-al_draw_filled_rectangle: procedure(x1: Single; y1: Single; x2: Single; y2: Single; color: ALLEGRO_COLOR); cdecl;
-
-al_draw_filled_ellipse: procedure(cx: Single; cy: Single; rx: Single; ry: Single; color: ALLEGRO_COLOR); cdecl;
-
-al_draw_filled_circle: procedure(cx: Single; cy: Single; r: Single; color: ALLEGRO_COLOR); cdecl;
-
-al_draw_filled_pieslice: procedure(cx: Single; cy: Single; r: Single; start_theta: Single; delta_theta: Single; color: ALLEGRO_COLOR); cdecl;
-
-al_draw_filled_rounded_rectangle: procedure(x1: Single; y1: Single; x2: Single; y2: Single; rx: Single; ry: Single; color: ALLEGRO_COLOR); cdecl;
-
-al_draw_polyline: procedure(const vertices: PSingle; vertex_stride: Integer; vertex_count: Integer; join_style: Integer; cap_style: Integer; color: ALLEGRO_COLOR; thickness: Single; miter_limit: Single); cdecl;
-
-al_draw_polygon: procedure(const vertices: PSingle; vertex_count: Integer; join_style: Integer; color: ALLEGRO_COLOR; thickness: Single; miter_limit: Single); cdecl;
-
-al_draw_filled_polygon: procedure(const vertices: PSingle; vertex_count: Integer; color: ALLEGRO_COLOR); cdecl;
-
-al_draw_filled_polygon_with_holes: procedure(const vertices: PSingle; const vertex_counts: PInteger; color: ALLEGRO_COLOR); cdecl;
-
-al_load_ttf_font: function(const filename: PUTF8Char; size: Integer; flags: Integer): PALLEGRO_FONT; cdecl;
-
-al_load_ttf_font_f: function(&file: PALLEGRO_FILE; const filename: PUTF8Char; size: Integer; flags: Integer): PALLEGRO_FONT; cdecl;
-
-al_load_ttf_font_stretch: function(const filename: PUTF8Char; w: Integer; h: Integer; flags: Integer): PALLEGRO_FONT; cdecl;
-
-al_load_ttf_font_stretch_f: function(&file: PALLEGRO_FILE; const filename: PUTF8Char; w: Integer; h: Integer; flags: Integer): PALLEGRO_FONT; cdecl;
-
-al_init_ttf_addon: function(): Boolean; cdecl;
-
-al_is_ttf_addon_initialized: function(): Boolean; cdecl;
-
-al_shutdown_ttf_addon: procedure(); cdecl;
-
-al_get_allegro_ttf_version: function(): UInt32; cdecl;
-
-al_open_video: function(const filename: PUTF8Char): PALLEGRO_VIDEO; cdecl;
-
-al_close_video: procedure(video: PALLEGRO_VIDEO); cdecl;
-
-al_start_video: procedure(video: PALLEGRO_VIDEO; mixer: PALLEGRO_MIXER); cdecl;
-
-al_start_video_with_voice: procedure(video: PALLEGRO_VIDEO; voice: PALLEGRO_VOICE); cdecl;
-
-al_get_video_event_source: function(video: PALLEGRO_VIDEO): PALLEGRO_EVENT_SOURCE; cdecl;
-
-al_set_video_playing: procedure(video: PALLEGRO_VIDEO; playing: Boolean); cdecl;
-
-al_is_video_playing: function(video: PALLEGRO_VIDEO): Boolean; cdecl;
-
-al_get_video_audio_rate: function(video: PALLEGRO_VIDEO): Double; cdecl;
-
-al_get_video_fps: function(video: PALLEGRO_VIDEO): Double; cdecl;
-
-al_get_video_scaled_width: function(video: PALLEGRO_VIDEO): Single; cdecl;
-
-al_get_video_scaled_height: function(video: PALLEGRO_VIDEO): Single; cdecl;
-
-al_get_video_frame: function(video: PALLEGRO_VIDEO): PALLEGRO_BITMAP; cdecl;
-
-al_get_video_position: function(video: PALLEGRO_VIDEO; which: ALLEGRO_VIDEO_POSITION_TYPE): Double; cdecl;
-
-al_seek_video: function(video: PALLEGRO_VIDEO; pos_in_seconds: Double): Boolean; cdecl;
-
-al_init_video_addon: function(): Boolean; cdecl;
-
-al_is_video_addon_initialized: function(): Boolean; cdecl;
-
-al_shutdown_video_addon: procedure(); cdecl;
-
-al_get_allegro_video_version: function(): UInt32; cdecl;
-
-al_identify_video_f: function(fp: PALLEGRO_FILE): PUTF8Char; cdecl;
-
-al_identify_video: function(const filename: PUTF8Char): PUTF8Char; cdecl;
-
-al_set_physfs_file_interface: procedure(); cdecl;
-
-al_get_allegro_physfs_version: function(): UInt32; cdecl;
-
-al_get_win_window_handle: function(display: PALLEGRO_DISPLAY): HWND; cdecl;
-
-type
   PLRESULT = ^LRESULT;
   al_win_add_window_callback_callback = function(display: PALLEGRO_DISPLAY; &message: UINT; wparam: WPARAM; lparam: LPARAM; result: PLRESULT; userdata: Pointer): Boolean; cdecl;
-
-var
-al_win_add_window_callback: function(display: PALLEGRO_DISPLAY; callback: al_win_add_window_callback_callback; userdata: Pointer): Boolean; cdecl;
-
-type
   al_win_remove_window_callback_callback = function(display: PALLEGRO_DISPLAY; &message: UINT; wparam: WPARAM; lparam: LPARAM; result: PLRESULT; userdata: Pointer): Boolean; cdecl;
 
 var
-al_win_remove_window_callback: function(display: PALLEGRO_DISPLAY; callback: al_win_remove_window_callback_callback; userdata: Pointer): Boolean; cdecl;
+  al_get_allegro_version: function(): UInt32; cdecl;
+  al_get_time: function(): Double; cdecl;
+  al_rest: procedure(seconds: Double); cdecl;
+  al_init_timeout: procedure(timeout: PALLEGRO_TIMEOUT; seconds: Double); cdecl;
+  al_map_rgb: function(r: Byte; g: Byte; b: Byte): ALLEGRO_COLOR; cdecl;
+  al_map_rgba: function(r: Byte; g: Byte; b: Byte; a: Byte): ALLEGRO_COLOR; cdecl;
+  al_map_rgb_f: function(r: Single; g: Single; b: Single): ALLEGRO_COLOR; cdecl;
+  al_map_rgba_f: function(r: Single; g: Single; b: Single; a: Single): ALLEGRO_COLOR; cdecl;
+  al_premul_rgba: function(r: Byte; g: Byte; b: Byte; a: Byte): ALLEGRO_COLOR; cdecl;
+  al_premul_rgba_f: function(r: Single; g: Single; b: Single; a: Single): ALLEGRO_COLOR; cdecl;
+  al_unmap_rgb: procedure(color: ALLEGRO_COLOR; r: PByte; g: PByte; b: PByte); cdecl;
+  al_unmap_rgba: procedure(color: ALLEGRO_COLOR; r: PByte; g: PByte; b: PByte; a: PByte); cdecl;
+  al_unmap_rgb_f: procedure(color: ALLEGRO_COLOR; r: PSingle; g: PSingle; b: PSingle); cdecl;
+  al_unmap_rgba_f: procedure(color: ALLEGRO_COLOR; r: PSingle; g: PSingle; b: PSingle; a: PSingle); cdecl;
+  al_get_pixel_size: function(format: Integer): Integer; cdecl;
+  al_get_pixel_format_bits: function(format: Integer): Integer; cdecl;
+  al_get_pixel_block_size: function(format: Integer): Integer; cdecl;
+  al_get_pixel_block_width: function(format: Integer): Integer; cdecl;
+  al_get_pixel_block_height: function(format: Integer): Integer; cdecl;
+  al_set_new_bitmap_format: procedure(format: Integer); cdecl;
+  al_set_new_bitmap_flags: procedure(flags: Integer); cdecl;
+  al_get_new_bitmap_format: function(): Integer; cdecl;
+  al_get_new_bitmap_flags: function(): Integer; cdecl;
+  al_add_new_bitmap_flag: procedure(flag: Integer); cdecl;
+  al_get_new_bitmap_depth: function(): Integer; cdecl;
+  al_set_new_bitmap_depth: procedure(depth: Integer); cdecl;
+  al_get_new_bitmap_samples: function(): Integer; cdecl;
+  al_set_new_bitmap_samples: procedure(samples: Integer); cdecl;
+  al_get_bitmap_width: function(bitmap: PALLEGRO_BITMAP): Integer; cdecl;
+  al_get_bitmap_height: function(bitmap: PALLEGRO_BITMAP): Integer; cdecl;
+  al_get_bitmap_format: function(bitmap: PALLEGRO_BITMAP): Integer; cdecl;
+  al_get_bitmap_flags: function(bitmap: PALLEGRO_BITMAP): Integer; cdecl;
+  al_get_bitmap_depth: function(bitmap: PALLEGRO_BITMAP): Integer; cdecl;
+  al_get_bitmap_samples: function(bitmap: PALLEGRO_BITMAP): Integer; cdecl;
+  al_create_bitmap: function(w: Integer; h: Integer): PALLEGRO_BITMAP; cdecl;
+  al_destroy_bitmap: procedure(bitmap: PALLEGRO_BITMAP); cdecl;
+  al_put_pixel: procedure(x: Integer; y: Integer; color: ALLEGRO_COLOR); cdecl;
+  al_put_blended_pixel: procedure(x: Integer; y: Integer; color: ALLEGRO_COLOR); cdecl;
+  al_get_pixel: function(bitmap: PALLEGRO_BITMAP; x: Integer; y: Integer): ALLEGRO_COLOR; cdecl;
+  al_convert_mask_to_alpha: procedure(bitmap: PALLEGRO_BITMAP; mask_color: ALLEGRO_COLOR); cdecl;
+  al_get_bitmap_blend_color: function(): ALLEGRO_COLOR; cdecl;
+  al_get_bitmap_blender: procedure(op: PInteger; src: PInteger; dst: PInteger); cdecl;
+  al_get_separate_bitmap_blender: procedure(op: PInteger; src: PInteger; dst: PInteger; alpha_op: PInteger; alpha_src: PInteger; alpha_dst: PInteger); cdecl;
+  al_set_bitmap_blend_color: procedure(color: ALLEGRO_COLOR); cdecl;
+  al_set_bitmap_blender: procedure(op: Integer; src: Integer; dst: Integer); cdecl;
+  al_set_separate_bitmap_blender: procedure(op: Integer; src: Integer; dst: Integer; alpha_op: Integer; alpha_src: Integer; alpha_dst: Integer); cdecl;
+  al_reset_bitmap_blender: procedure(); cdecl;
+  al_set_clipping_rectangle: procedure(x: Integer; y: Integer; width: Integer; height: Integer); cdecl;
+  al_reset_clipping_rectangle: procedure(); cdecl;
+  al_get_clipping_rectangle: procedure(x: PInteger; y: PInteger; w: PInteger; h: PInteger); cdecl;
+  al_create_sub_bitmap: function(parent: PALLEGRO_BITMAP; x: Integer; y: Integer; w: Integer; h: Integer): PALLEGRO_BITMAP; cdecl;
+  al_is_sub_bitmap: function(bitmap: PALLEGRO_BITMAP): Boolean; cdecl;
+  al_get_parent_bitmap: function(bitmap: PALLEGRO_BITMAP): PALLEGRO_BITMAP; cdecl;
+  al_get_bitmap_x: function(bitmap: PALLEGRO_BITMAP): Integer; cdecl;
+  al_get_bitmap_y: function(bitmap: PALLEGRO_BITMAP): Integer; cdecl;
+  al_reparent_bitmap: procedure(bitmap: PALLEGRO_BITMAP; parent: PALLEGRO_BITMAP; x: Integer; y: Integer; w: Integer; h: Integer); cdecl;
+  al_clone_bitmap: function(bitmap: PALLEGRO_BITMAP): PALLEGRO_BITMAP; cdecl;
+  al_convert_bitmap: procedure(bitmap: PALLEGRO_BITMAP); cdecl;
+  al_convert_memory_bitmaps: procedure(); cdecl;
+  al_backup_dirty_bitmap: procedure(bitmap: PALLEGRO_BITMAP); cdecl;
+  al_draw_bitmap: procedure(bitmap: PALLEGRO_BITMAP; dx: Single; dy: Single; flags: Integer); cdecl;
+  al_draw_bitmap_region: procedure(bitmap: PALLEGRO_BITMAP; sx: Single; sy: Single; sw: Single; sh: Single; dx: Single; dy: Single; flags: Integer); cdecl;
+  al_draw_scaled_bitmap: procedure(bitmap: PALLEGRO_BITMAP; sx: Single; sy: Single; sw: Single; sh: Single; dx: Single; dy: Single; dw: Single; dh: Single; flags: Integer); cdecl;
+  al_draw_rotated_bitmap: procedure(bitmap: PALLEGRO_BITMAP; cx: Single; cy: Single; dx: Single; dy: Single; angle: Single; flags: Integer); cdecl;
+  al_draw_scaled_rotated_bitmap: procedure(bitmap: PALLEGRO_BITMAP; cx: Single; cy: Single; dx: Single; dy: Single; xscale: Single; yscale: Single; angle: Single; flags: Integer); cdecl;
+  al_draw_tinted_bitmap: procedure(bitmap: PALLEGRO_BITMAP; tint: ALLEGRO_COLOR; dx: Single; dy: Single; flags: Integer); cdecl;
+  al_draw_tinted_bitmap_region: procedure(bitmap: PALLEGRO_BITMAP; tint: ALLEGRO_COLOR; sx: Single; sy: Single; sw: Single; sh: Single; dx: Single; dy: Single; flags: Integer); cdecl;
+  al_draw_tinted_scaled_bitmap: procedure(bitmap: PALLEGRO_BITMAP; tint: ALLEGRO_COLOR; sx: Single; sy: Single; sw: Single; sh: Single; dx: Single; dy: Single; dw: Single; dh: Single; flags: Integer); cdecl;
+  al_draw_tinted_rotated_bitmap: procedure(bitmap: PALLEGRO_BITMAP; tint: ALLEGRO_COLOR; cx: Single; cy: Single; dx: Single; dy: Single; angle: Single; flags: Integer); cdecl;
+  al_draw_tinted_scaled_rotated_bitmap: procedure(bitmap: PALLEGRO_BITMAP; tint: ALLEGRO_COLOR; cx: Single; cy: Single; dx: Single; dy: Single; xscale: Single; yscale: Single; angle: Single; flags: Integer); cdecl;
+  al_draw_tinted_scaled_rotated_bitmap_region: procedure(bitmap: PALLEGRO_BITMAP; sx: Single; sy: Single; sw: Single; sh: Single; tint: ALLEGRO_COLOR; cx: Single; cy: Single; dx: Single; dy: Single; xscale: Single; yscale: Single; angle: Single; flags: Integer); cdecl;
+  al_ustr_new: function(const s: PUTF8Char): PALLEGRO_USTR; cdecl;
+  al_ustr_new_from_buffer: function(const s: PUTF8Char; size: NativeUInt): PALLEGRO_USTR; cdecl;
+  al_ustr_newf: function(const fmt: PUTF8Char): PALLEGRO_USTR varargs; cdecl;
+  al_ustr_free: procedure(us: PALLEGRO_USTR); cdecl;
+  al_cstr: function(const us: PALLEGRO_USTR): PUTF8Char; cdecl;
+  al_ustr_to_buffer: procedure(const us: PALLEGRO_USTR; buffer: PUTF8Char; size: Integer); cdecl;
+  al_cstr_dup: function(const us: PALLEGRO_USTR): PUTF8Char; cdecl;
+  al_ustr_dup: function(const us: PALLEGRO_USTR): PALLEGRO_USTR; cdecl;
+  al_ustr_dup_substr: function(const us: PALLEGRO_USTR; start_pos: Integer; end_pos: Integer): PALLEGRO_USTR; cdecl;
+  al_ustr_empty_string: function(): PALLEGRO_USTR; cdecl;
+  al_ref_cstr: function(info: PALLEGRO_USTR_INFO; const s: PUTF8Char): PALLEGRO_USTR; cdecl;
+  al_ref_buffer: function(info: PALLEGRO_USTR_INFO; const s: PUTF8Char; size: NativeUInt): PALLEGRO_USTR; cdecl;
+  al_ref_ustr: function(info: PALLEGRO_USTR_INFO; const us: PALLEGRO_USTR; start_pos: Integer; end_pos: Integer): PALLEGRO_USTR; cdecl;
+  al_ustr_size: function(const us: PALLEGRO_USTR): NativeUInt; cdecl;
+  al_ustr_length: function(const us: PALLEGRO_USTR): NativeUInt; cdecl;
+  al_ustr_offset: function(const us: PALLEGRO_USTR; index: Integer): Integer; cdecl;
+  al_ustr_next: function(const us: PALLEGRO_USTR; pos: PInteger): Boolean; cdecl;
+  al_ustr_prev: function(const us: PALLEGRO_USTR; pos: PInteger): Boolean; cdecl;
+  al_ustr_get: function(const us: PALLEGRO_USTR; pos: Integer): Int32; cdecl;
+  al_ustr_get_next: function(const us: PALLEGRO_USTR; pos: PInteger): Int32; cdecl;
+  al_ustr_prev_get: function(const us: PALLEGRO_USTR; pos: PInteger): Int32; cdecl;
+  al_ustr_insert: function(us1: PALLEGRO_USTR; pos: Integer; const us2: PALLEGRO_USTR): Boolean; cdecl;
+  al_ustr_insert_cstr: function(us: PALLEGRO_USTR; pos: Integer; const us2: PUTF8Char): Boolean; cdecl;
+  al_ustr_insert_chr: function(us: PALLEGRO_USTR; pos: Integer; c: Int32): NativeUInt; cdecl;
+  al_ustr_append: function(us1: PALLEGRO_USTR; const us2: PALLEGRO_USTR): Boolean; cdecl;
+  al_ustr_append_cstr: function(us: PALLEGRO_USTR; const s: PUTF8Char): Boolean; cdecl;
+  al_ustr_append_chr: function(us: PALLEGRO_USTR; c: Int32): NativeUInt; cdecl;
+  al_ustr_appendf: function(us: PALLEGRO_USTR; const fmt: PUTF8Char): Boolean varargs; cdecl;
+  al_ustr_vappendf: function(us: PALLEGRO_USTR; const fmt: PUTF8Char; ap: Pointer): Boolean; cdecl;
+  al_ustr_remove_chr: function(us: PALLEGRO_USTR; pos: Integer): Boolean; cdecl;
+  al_ustr_remove_range: function(us: PALLEGRO_USTR; start_pos: Integer; end_pos: Integer): Boolean; cdecl;
+  al_ustr_truncate: function(us: PALLEGRO_USTR; start_pos: Integer): Boolean; cdecl;
+  al_ustr_ltrim_ws: function(us: PALLEGRO_USTR): Boolean; cdecl;
+  al_ustr_rtrim_ws: function(us: PALLEGRO_USTR): Boolean; cdecl;
+  al_ustr_trim_ws: function(us: PALLEGRO_USTR): Boolean; cdecl;
+  al_ustr_assign: function(us1: PALLEGRO_USTR; const us2: PALLEGRO_USTR): Boolean; cdecl;
+  al_ustr_assign_substr: function(us1: PALLEGRO_USTR; const us2: PALLEGRO_USTR; start_pos: Integer; end_pos: Integer): Boolean; cdecl;
+  al_ustr_assign_cstr: function(us1: PALLEGRO_USTR; const s: PUTF8Char): Boolean; cdecl;
+  al_ustr_set_chr: function(us: PALLEGRO_USTR; pos: Integer; c: Int32): NativeUInt; cdecl;
+  al_ustr_replace_range: function(us1: PALLEGRO_USTR; start_pos1: Integer; end_pos1: Integer; const us2: PALLEGRO_USTR): Boolean; cdecl;
+  al_ustr_find_chr: function(const us: PALLEGRO_USTR; start_pos: Integer; c: Int32): Integer; cdecl;
+  al_ustr_rfind_chr: function(const us: PALLEGRO_USTR; start_pos: Integer; c: Int32): Integer; cdecl;
+  al_ustr_find_set: function(const us: PALLEGRO_USTR; start_pos: Integer; const accept: PALLEGRO_USTR): Integer; cdecl;
+  al_ustr_find_set_cstr: function(const us: PALLEGRO_USTR; start_pos: Integer; const accept: PUTF8Char): Integer; cdecl;
+  al_ustr_find_cset: function(const us: PALLEGRO_USTR; start_pos: Integer; const reject: PALLEGRO_USTR): Integer; cdecl;
+  al_ustr_find_cset_cstr: function(const us: PALLEGRO_USTR; start_pos: Integer; const reject: PUTF8Char): Integer; cdecl;
+  al_ustr_find_str: function(const haystack: PALLEGRO_USTR; start_pos: Integer; const needle: PALLEGRO_USTR): Integer; cdecl;
+  al_ustr_find_cstr: function(const haystack: PALLEGRO_USTR; start_pos: Integer; const needle: PUTF8Char): Integer; cdecl;
+  al_ustr_rfind_str: function(const haystack: PALLEGRO_USTR; start_pos: Integer; const needle: PALLEGRO_USTR): Integer; cdecl;
+  al_ustr_rfind_cstr: function(const haystack: PALLEGRO_USTR; start_pos: Integer; const needle: PUTF8Char): Integer; cdecl;
+  al_ustr_find_replace: function(us: PALLEGRO_USTR; start_pos: Integer; const find: PALLEGRO_USTR; const replace: PALLEGRO_USTR): Boolean; cdecl;
+  al_ustr_find_replace_cstr: function(us: PALLEGRO_USTR; start_pos: Integer; const find: PUTF8Char; const replace: PUTF8Char): Boolean; cdecl;
+  al_ustr_equal: function(const us1: PALLEGRO_USTR; const us2: PALLEGRO_USTR): Boolean; cdecl;
+  al_ustr_compare: function(const u: PALLEGRO_USTR; const v: PALLEGRO_USTR): Integer; cdecl;
+  al_ustr_ncompare: function(const us1: PALLEGRO_USTR; const us2: PALLEGRO_USTR; n: Integer): Integer; cdecl;
+  al_ustr_has_prefix: function(const u: PALLEGRO_USTR; const v: PALLEGRO_USTR): Boolean; cdecl;
+  al_ustr_has_prefix_cstr: function(const u: PALLEGRO_USTR; const s: PUTF8Char): Boolean; cdecl;
+  al_ustr_has_suffix: function(const u: PALLEGRO_USTR; const v: PALLEGRO_USTR): Boolean; cdecl;
+  al_ustr_has_suffix_cstr: function(const us1: PALLEGRO_USTR; const s: PUTF8Char): Boolean; cdecl;
+  al_utf8_width: function(c: Int32): NativeUInt; cdecl;
+  al_utf8_encode: function(s: PUTF8Char; c: Int32): NativeUInt; cdecl;
+  al_ustr_new_from_utf16: function(const s: PUInt16): PALLEGRO_USTR; cdecl;
+  al_ustr_size_utf16: function(const us: PALLEGRO_USTR): NativeUInt; cdecl;
+  al_ustr_encode_utf16: function(const us: PALLEGRO_USTR; s: PUInt16; n: NativeUInt): NativeUInt; cdecl;
+  al_utf16_width: function(c: Integer): NativeUInt; cdecl;
+  al_utf16_encode: function(s: PUInt16; c: Int32): NativeUInt; cdecl;
+  al_create_path: function(const str: PUTF8Char): PALLEGRO_PATH; cdecl;
+  al_create_path_for_directory: function(const str: PUTF8Char): PALLEGRO_PATH; cdecl;
+  al_clone_path: function(const path: PALLEGRO_PATH): PALLEGRO_PATH; cdecl;
+  al_get_path_num_components: function(const path: PALLEGRO_PATH): Integer; cdecl;
+  al_get_path_component: function(const path: PALLEGRO_PATH; i: Integer): PUTF8Char; cdecl;
+  al_replace_path_component: procedure(path: PALLEGRO_PATH; i: Integer; const s: PUTF8Char); cdecl;
+  al_remove_path_component: procedure(path: PALLEGRO_PATH; i: Integer); cdecl;
+  al_insert_path_component: procedure(path: PALLEGRO_PATH; i: Integer; const s: PUTF8Char); cdecl;
+  al_get_path_tail: function(const path: PALLEGRO_PATH): PUTF8Char; cdecl;
+  al_drop_path_tail: procedure(path: PALLEGRO_PATH); cdecl;
+  al_append_path_component: procedure(path: PALLEGRO_PATH; const s: PUTF8Char); cdecl;
+  al_join_paths: function(path: PALLEGRO_PATH; const tail: PALLEGRO_PATH): Boolean; cdecl;
+  al_rebase_path: function(const head: PALLEGRO_PATH; tail: PALLEGRO_PATH): Boolean; cdecl;
+  al_path_cstr: function(const path: PALLEGRO_PATH; delim: UTF8Char): PUTF8Char; cdecl;
+  al_path_ustr: function(const path: PALLEGRO_PATH; delim: UTF8Char): PALLEGRO_USTR; cdecl;
+  al_destroy_path: procedure(path: PALLEGRO_PATH); cdecl;
+  al_set_path_drive: procedure(path: PALLEGRO_PATH; const drive: PUTF8Char); cdecl;
+  al_get_path_drive: function(const path: PALLEGRO_PATH): PUTF8Char; cdecl;
+  al_set_path_filename: procedure(path: PALLEGRO_PATH; const filename: PUTF8Char); cdecl;
+  al_get_path_filename: function(const path: PALLEGRO_PATH): PUTF8Char; cdecl;
+  al_get_path_extension: function(const path: PALLEGRO_PATH): PUTF8Char; cdecl;
+  al_set_path_extension: function(path: PALLEGRO_PATH; const extension: PUTF8Char): Boolean; cdecl;
+  al_get_path_basename: function(const path: PALLEGRO_PATH): PUTF8Char; cdecl;
+  al_make_path_canonical: function(path: PALLEGRO_PATH): Boolean; cdecl;
+  al_fopen: function(const path: PUTF8Char; const mode: PUTF8Char): PALLEGRO_FILE; cdecl;
+  al_fopen_interface: function(const vt: PALLEGRO_FILE_INTERFACE; const path: PUTF8Char; const mode: PUTF8Char): PALLEGRO_FILE; cdecl;
+  al_create_file_handle: function(const vt: PALLEGRO_FILE_INTERFACE; userdata: Pointer): PALLEGRO_FILE; cdecl;
+  al_fclose: function(f: PALLEGRO_FILE): Boolean; cdecl;
+  al_fread: function(f: PALLEGRO_FILE; ptr: Pointer; size: NativeUInt): NativeUInt; cdecl;
+  al_fwrite: function(f: PALLEGRO_FILE; const ptr: Pointer; size: NativeUInt): NativeUInt; cdecl;
+  al_fflush: function(f: PALLEGRO_FILE): Boolean; cdecl;
+  al_ftell: function(f: PALLEGRO_FILE): Int64; cdecl;
+  al_fseek: function(f: PALLEGRO_FILE; offset: Int64; whence: Integer): Boolean; cdecl;
+  al_feof: function(f: PALLEGRO_FILE): Boolean; cdecl;
+  al_ferror: function(f: PALLEGRO_FILE): Integer; cdecl;
+  al_ferrmsg: function(f: PALLEGRO_FILE): PUTF8Char; cdecl;
+  al_fclearerr: procedure(f: PALLEGRO_FILE); cdecl;
+  al_fungetc: function(f: PALLEGRO_FILE; c: Integer): Integer; cdecl;
+  al_fsize: function(f: PALLEGRO_FILE): Int64; cdecl;
+  al_fgetc: function(f: PALLEGRO_FILE): Integer; cdecl;
+  al_fputc: function(f: PALLEGRO_FILE; c: Integer): Integer; cdecl;
+  al_fread16le: function(f: PALLEGRO_FILE): Int16; cdecl;
+  al_fread16be: function(f: PALLEGRO_FILE): Int16; cdecl;
+  al_fwrite16le: function(f: PALLEGRO_FILE; w: Int16): NativeUInt; cdecl;
+  al_fwrite16be: function(f: PALLEGRO_FILE; w: Int16): NativeUInt; cdecl;
+  al_fread32le: function(f: PALLEGRO_FILE): Int32; cdecl;
+  al_fread32be: function(f: PALLEGRO_FILE): Int32; cdecl;
+  al_fwrite32le: function(f: PALLEGRO_FILE; l: Int32): NativeUInt; cdecl;
+  al_fwrite32be: function(f: PALLEGRO_FILE; l: Int32): NativeUInt; cdecl;
+  al_fgets: function(f: PALLEGRO_FILE; const p: PUTF8Char; max: NativeUInt): PUTF8Char; cdecl;
+  al_fget_ustr: function(f: PALLEGRO_FILE): PALLEGRO_USTR; cdecl;
+  al_fputs: function(f: PALLEGRO_FILE; const p: PUTF8Char): Integer; cdecl;
+  al_fprintf: function(f: PALLEGRO_FILE; const format: PUTF8Char): Integer varargs; cdecl;
+  al_vfprintf: function(f: PALLEGRO_FILE; const format: PUTF8Char; args: Pointer): Integer; cdecl;
+  al_fopen_fd: function(fd: Integer; const mode: PUTF8Char): PALLEGRO_FILE; cdecl;
+  al_make_temp_file: function(const tmpl: PUTF8Char; ret_path: PPALLEGRO_PATH): PALLEGRO_FILE; cdecl;
+  al_fopen_slice: function(fp: PALLEGRO_FILE; initial_size: NativeUInt; const mode: PUTF8Char): PALLEGRO_FILE; cdecl;
+  al_get_new_file_interface: function(): PALLEGRO_FILE_INTERFACE; cdecl;
+  al_set_new_file_interface: procedure(const file_interface: PALLEGRO_FILE_INTERFACE); cdecl;
+  al_set_standard_file_interface: procedure(); cdecl;
+  al_get_file_userdata: function(f: PALLEGRO_FILE): Pointer; cdecl;
+  al_register_bitmap_loader: function(const ext: PUTF8Char; loader: ALLEGRO_IIO_LOADER_FUNCTION): Boolean; cdecl;
+  al_register_bitmap_saver: function(const ext: PUTF8Char; saver: ALLEGRO_IIO_SAVER_FUNCTION): Boolean; cdecl;
+  al_register_bitmap_loader_f: function(const ext: PUTF8Char; fs_loader: ALLEGRO_IIO_FS_LOADER_FUNCTION): Boolean; cdecl;
+  al_register_bitmap_saver_f: function(const ext: PUTF8Char; fs_saver: ALLEGRO_IIO_FS_SAVER_FUNCTION): Boolean; cdecl;
+  al_register_bitmap_identifier: function(const ext: PUTF8Char; identifier: ALLEGRO_IIO_IDENTIFIER_FUNCTION): Boolean; cdecl;
+  al_load_bitmap: function(const filename: PUTF8Char): PALLEGRO_BITMAP; cdecl;
+  al_load_bitmap_flags: function(const filename: PUTF8Char; flags: Integer): PALLEGRO_BITMAP; cdecl;
+  al_load_bitmap_f: function(fp: PALLEGRO_FILE; const ident: PUTF8Char): PALLEGRO_BITMAP; cdecl;
+  al_load_bitmap_flags_f: function(fp: PALLEGRO_FILE; const ident: PUTF8Char; flags: Integer): PALLEGRO_BITMAP; cdecl;
+  al_save_bitmap: function(const filename: PUTF8Char; bitmap: PALLEGRO_BITMAP): Boolean; cdecl;
+  al_save_bitmap_f: function(fp: PALLEGRO_FILE; const ident: PUTF8Char; bitmap: PALLEGRO_BITMAP): Boolean; cdecl;
+  al_identify_bitmap_f: function(fp: PALLEGRO_FILE): PUTF8Char; cdecl;
+  al_identify_bitmap: function(const filename: PUTF8Char): PUTF8Char; cdecl;
+  al_lock_bitmap: function(bitmap: PALLEGRO_BITMAP; format: Integer; flags: Integer): PALLEGRO_LOCKED_REGION; cdecl;
+  al_lock_bitmap_region: function(bitmap: PALLEGRO_BITMAP; x: Integer; y: Integer; width: Integer; height: Integer; format: Integer; flags: Integer): PALLEGRO_LOCKED_REGION; cdecl;
+  al_lock_bitmap_blocked: function(bitmap: PALLEGRO_BITMAP; flags: Integer): PALLEGRO_LOCKED_REGION; cdecl;
+  al_lock_bitmap_region_blocked: function(bitmap: PALLEGRO_BITMAP; x_block: Integer; y_block: Integer; width_block: Integer; height_block: Integer; flags: Integer): PALLEGRO_LOCKED_REGION; cdecl;
+  al_unlock_bitmap: procedure(bitmap: PALLEGRO_BITMAP); cdecl;
+  al_is_bitmap_locked: function(bitmap: PALLEGRO_BITMAP): Boolean; cdecl;
+  al_set_blender: procedure(op: Integer; source: Integer; dest: Integer); cdecl;
+  al_set_blend_color: procedure(color: ALLEGRO_COLOR); cdecl;
+  al_get_blender: procedure(op: PInteger; source: PInteger; dest: PInteger); cdecl;
+  al_get_blend_color: function(): ALLEGRO_COLOR; cdecl;
+  al_set_separate_blender: procedure(op: Integer; source: Integer; dest: Integer; alpha_op: Integer; alpha_source: Integer; alpha_dest: Integer); cdecl;
+  al_get_separate_blender: procedure(op: PInteger; source: PInteger; dest: PInteger; alpha_op: PInteger; alpha_src: PInteger; alpha_dest: PInteger); cdecl;
+  al_init_user_event_source: procedure(p1: PALLEGRO_EVENT_SOURCE); cdecl;
+  al_destroy_user_event_source: procedure(p1: PALLEGRO_EVENT_SOURCE); cdecl;
+  al_emit_user_event: function(p1: PALLEGRO_EVENT_SOURCE; p2: PALLEGRO_EVENT; dtor: al_emit_user_event_dtor): Boolean; cdecl;
+  al_unref_user_event: procedure(p1: PALLEGRO_USER_EVENT); cdecl;
+  al_set_event_source_data: procedure(p1: PALLEGRO_EVENT_SOURCE; data: IntPtr); cdecl;
+  al_get_event_source_data: function(const p1: PALLEGRO_EVENT_SOURCE): IntPtr; cdecl;
+  al_create_event_queue: function(): PALLEGRO_EVENT_QUEUE; cdecl;
+  al_destroy_event_queue: procedure(p1: PALLEGRO_EVENT_QUEUE); cdecl;
+  al_is_event_source_registered: function(p1: PALLEGRO_EVENT_QUEUE; p2: PALLEGRO_EVENT_SOURCE): Boolean; cdecl;
+  al_register_event_source: procedure(p1: PALLEGRO_EVENT_QUEUE; p2: PALLEGRO_EVENT_SOURCE); cdecl;
+  al_unregister_event_source: procedure(p1: PALLEGRO_EVENT_QUEUE; p2: PALLEGRO_EVENT_SOURCE); cdecl;
+  al_pause_event_queue: procedure(p1: PALLEGRO_EVENT_QUEUE; p2: Boolean); cdecl;
+  al_is_event_queue_paused: function(const p1: PALLEGRO_EVENT_QUEUE): Boolean; cdecl;
+  al_is_event_queue_empty: function(p1: PALLEGRO_EVENT_QUEUE): Boolean; cdecl;
+  al_get_next_event: function(p1: PALLEGRO_EVENT_QUEUE; ret_event: PALLEGRO_EVENT): Boolean; cdecl;
+  al_peek_next_event: function(p1: PALLEGRO_EVENT_QUEUE; ret_event: PALLEGRO_EVENT): Boolean; cdecl;
+  al_drop_next_event: function(p1: PALLEGRO_EVENT_QUEUE): Boolean; cdecl;
+  al_flush_event_queue: procedure(p1: PALLEGRO_EVENT_QUEUE); cdecl;
+  al_wait_for_event: procedure(p1: PALLEGRO_EVENT_QUEUE; ret_event: PALLEGRO_EVENT); cdecl;
+  al_wait_for_event_timed: function(p1: PALLEGRO_EVENT_QUEUE; ret_event: PALLEGRO_EVENT; secs: Single): Boolean; cdecl;
+  al_wait_for_event_until: function(queue: PALLEGRO_EVENT_QUEUE; ret_event: PALLEGRO_EVENT; timeout: PALLEGRO_TIMEOUT): Boolean; cdecl;
+  al_set_new_display_refresh_rate: procedure(refresh_rate: Integer); cdecl;
+  al_set_new_display_flags: procedure(flags: Integer); cdecl;
+  al_get_new_display_refresh_rate: function(): Integer; cdecl;
+  al_get_new_display_flags: function(): Integer; cdecl;
+  al_set_new_window_title: procedure(const title: PUTF8Char); cdecl;
+  al_get_new_window_title: function(): PUTF8Char; cdecl;
+  al_get_display_width: function(display: PALLEGRO_DISPLAY): Integer; cdecl;
+  al_get_display_height: function(display: PALLEGRO_DISPLAY): Integer; cdecl;
+  al_get_display_format: function(display: PALLEGRO_DISPLAY): Integer; cdecl;
+  al_get_display_refresh_rate: function(display: PALLEGRO_DISPLAY): Integer; cdecl;
+  al_get_display_flags: function(display: PALLEGRO_DISPLAY): Integer; cdecl;
+  al_get_display_orientation: function(display: PALLEGRO_DISPLAY): Integer; cdecl;
+  al_set_display_flag: function(display: PALLEGRO_DISPLAY; flag: Integer; onoff: Boolean): Boolean; cdecl;
+  al_create_display: function(w: Integer; h: Integer): PALLEGRO_DISPLAY; cdecl;
+  al_destroy_display: procedure(display: PALLEGRO_DISPLAY); cdecl;
+  al_get_current_display: function(): PALLEGRO_DISPLAY; cdecl;
+  al_set_target_bitmap: procedure(bitmap: PALLEGRO_BITMAP); cdecl;
+  al_set_target_backbuffer: procedure(display: PALLEGRO_DISPLAY); cdecl;
+  al_get_backbuffer: function(display: PALLEGRO_DISPLAY): PALLEGRO_BITMAP; cdecl;
+  al_get_target_bitmap: function(): PALLEGRO_BITMAP; cdecl;
+  al_acknowledge_resize: function(display: PALLEGRO_DISPLAY): Boolean; cdecl;
+  al_resize_display: function(display: PALLEGRO_DISPLAY; width: Integer; height: Integer): Boolean; cdecl;
+  al_flip_display: procedure(); cdecl;
+  al_update_display_region: procedure(x: Integer; y: Integer; width: Integer; height: Integer); cdecl;
+  al_is_compatible_bitmap: function(bitmap: PALLEGRO_BITMAP): Boolean; cdecl;
+  al_wait_for_vsync: function(): Boolean; cdecl;
+  al_get_display_event_source: function(display: PALLEGRO_DISPLAY): PALLEGRO_EVENT_SOURCE; cdecl;
+  al_set_display_icon: procedure(display: PALLEGRO_DISPLAY; icon: PALLEGRO_BITMAP); cdecl;
+  al_set_display_icons: procedure(display: PALLEGRO_DISPLAY; num_icons: Integer; icons: PPALLEGRO_BITMAP); cdecl;
+  al_get_new_display_adapter: function(): Integer; cdecl;
+  al_set_new_display_adapter: procedure(adapter: Integer); cdecl;
+  al_set_new_window_position: procedure(x: Integer; y: Integer); cdecl;
+  al_get_new_window_position: procedure(x: PInteger; y: PInteger); cdecl;
+  al_set_window_position: procedure(display: PALLEGRO_DISPLAY; x: Integer; y: Integer); cdecl;
+  al_get_window_position: procedure(display: PALLEGRO_DISPLAY; x: PInteger; y: PInteger); cdecl;
+  al_set_window_constraints: function(display: PALLEGRO_DISPLAY; min_w: Integer; min_h: Integer; max_w: Integer; max_h: Integer): Boolean; cdecl;
+  al_get_window_constraints: function(display: PALLEGRO_DISPLAY; min_w: PInteger; min_h: PInteger; max_w: PInteger; max_h: PInteger): Boolean; cdecl;
+  al_apply_window_constraints: procedure(display: PALLEGRO_DISPLAY; onoff: Boolean); cdecl;
+  al_set_window_title: procedure(display: PALLEGRO_DISPLAY; const title: PUTF8Char); cdecl;
+  al_set_new_display_option: procedure(option: Integer; value: Integer; importance: Integer); cdecl;
+  al_get_new_display_option: function(option: Integer; importance: PInteger): Integer; cdecl;
+  al_reset_new_display_options: procedure(); cdecl;
+  al_set_display_option: procedure(display: PALLEGRO_DISPLAY; option: Integer; value: Integer); cdecl;
+  al_get_display_option: function(display: PALLEGRO_DISPLAY; option: Integer): Integer; cdecl;
+  al_hold_bitmap_drawing: procedure(hold: Boolean); cdecl;
+  al_is_bitmap_drawing_held: function(): Boolean; cdecl;
+  al_acknowledge_drawing_halt: procedure(display: PALLEGRO_DISPLAY); cdecl;
+  al_acknowledge_drawing_resume: procedure(display: PALLEGRO_DISPLAY); cdecl;
+  al_backup_dirty_bitmaps: procedure(display: PALLEGRO_DISPLAY); cdecl;
+  al_get_clipboard_text: function(display: PALLEGRO_DISPLAY): PUTF8Char; cdecl;
+  al_set_clipboard_text: function(display: PALLEGRO_DISPLAY; const text: PUTF8Char): Boolean; cdecl;
+  al_clipboard_has_text: function(display: PALLEGRO_DISPLAY): Boolean; cdecl;
+  al_create_config: function(): PALLEGRO_CONFIG; cdecl;
+  al_add_config_section: procedure(config: PALLEGRO_CONFIG; const name: PUTF8Char); cdecl;
+  al_set_config_value: procedure(config: PALLEGRO_CONFIG; const section: PUTF8Char; const key: PUTF8Char; const value: PUTF8Char); cdecl;
+  al_add_config_comment: procedure(config: PALLEGRO_CONFIG; const section: PUTF8Char; const comment: PUTF8Char); cdecl;
+  al_get_config_value: function(const config: PALLEGRO_CONFIG; const section: PUTF8Char; const key: PUTF8Char): PUTF8Char; cdecl;
+  al_load_config_file: function(const filename: PUTF8Char): PALLEGRO_CONFIG; cdecl;
+  al_load_config_file_f: function(filename: PALLEGRO_FILE): PALLEGRO_CONFIG; cdecl;
+  al_save_config_file: function(const filename: PUTF8Char; const config: PALLEGRO_CONFIG): Boolean; cdecl;
+  al_save_config_file_f: function(&file: PALLEGRO_FILE; const config: PALLEGRO_CONFIG): Boolean; cdecl;
+  al_merge_config_into: procedure(master: PALLEGRO_CONFIG; const add: PALLEGRO_CONFIG); cdecl;
+  al_merge_config: function(const cfg1: PALLEGRO_CONFIG; const cfg2: PALLEGRO_CONFIG): PALLEGRO_CONFIG; cdecl;
+  al_destroy_config: procedure(config: PALLEGRO_CONFIG); cdecl;
+  al_remove_config_section: function(config: PALLEGRO_CONFIG; const section: PUTF8Char): Boolean; cdecl;
+  al_remove_config_key: function(config: PALLEGRO_CONFIG; const section: PUTF8Char; const key: PUTF8Char): Boolean; cdecl;
+  al_get_first_config_section: function(const config: PALLEGRO_CONFIG; iterator: PPALLEGRO_CONFIG_SECTION): PUTF8Char; cdecl;
+  al_get_next_config_section: function(iterator: PPALLEGRO_CONFIG_SECTION): PUTF8Char; cdecl;
+  al_get_first_config_entry: function(const config: PALLEGRO_CONFIG; const section: PUTF8Char; iterator: PPALLEGRO_CONFIG_ENTRY): PUTF8Char; cdecl;
+  al_get_next_config_entry: function(iterator: PPALLEGRO_CONFIG_ENTRY): PUTF8Char; cdecl;
+  al_get_cpu_count: function(): Integer; cdecl;
+  al_get_ram_size: function(): Integer; cdecl;
+  _al_trace_prefix: function(const channel: PUTF8Char; level: Integer; const &file: PUTF8Char; line: Integer; const &function: PUTF8Char): Boolean; cdecl;
+  _al_trace_suffix: procedure(const msg: PUTF8Char) varargs; cdecl;
+  al_register_assert_handler: procedure(handler: al_register_assert_handler_handler); cdecl;
+  al_register_trace_handler: procedure(handler: al_register_trace_handler_handler); cdecl;
+  al_clear_to_color: procedure(color: ALLEGRO_COLOR); cdecl;
+  al_clear_depth_buffer: procedure(x: Single); cdecl;
+  al_draw_pixel: procedure(x: Single; y: Single; color: ALLEGRO_COLOR); cdecl;
+  al_get_errno: function(): Integer; cdecl;
+  al_set_errno: procedure(errnum: Integer); cdecl;
+  al_fixsqrt: function(x: al_fixed): al_fixed; cdecl;
+  al_fixhypot: function(x: al_fixed; y: al_fixed): al_fixed; cdecl;
+  al_fixatan: function(x: al_fixed): al_fixed; cdecl;
+  al_fixatan2: function(y: al_fixed; x: al_fixed): al_fixed; cdecl;
+  al_create_fs_entry: function(const path: PUTF8Char): PALLEGRO_FS_ENTRY; cdecl;
+  al_destroy_fs_entry: procedure(e: PALLEGRO_FS_ENTRY); cdecl;
+  al_get_fs_entry_name: function(e: PALLEGRO_FS_ENTRY): PUTF8Char; cdecl;
+  al_update_fs_entry: function(e: PALLEGRO_FS_ENTRY): Boolean; cdecl;
+  al_get_fs_entry_mode: function(e: PALLEGRO_FS_ENTRY): UInt32; cdecl;
+  al_get_fs_entry_atime: function(e: PALLEGRO_FS_ENTRY): Longint; cdecl;
+  al_get_fs_entry_mtime: function(e: PALLEGRO_FS_ENTRY): Longint; cdecl;
+  al_get_fs_entry_ctime: function(e: PALLEGRO_FS_ENTRY): Longint; cdecl;
+  al_get_fs_entry_size: function(e: PALLEGRO_FS_ENTRY): off_t; cdecl;
+  al_fs_entry_exists: function(e: PALLEGRO_FS_ENTRY): Boolean; cdecl;
+  al_remove_fs_entry: function(e: PALLEGRO_FS_ENTRY): Boolean; cdecl;
+  al_open_directory: function(e: PALLEGRO_FS_ENTRY): Boolean; cdecl;
+  al_read_directory: function(e: PALLEGRO_FS_ENTRY): PALLEGRO_FS_ENTRY; cdecl;
+  al_close_directory: function(e: PALLEGRO_FS_ENTRY): Boolean; cdecl;
+  al_filename_exists: function(const path: PUTF8Char): Boolean; cdecl;
+  al_remove_filename: function(const path: PUTF8Char): Boolean; cdecl;
+  al_get_current_directory: function(): PUTF8Char; cdecl;
+  al_change_directory: function(const path: PUTF8Char): Boolean; cdecl;
+  al_make_directory: function(const path: PUTF8Char): Boolean; cdecl;
+  al_open_fs_entry: function(e: PALLEGRO_FS_ENTRY; const mode: PUTF8Char): PALLEGRO_FILE; cdecl;
+  al_for_each_fs_entry: function(dir: PALLEGRO_FS_ENTRY; callback: al_for_each_fs_entry_callback; extra: Pointer): Integer; cdecl;
+  al_get_fs_interface: function(): PALLEGRO_FS_INTERFACE; cdecl;
+  al_set_fs_interface: procedure(const vtable: PALLEGRO_FS_INTERFACE); cdecl;
+  al_set_standard_fs_interface: procedure(); cdecl;
+  al_get_num_display_modes: function(): Integer; cdecl;
+  al_get_display_mode: function(index: Integer; mode: PALLEGRO_DISPLAY_MODE): PALLEGRO_DISPLAY_MODE; cdecl;
+  al_install_joystick: function(): Boolean; cdecl;
+  al_uninstall_joystick: procedure(); cdecl;
+  al_is_joystick_installed: function(): Boolean; cdecl;
+  al_reconfigure_joysticks: function(): Boolean; cdecl;
+  al_get_num_joysticks: function(): Integer; cdecl;
+  al_get_joystick: function(joyn: Integer): PALLEGRO_JOYSTICK; cdecl;
+  al_release_joystick: procedure(p1: PALLEGRO_JOYSTICK); cdecl;
+  al_get_joystick_active: function(p1: PALLEGRO_JOYSTICK): Boolean; cdecl;
+  al_get_joystick_name: function(p1: PALLEGRO_JOYSTICK): PUTF8Char; cdecl;
+  al_get_joystick_num_sticks: function(p1: PALLEGRO_JOYSTICK): Integer; cdecl;
+  al_get_joystick_stick_flags: function(p1: PALLEGRO_JOYSTICK; stick: Integer): Integer; cdecl;
+  al_get_joystick_stick_name: function(p1: PALLEGRO_JOYSTICK; stick: Integer): PUTF8Char; cdecl;
+  al_get_joystick_num_axes: function(p1: PALLEGRO_JOYSTICK; stick: Integer): Integer; cdecl;
+  al_get_joystick_axis_name: function(p1: PALLEGRO_JOYSTICK; stick: Integer; axis: Integer): PUTF8Char; cdecl;
+  al_get_joystick_num_buttons: function(p1: PALLEGRO_JOYSTICK): Integer; cdecl;
+  al_get_joystick_button_name: function(p1: PALLEGRO_JOYSTICK; buttonn: Integer): PUTF8Char; cdecl;
+  al_get_joystick_state: procedure(p1: PALLEGRO_JOYSTICK; ret_state: PALLEGRO_JOYSTICK_STATE); cdecl;
+  al_get_joystick_event_source: function(): PALLEGRO_EVENT_SOURCE; cdecl;
+  al_is_keyboard_installed: function(): Boolean; cdecl;
+  al_install_keyboard: function(): Boolean; cdecl;
+  al_uninstall_keyboard: procedure(); cdecl;
+  al_set_keyboard_leds: function(leds: Integer): Boolean; cdecl;
+  al_keycode_to_name: function(keycode: Integer): PUTF8Char; cdecl;
+  al_get_keyboard_state: procedure(ret_state: PALLEGRO_KEYBOARD_STATE); cdecl;
+  al_clear_keyboard_state: procedure(display: PALLEGRO_DISPLAY); cdecl;
+  al_key_down: function(const p1: PALLEGRO_KEYBOARD_STATE; keycode: Integer): Boolean; cdecl;
+  al_get_keyboard_event_source: function(): PALLEGRO_EVENT_SOURCE; cdecl;
+  al_is_mouse_installed: function(): Boolean; cdecl;
+  al_install_mouse: function(): Boolean; cdecl;
+  al_uninstall_mouse: procedure(); cdecl;
+  al_get_mouse_num_buttons: function(): Cardinal; cdecl;
+  al_get_mouse_num_axes: function(): Cardinal; cdecl;
+  al_set_mouse_xy: function(display: PALLEGRO_DISPLAY; x: Integer; y: Integer): Boolean; cdecl;
+  al_set_mouse_z: function(z: Integer): Boolean; cdecl;
+  al_set_mouse_w: function(w: Integer): Boolean; cdecl;
+  al_set_mouse_axis: function(axis: Integer; value: Integer): Boolean; cdecl;
+  al_get_mouse_state: procedure(ret_state: PALLEGRO_MOUSE_STATE); cdecl;
+  al_mouse_button_down: function(const state: PALLEGRO_MOUSE_STATE; button: Integer): Boolean; cdecl;
+  al_get_mouse_state_axis: function(const state: PALLEGRO_MOUSE_STATE; axis: Integer): Integer; cdecl;
+  al_get_mouse_cursor_position: function(ret_x: PInteger; ret_y: PInteger): Boolean; cdecl;
+  al_grab_mouse: function(display: PALLEGRO_DISPLAY): Boolean; cdecl;
+  al_ungrab_mouse: function(): Boolean; cdecl;
+  al_set_mouse_wheel_precision: procedure(precision: Integer); cdecl;
+  al_get_mouse_wheel_precision: function(): Integer; cdecl;
+  al_get_mouse_event_source: function(): PALLEGRO_EVENT_SOURCE; cdecl;
+  al_is_touch_input_installed: function(): Boolean; cdecl;
+  al_install_touch_input: function(): Boolean; cdecl;
+  al_uninstall_touch_input: procedure(); cdecl;
+  al_get_touch_input_state: procedure(ret_state: PALLEGRO_TOUCH_INPUT_STATE); cdecl;
+  al_get_touch_input_event_source: function(): PALLEGRO_EVENT_SOURCE; cdecl;
+  al_set_mouse_emulation_mode: procedure(mode: Integer); cdecl;
+  al_get_mouse_emulation_mode: function(): Integer; cdecl;
+  al_get_touch_input_mouse_emulation_event_source: function(): PALLEGRO_EVENT_SOURCE; cdecl;
+  al_install_haptic: function(): Boolean; cdecl;
+  al_uninstall_haptic: procedure(); cdecl;
+  al_is_haptic_installed: function(): Boolean; cdecl;
+  al_is_mouse_haptic: function(p1: PALLEGRO_MOUSE): Boolean; cdecl;
+  al_is_joystick_haptic: function(p1: PALLEGRO_JOYSTICK): Boolean; cdecl;
+  al_is_keyboard_haptic: function(p1: PALLEGRO_KEYBOARD): Boolean; cdecl;
+  al_is_display_haptic: function(p1: PALLEGRO_DISPLAY): Boolean; cdecl;
+  al_is_touch_input_haptic: function(p1: PALLEGRO_TOUCH_INPUT): Boolean; cdecl;
+  al_get_haptic_from_mouse: function(p1: PALLEGRO_MOUSE): PALLEGRO_HAPTIC; cdecl;
+  al_get_haptic_from_joystick: function(p1: PALLEGRO_JOYSTICK): PALLEGRO_HAPTIC; cdecl;
+  al_get_haptic_from_keyboard: function(p1: PALLEGRO_KEYBOARD): PALLEGRO_HAPTIC; cdecl;
+  al_get_haptic_from_display: function(p1: PALLEGRO_DISPLAY): PALLEGRO_HAPTIC; cdecl;
+  al_get_haptic_from_touch_input: function(p1: PALLEGRO_TOUCH_INPUT): PALLEGRO_HAPTIC; cdecl;
+  al_release_haptic: function(p1: PALLEGRO_HAPTIC): Boolean; cdecl;
+  al_is_haptic_active: function(p1: PALLEGRO_HAPTIC): Boolean; cdecl;
+  al_get_haptic_capabilities: function(p1: PALLEGRO_HAPTIC): Integer; cdecl;
+  al_is_haptic_capable: function(p1: PALLEGRO_HAPTIC; p2: Integer): Boolean; cdecl;
+  al_set_haptic_gain: function(p1: PALLEGRO_HAPTIC; p2: Double): Boolean; cdecl;
+  al_get_haptic_gain: function(p1: PALLEGRO_HAPTIC): Double; cdecl;
+  al_set_haptic_autocenter: function(p1: PALLEGRO_HAPTIC; p2: Double): Boolean; cdecl;
+  al_get_haptic_autocenter: function(p1: PALLEGRO_HAPTIC): Double; cdecl;
+  al_get_max_haptic_effects: function(p1: PALLEGRO_HAPTIC): Integer; cdecl;
+  al_is_haptic_effect_ok: function(p1: PALLEGRO_HAPTIC; p2: PALLEGRO_HAPTIC_EFFECT): Boolean; cdecl;
+  al_upload_haptic_effect: function(p1: PALLEGRO_HAPTIC; p2: PALLEGRO_HAPTIC_EFFECT; p3: PALLEGRO_HAPTIC_EFFECT_ID): Boolean; cdecl;
+  al_play_haptic_effect: function(p1: PALLEGRO_HAPTIC_EFFECT_ID; p2: Integer): Boolean; cdecl;
+  al_upload_and_play_haptic_effect: function(p1: PALLEGRO_HAPTIC; p2: PALLEGRO_HAPTIC_EFFECT; p3: PALLEGRO_HAPTIC_EFFECT_ID; p4: Integer): Boolean; cdecl;
+  al_stop_haptic_effect: function(p1: PALLEGRO_HAPTIC_EFFECT_ID): Boolean; cdecl;
+  al_is_haptic_effect_playing: function(p1: PALLEGRO_HAPTIC_EFFECT_ID): Boolean; cdecl;
+  al_release_haptic_effect: function(p1: PALLEGRO_HAPTIC_EFFECT_ID): Boolean; cdecl;
+  al_get_haptic_effect_duration: function(p1: PALLEGRO_HAPTIC_EFFECT): Double; cdecl;
+  al_rumble_haptic: function(p1: PALLEGRO_HAPTIC; p2: Double; p3: Double; p4: PALLEGRO_HAPTIC_EFFECT_ID): Boolean; cdecl;
+  al_set_memory_interface: procedure(iface: PALLEGRO_MEMORY_INTERFACE); cdecl;
+  al_malloc_with_context: function(n: NativeUInt; line: Integer; const &file: PUTF8Char; const func: PUTF8Char): Pointer; cdecl;
+  al_free_with_context: procedure(ptr: Pointer; line: Integer; const &file: PUTF8Char; const func: PUTF8Char); cdecl;
+  al_realloc_with_context: function(ptr: Pointer; n: NativeUInt; line: Integer; const &file: PUTF8Char; const func: PUTF8Char): Pointer; cdecl;
+  al_calloc_with_context: function(count: NativeUInt; n: NativeUInt; line: Integer; const &file: PUTF8Char; const func: PUTF8Char): Pointer; cdecl;
+  al_get_num_video_adapters: function(): Integer; cdecl;
+  al_get_monitor_info: function(adapter: Integer; info: PALLEGRO_MONITOR_INFO): Boolean; cdecl;
+  al_get_monitor_dpi: function(adapter: Integer): Integer; cdecl;
+  al_get_monitor_refresh_rate: function(adapter: Integer): Integer; cdecl;
+  al_create_mouse_cursor: function(sprite: PALLEGRO_BITMAP; xfocus: Integer; yfocus: Integer): PALLEGRO_MOUSE_CURSOR; cdecl;
+  al_destroy_mouse_cursor: procedure(p1: PALLEGRO_MOUSE_CURSOR); cdecl;
+  al_set_mouse_cursor: function(display: PALLEGRO_DISPLAY; cursor: PALLEGRO_MOUSE_CURSOR): Boolean; cdecl;
+  al_set_system_mouse_cursor: function(display: PALLEGRO_DISPLAY; cursor_id: ALLEGRO_SYSTEM_MOUSE_CURSOR): Boolean; cdecl;
+  al_show_mouse_cursor: function(display: PALLEGRO_DISPLAY): Boolean; cdecl;
+  al_hide_mouse_cursor: function(display: PALLEGRO_DISPLAY): Boolean; cdecl;
+  al_set_render_state: procedure(state: ALLEGRO_RENDER_STATE; value: Integer); cdecl;
+  al_use_transform: procedure(const trans: PALLEGRO_TRANSFORM); cdecl;
+  al_use_projection_transform: procedure(const trans: PALLEGRO_TRANSFORM); cdecl;
+  al_copy_transform: procedure(dest: PALLEGRO_TRANSFORM; const src: PALLEGRO_TRANSFORM); cdecl;
+  al_identity_transform: procedure(trans: PALLEGRO_TRANSFORM); cdecl;
+  al_build_transform: procedure(trans: PALLEGRO_TRANSFORM; x: Single; y: Single; sx: Single; sy: Single; theta: Single); cdecl;
+  al_build_camera_transform: procedure(trans: PALLEGRO_TRANSFORM; position_x: Single; position_y: Single; position_z: Single; look_x: Single; look_y: Single; look_z: Single; up_x: Single; up_y: Single; up_z: Single); cdecl;
+  al_translate_transform: procedure(trans: PALLEGRO_TRANSFORM; x: Single; y: Single); cdecl;
+  al_translate_transform_3d: procedure(trans: PALLEGRO_TRANSFORM; x: Single; y: Single; z: Single); cdecl;
+  al_rotate_transform: procedure(trans: PALLEGRO_TRANSFORM; theta: Single); cdecl;
+  al_rotate_transform_3d: procedure(trans: PALLEGRO_TRANSFORM; x: Single; y: Single; z: Single; angle: Single); cdecl;
+  al_scale_transform: procedure(trans: PALLEGRO_TRANSFORM; sx: Single; sy: Single); cdecl;
+  al_scale_transform_3d: procedure(trans: PALLEGRO_TRANSFORM; sx: Single; sy: Single; sz: Single); cdecl;
+  al_transform_coordinates: procedure(const trans: PALLEGRO_TRANSFORM; x: PSingle; y: PSingle); cdecl;
+  al_transform_coordinates_3d: procedure(const trans: PALLEGRO_TRANSFORM; x: PSingle; y: PSingle; z: PSingle); cdecl;
+  al_transform_coordinates_4d: procedure(const trans: PALLEGRO_TRANSFORM; x: PSingle; y: PSingle; z: PSingle; w: PSingle); cdecl;
+  al_transform_coordinates_3d_projective: procedure(const trans: PALLEGRO_TRANSFORM; x: PSingle; y: PSingle; z: PSingle); cdecl;
+  al_compose_transform: procedure(trans: PALLEGRO_TRANSFORM; const other: PALLEGRO_TRANSFORM); cdecl;
+  al_get_current_transform: function(): PALLEGRO_TRANSFORM; cdecl;
+  al_get_current_inverse_transform: function(): PALLEGRO_TRANSFORM; cdecl;
+  al_get_current_projection_transform: function(): PALLEGRO_TRANSFORM; cdecl;
+  al_invert_transform: procedure(trans: PALLEGRO_TRANSFORM); cdecl;
+  al_transpose_transform: procedure(trans: PALLEGRO_TRANSFORM); cdecl;
+  al_check_inverse: function(const trans: PALLEGRO_TRANSFORM; tol: Single): Integer; cdecl;
+  al_orthographic_transform: procedure(trans: PALLEGRO_TRANSFORM; left: Single; top: Single; n: Single; right: Single; bottom: Single; f: Single); cdecl;
+  al_perspective_transform: procedure(trans: PALLEGRO_TRANSFORM; left: Single; top: Single; n: Single; right: Single; bottom: Single; f: Single); cdecl;
+  al_horizontal_shear_transform: procedure(trans: PALLEGRO_TRANSFORM; theta: Single); cdecl;
+  al_vertical_shear_transform: procedure(trans: PALLEGRO_TRANSFORM; theta: Single); cdecl;
+  al_create_shader: function(&platform: ALLEGRO_SHADER_PLATFORM): PALLEGRO_SHADER; cdecl;
+  al_attach_shader_source: function(shader: PALLEGRO_SHADER; &type: ALLEGRO_SHADER_TYPE; const source: PUTF8Char): Boolean; cdecl;
+  al_attach_shader_source_file: function(shader: PALLEGRO_SHADER; &type: ALLEGRO_SHADER_TYPE; const filename: PUTF8Char): Boolean; cdecl;
+  al_build_shader: function(shader: PALLEGRO_SHADER): Boolean; cdecl;
+  al_get_shader_log: function(shader: PALLEGRO_SHADER): PUTF8Char; cdecl;
+  al_get_shader_platform: function(shader: PALLEGRO_SHADER): ALLEGRO_SHADER_PLATFORM; cdecl;
+  al_use_shader: function(shader: PALLEGRO_SHADER): Boolean; cdecl;
+  al_destroy_shader: procedure(shader: PALLEGRO_SHADER); cdecl;
+  al_set_shader_sampler: function(const name: PUTF8Char; bitmap: PALLEGRO_BITMAP; &unit: Integer): Boolean; cdecl;
+  al_set_shader_matrix: function(const name: PUTF8Char; const matrix: PALLEGRO_TRANSFORM): Boolean; cdecl;
+  al_set_shader_int: function(const name: PUTF8Char; i: Integer): Boolean; cdecl;
+  al_set_shader_float: function(const name: PUTF8Char; f: Single): Boolean; cdecl;
+  al_set_shader_int_vector: function(const name: PUTF8Char; num_components: Integer; const i: PInteger; num_elems: Integer): Boolean; cdecl;
+  al_set_shader_float_vector: function(const name: PUTF8Char; num_components: Integer; const f: PSingle; num_elems: Integer): Boolean; cdecl;
+  al_set_shader_bool: function(const name: PUTF8Char; b: Boolean): Boolean; cdecl;
+  al_get_default_shader_source: function(&platform: ALLEGRO_SHADER_PLATFORM; &type: ALLEGRO_SHADER_TYPE): PUTF8Char; cdecl;
+  al_install_system: function(version: Integer; atexit_ptr: al_install_system_atexit_ptr): Boolean; cdecl;
+  al_uninstall_system: procedure(); cdecl;
+  al_is_system_installed: function(): Boolean; cdecl;
+  al_get_system_driver: function(): PALLEGRO_SYSTEM; cdecl;
+  al_get_system_config: function(): PALLEGRO_CONFIG; cdecl;
+  al_get_system_id: function(): ALLEGRO_SYSTEM_ID; cdecl;
+  al_get_standard_path: function(id: Integer): PALLEGRO_PATH; cdecl;
+  al_set_exe_name: procedure(const path: PUTF8Char); cdecl;
+  al_set_org_name: procedure(const org_name: PUTF8Char); cdecl;
+  al_set_app_name: procedure(const app_name: PUTF8Char); cdecl;
+  al_get_org_name: function(): PUTF8Char; cdecl;
+  al_get_app_name: function(): PUTF8Char; cdecl;
+  al_inhibit_screensaver: function(inhibit: Boolean): Boolean; cdecl;
+  al_create_thread: function(proc: al_create_thread_proc; arg: Pointer): PALLEGRO_THREAD; cdecl;
+  al_create_thread_with_stacksize: function(proc: al_create_thread_with_stacksize_proc; arg: Pointer; stacksize: NativeUInt): PALLEGRO_THREAD; cdecl;
+  al_start_thread: procedure(outer: PALLEGRO_THREAD); cdecl;
+  al_join_thread: procedure(outer: PALLEGRO_THREAD; ret_value: PPointer); cdecl;
+  al_set_thread_should_stop: procedure(outer: PALLEGRO_THREAD); cdecl;
+  al_get_thread_should_stop: function(outer: PALLEGRO_THREAD): Boolean; cdecl;
+  al_destroy_thread: procedure(thread: PALLEGRO_THREAD); cdecl;
+  al_run_detached_thread: procedure(proc: al_run_detached_thread_proc; arg: Pointer); cdecl;
+  al_create_mutex: function(): PALLEGRO_MUTEX; cdecl;
+  al_create_mutex_recursive: function(): PALLEGRO_MUTEX; cdecl;
+  al_lock_mutex: procedure(mutex: PALLEGRO_MUTEX); cdecl;
+  al_unlock_mutex: procedure(mutex: PALLEGRO_MUTEX); cdecl;
+  al_destroy_mutex: procedure(mutex: PALLEGRO_MUTEX); cdecl;
+  al_create_cond: function(): PALLEGRO_COND; cdecl;
+  al_destroy_cond: procedure(cond: PALLEGRO_COND); cdecl;
+  al_wait_cond: procedure(cond: PALLEGRO_COND; mutex: PALLEGRO_MUTEX); cdecl;
+  al_wait_cond_until: function(cond: PALLEGRO_COND; mutex: PALLEGRO_MUTEX; const timeout: PALLEGRO_TIMEOUT): Integer; cdecl;
+  al_broadcast_cond: procedure(cond: PALLEGRO_COND); cdecl;
+  al_signal_cond: procedure(cond: PALLEGRO_COND); cdecl;
+  al_create_timer: function(speed_secs: Double): PALLEGRO_TIMER; cdecl;
+  al_destroy_timer: procedure(timer: PALLEGRO_TIMER); cdecl;
+  al_start_timer: procedure(timer: PALLEGRO_TIMER); cdecl;
+  al_stop_timer: procedure(timer: PALLEGRO_TIMER); cdecl;
+  al_resume_timer: procedure(timer: PALLEGRO_TIMER); cdecl;
+  al_get_timer_started: function(const timer: PALLEGRO_TIMER): Boolean; cdecl;
+  al_get_timer_speed: function(const timer: PALLEGRO_TIMER): Double; cdecl;
+  al_set_timer_speed: procedure(timer: PALLEGRO_TIMER; speed_secs: Double); cdecl;
+  al_get_timer_count: function(const timer: PALLEGRO_TIMER): Int64; cdecl;
+  al_set_timer_count: procedure(timer: PALLEGRO_TIMER; count: Int64); cdecl;
+  al_add_timer_count: procedure(timer: PALLEGRO_TIMER; diff: Int64); cdecl;
+  al_get_timer_event_source: function(timer: PALLEGRO_TIMER): PALLEGRO_EVENT_SOURCE; cdecl;
+  al_store_state: procedure(state: PALLEGRO_STATE; flags: Integer); cdecl;
+  al_restore_state: procedure(const state: PALLEGRO_STATE); cdecl;
+  al_create_sample: function(buf: Pointer; samples: Cardinal; freq: Cardinal; depth: ALLEGRO_AUDIO_DEPTH; chan_conf: ALLEGRO_CHANNEL_CONF; free_buf: Boolean): PALLEGRO_SAMPLE; cdecl;
+  al_destroy_sample: procedure(spl: PALLEGRO_SAMPLE); cdecl;
+  al_create_sample_instance: function(data: PALLEGRO_SAMPLE): PALLEGRO_SAMPLE_INSTANCE; cdecl;
+  al_destroy_sample_instance: procedure(spl: PALLEGRO_SAMPLE_INSTANCE); cdecl;
+  al_get_sample_frequency: function(const spl: PALLEGRO_SAMPLE): Cardinal; cdecl;
+  al_get_sample_length: function(const spl: PALLEGRO_SAMPLE): Cardinal; cdecl;
+  al_get_sample_depth: function(const spl: PALLEGRO_SAMPLE): ALLEGRO_AUDIO_DEPTH; cdecl;
+  al_get_sample_channels: function(const spl: PALLEGRO_SAMPLE): ALLEGRO_CHANNEL_CONF; cdecl;
+  al_get_sample_data: function(const spl: PALLEGRO_SAMPLE): Pointer; cdecl;
+  al_get_sample_instance_frequency: function(const spl: PALLEGRO_SAMPLE_INSTANCE): Cardinal; cdecl;
+  al_get_sample_instance_length: function(const spl: PALLEGRO_SAMPLE_INSTANCE): Cardinal; cdecl;
+  al_get_sample_instance_position: function(const spl: PALLEGRO_SAMPLE_INSTANCE): Cardinal; cdecl;
+  al_get_sample_instance_speed: function(const spl: PALLEGRO_SAMPLE_INSTANCE): Single; cdecl;
+  al_get_sample_instance_gain: function(const spl: PALLEGRO_SAMPLE_INSTANCE): Single; cdecl;
+  al_get_sample_instance_pan: function(const spl: PALLEGRO_SAMPLE_INSTANCE): Single; cdecl;
+  al_get_sample_instance_time: function(const spl: PALLEGRO_SAMPLE_INSTANCE): Single; cdecl;
+  al_get_sample_instance_depth: function(const spl: PALLEGRO_SAMPLE_INSTANCE): ALLEGRO_AUDIO_DEPTH; cdecl;
+  al_get_sample_instance_channels: function(const spl: PALLEGRO_SAMPLE_INSTANCE): ALLEGRO_CHANNEL_CONF; cdecl;
+  al_get_sample_instance_playmode: function(const spl: PALLEGRO_SAMPLE_INSTANCE): ALLEGRO_PLAYMODE; cdecl;
+  al_get_sample_instance_playing: function(const spl: PALLEGRO_SAMPLE_INSTANCE): Boolean; cdecl;
+  al_get_sample_instance_attached: function(const spl: PALLEGRO_SAMPLE_INSTANCE): Boolean; cdecl;
+  al_set_sample_instance_position: function(spl: PALLEGRO_SAMPLE_INSTANCE; val: Cardinal): Boolean; cdecl;
+  al_set_sample_instance_length: function(spl: PALLEGRO_SAMPLE_INSTANCE; val: Cardinal): Boolean; cdecl;
+  al_set_sample_instance_speed: function(spl: PALLEGRO_SAMPLE_INSTANCE; val: Single): Boolean; cdecl;
+  al_set_sample_instance_gain: function(spl: PALLEGRO_SAMPLE_INSTANCE; val: Single): Boolean; cdecl;
+  al_set_sample_instance_pan: function(spl: PALLEGRO_SAMPLE_INSTANCE; val: Single): Boolean; cdecl;
+  al_set_sample_instance_playmode: function(spl: PALLEGRO_SAMPLE_INSTANCE; val: ALLEGRO_PLAYMODE): Boolean; cdecl;
+  al_set_sample_instance_playing: function(spl: PALLEGRO_SAMPLE_INSTANCE; val: Boolean): Boolean; cdecl;
+  al_detach_sample_instance: function(spl: PALLEGRO_SAMPLE_INSTANCE): Boolean; cdecl;
+  al_set_sample: function(spl: PALLEGRO_SAMPLE_INSTANCE; data: PALLEGRO_SAMPLE): Boolean; cdecl;
+  al_get_sample: function(spl: PALLEGRO_SAMPLE_INSTANCE): PALLEGRO_SAMPLE; cdecl;
+  al_play_sample_instance: function(spl: PALLEGRO_SAMPLE_INSTANCE): Boolean; cdecl;
+  al_stop_sample_instance: function(spl: PALLEGRO_SAMPLE_INSTANCE): Boolean; cdecl;
+  al_set_sample_instance_channel_matrix: function(spl: PALLEGRO_SAMPLE_INSTANCE; const matrix: PSingle): Boolean; cdecl;
+  al_create_audio_stream: function(buffer_count: NativeUInt; samples: Cardinal; freq: Cardinal; depth: ALLEGRO_AUDIO_DEPTH; chan_conf: ALLEGRO_CHANNEL_CONF): PALLEGRO_AUDIO_STREAM; cdecl;
+  al_destroy_audio_stream: procedure(stream: PALLEGRO_AUDIO_STREAM); cdecl;
+  al_drain_audio_stream: procedure(stream: PALLEGRO_AUDIO_STREAM); cdecl;
+  al_get_audio_stream_frequency: function(const stream: PALLEGRO_AUDIO_STREAM): Cardinal; cdecl;
+  al_get_audio_stream_length: function(const stream: PALLEGRO_AUDIO_STREAM): Cardinal; cdecl;
+  al_get_audio_stream_fragments: function(const stream: PALLEGRO_AUDIO_STREAM): Cardinal; cdecl;
+  al_get_available_audio_stream_fragments: function(const stream: PALLEGRO_AUDIO_STREAM): Cardinal; cdecl;
+  al_get_audio_stream_speed: function(const stream: PALLEGRO_AUDIO_STREAM): Single; cdecl;
+  al_get_audio_stream_gain: function(const stream: PALLEGRO_AUDIO_STREAM): Single; cdecl;
+  al_get_audio_stream_pan: function(const stream: PALLEGRO_AUDIO_STREAM): Single; cdecl;
+  al_get_audio_stream_channels: function(const stream: PALLEGRO_AUDIO_STREAM): ALLEGRO_CHANNEL_CONF; cdecl;
+  al_get_audio_stream_depth: function(const stream: PALLEGRO_AUDIO_STREAM): ALLEGRO_AUDIO_DEPTH; cdecl;
+  al_get_audio_stream_playmode: function(const stream: PALLEGRO_AUDIO_STREAM): ALLEGRO_PLAYMODE; cdecl;
+  al_get_audio_stream_playing: function(const spl: PALLEGRO_AUDIO_STREAM): Boolean; cdecl;
+  al_get_audio_stream_attached: function(const spl: PALLEGRO_AUDIO_STREAM): Boolean; cdecl;
+  al_get_audio_stream_played_samples: function(const stream: PALLEGRO_AUDIO_STREAM): UInt64; cdecl;
+  al_get_audio_stream_fragment: function(const stream: PALLEGRO_AUDIO_STREAM): Pointer; cdecl;
+  al_set_audio_stream_speed: function(stream: PALLEGRO_AUDIO_STREAM; val: Single): Boolean; cdecl;
+  al_set_audio_stream_gain: function(stream: PALLEGRO_AUDIO_STREAM; val: Single): Boolean; cdecl;
+  al_set_audio_stream_pan: function(stream: PALLEGRO_AUDIO_STREAM; val: Single): Boolean; cdecl;
+  al_set_audio_stream_playmode: function(stream: PALLEGRO_AUDIO_STREAM; val: ALLEGRO_PLAYMODE): Boolean; cdecl;
+  al_set_audio_stream_playing: function(stream: PALLEGRO_AUDIO_STREAM; val: Boolean): Boolean; cdecl;
+  al_detach_audio_stream: function(stream: PALLEGRO_AUDIO_STREAM): Boolean; cdecl;
+  al_set_audio_stream_fragment: function(stream: PALLEGRO_AUDIO_STREAM; val: Pointer): Boolean; cdecl;
+  al_rewind_audio_stream: function(stream: PALLEGRO_AUDIO_STREAM): Boolean; cdecl;
+  al_seek_audio_stream_secs: function(stream: PALLEGRO_AUDIO_STREAM; time: Double): Boolean; cdecl;
+  al_get_audio_stream_position_secs: function(stream: PALLEGRO_AUDIO_STREAM): Double; cdecl;
+  al_get_audio_stream_length_secs: function(stream: PALLEGRO_AUDIO_STREAM): Double; cdecl;
+  al_set_audio_stream_loop_secs: function(stream: PALLEGRO_AUDIO_STREAM; start: Double; &end: Double): Boolean; cdecl;
+  al_get_audio_stream_event_source: function(stream: PALLEGRO_AUDIO_STREAM): PALLEGRO_EVENT_SOURCE; cdecl;
+  al_set_audio_stream_channel_matrix: function(stream: PALLEGRO_AUDIO_STREAM; const matrix: PSingle): Boolean; cdecl;
+  al_create_mixer: function(freq: Cardinal; depth: ALLEGRO_AUDIO_DEPTH; chan_conf: ALLEGRO_CHANNEL_CONF): PALLEGRO_MIXER; cdecl;
+  al_destroy_mixer: procedure(mixer: PALLEGRO_MIXER); cdecl;
+  al_attach_sample_instance_to_mixer: function(stream: PALLEGRO_SAMPLE_INSTANCE; mixer: PALLEGRO_MIXER): Boolean; cdecl;
+  al_attach_audio_stream_to_mixer: function(stream: PALLEGRO_AUDIO_STREAM; mixer: PALLEGRO_MIXER): Boolean; cdecl;
+  al_attach_mixer_to_mixer: function(stream: PALLEGRO_MIXER; mixer: PALLEGRO_MIXER): Boolean; cdecl;
+  al_set_mixer_postprocess_callback: function(mixer: PALLEGRO_MIXER; cb: al_set_mixer_postprocess_callback_cb; data: Pointer): Boolean; cdecl;
+  al_get_mixer_frequency: function(const mixer: PALLEGRO_MIXER): Cardinal; cdecl;
+  al_get_mixer_channels: function(const mixer: PALLEGRO_MIXER): ALLEGRO_CHANNEL_CONF; cdecl;
+  al_get_mixer_depth: function(const mixer: PALLEGRO_MIXER): ALLEGRO_AUDIO_DEPTH; cdecl;
+  al_get_mixer_quality: function(const mixer: PALLEGRO_MIXER): ALLEGRO_MIXER_QUALITY; cdecl;
+  al_get_mixer_gain: function(const mixer: PALLEGRO_MIXER): Single; cdecl;
+  al_get_mixer_playing: function(const mixer: PALLEGRO_MIXER): Boolean; cdecl;
+  al_get_mixer_attached: function(const mixer: PALLEGRO_MIXER): Boolean; cdecl;
+  al_set_mixer_frequency: function(mixer: PALLEGRO_MIXER; val: Cardinal): Boolean; cdecl;
+  al_set_mixer_quality: function(mixer: PALLEGRO_MIXER; val: ALLEGRO_MIXER_QUALITY): Boolean; cdecl;
+  al_set_mixer_gain: function(mixer: PALLEGRO_MIXER; gain: Single): Boolean; cdecl;
+  al_set_mixer_playing: function(mixer: PALLEGRO_MIXER; val: Boolean): Boolean; cdecl;
+  al_detach_mixer: function(mixer: PALLEGRO_MIXER): Boolean; cdecl;
+  al_create_voice: function(freq: Cardinal; depth: ALLEGRO_AUDIO_DEPTH; chan_conf: ALLEGRO_CHANNEL_CONF): PALLEGRO_VOICE; cdecl;
+  al_destroy_voice: procedure(voice: PALLEGRO_VOICE); cdecl;
+  al_attach_sample_instance_to_voice: function(stream: PALLEGRO_SAMPLE_INSTANCE; voice: PALLEGRO_VOICE): Boolean; cdecl;
+  al_attach_audio_stream_to_voice: function(stream: PALLEGRO_AUDIO_STREAM; voice: PALLEGRO_VOICE): Boolean; cdecl;
+  al_attach_mixer_to_voice: function(mixer: PALLEGRO_MIXER; voice: PALLEGRO_VOICE): Boolean; cdecl;
+  al_detach_voice: procedure(voice: PALLEGRO_VOICE); cdecl;
+  al_get_voice_frequency: function(const voice: PALLEGRO_VOICE): Cardinal; cdecl;
+  al_get_voice_position: function(const voice: PALLEGRO_VOICE): Cardinal; cdecl;
+  al_get_voice_channels: function(const voice: PALLEGRO_VOICE): ALLEGRO_CHANNEL_CONF; cdecl;
+  al_get_voice_depth: function(const voice: PALLEGRO_VOICE): ALLEGRO_AUDIO_DEPTH; cdecl;
+  al_get_voice_playing: function(const voice: PALLEGRO_VOICE): Boolean; cdecl;
+  al_set_voice_position: function(voice: PALLEGRO_VOICE; val: Cardinal): Boolean; cdecl;
+  al_set_voice_playing: function(voice: PALLEGRO_VOICE; val: Boolean): Boolean; cdecl;
+  al_install_audio: function(): Boolean; cdecl;
+  al_uninstall_audio: procedure(); cdecl;
+  al_is_audio_installed: function(): Boolean; cdecl;
+  al_get_allegro_audio_version: function(): UInt32; cdecl;
+  al_get_channel_count: function(conf: ALLEGRO_CHANNEL_CONF): NativeUInt; cdecl;
+  al_get_audio_depth_size: function(conf: ALLEGRO_AUDIO_DEPTH): NativeUInt; cdecl;
+  al_fill_silence: procedure(buf: Pointer; samples: Cardinal; depth: ALLEGRO_AUDIO_DEPTH; chan_conf: ALLEGRO_CHANNEL_CONF); cdecl;
+  al_get_num_audio_output_devices: function(): Integer; cdecl;
+  al_get_audio_output_device: function(index: Integer): PALLEGRO_AUDIO_DEVICE; cdecl;
+  al_get_audio_device_name: function(const device: PALLEGRO_AUDIO_DEVICE): PUTF8Char; cdecl;
+  al_reserve_samples: function(reserve_samples: Integer): Boolean; cdecl;
+  al_get_default_mixer: function(): PALLEGRO_MIXER; cdecl;
+  al_set_default_mixer: function(mixer: PALLEGRO_MIXER): Boolean; cdecl;
+  al_restore_default_mixer: function(): Boolean; cdecl;
+  al_play_sample: function(data: PALLEGRO_SAMPLE; gain: Single; pan: Single; speed: Single; loop: ALLEGRO_PLAYMODE; ret_id: PALLEGRO_SAMPLE_ID): Boolean; cdecl;
+  al_stop_sample: procedure(spl_id: PALLEGRO_SAMPLE_ID); cdecl;
+  al_stop_samples: procedure(); cdecl;
+  al_get_default_voice: function(): PALLEGRO_VOICE; cdecl;
+  al_set_default_voice: procedure(voice: PALLEGRO_VOICE); cdecl;
+  al_lock_sample_id: function(spl_id: PALLEGRO_SAMPLE_ID): PALLEGRO_SAMPLE_INSTANCE; cdecl;
+  al_unlock_sample_id: procedure(spl_id: PALLEGRO_SAMPLE_ID); cdecl;
+  al_register_sample_loader: function(const ext: PUTF8Char; loader: al_register_sample_loader_loader): Boolean; cdecl;
+  al_register_sample_saver: function(const ext: PUTF8Char; saver: al_register_sample_saver_saver): Boolean; cdecl;
+  al_register_audio_stream_loader: function(const ext: PUTF8Char; stream_loader: al_register_audio_stream_loader_stream_loader): Boolean; cdecl;
+  al_register_sample_loader_f: function(const ext: PUTF8Char; loader: al_register_sample_loader_f_loader): Boolean; cdecl;
+  al_register_sample_saver_f: function(const ext: PUTF8Char; saver: al_register_sample_saver_f_saver): Boolean; cdecl;
+  al_register_audio_stream_loader_f: function(const ext: PUTF8Char; stream_loader: al_register_audio_stream_loader_f_stream_loader): Boolean; cdecl;
+  al_register_sample_identifier: function(const ext: PUTF8Char; identifier: al_register_sample_identifier_identifier): Boolean; cdecl;
+  al_load_sample: function(const filename: PUTF8Char): PALLEGRO_SAMPLE; cdecl;
+  al_save_sample: function(const filename: PUTF8Char; spl: PALLEGRO_SAMPLE): Boolean; cdecl;
+  al_load_audio_stream: function(const filename: PUTF8Char; buffer_count: NativeUInt; samples: Cardinal): PALLEGRO_AUDIO_STREAM; cdecl;
+  al_load_sample_f: function(fp: PALLEGRO_FILE; const ident: PUTF8Char): PALLEGRO_SAMPLE; cdecl;
+  al_save_sample_f: function(fp: PALLEGRO_FILE; const ident: PUTF8Char; spl: PALLEGRO_SAMPLE): Boolean; cdecl;
+  al_load_audio_stream_f: function(fp: PALLEGRO_FILE; const ident: PUTF8Char; buffer_count: NativeUInt; samples: Cardinal): PALLEGRO_AUDIO_STREAM; cdecl;
+  al_identify_sample_f: function(fp: PALLEGRO_FILE): PUTF8Char; cdecl;
+  al_identify_sample: function(const filename: PUTF8Char): PUTF8Char; cdecl;
+  al_create_audio_recorder: function(fragment_count: NativeUInt; samples: Cardinal; freq: Cardinal; depth: ALLEGRO_AUDIO_DEPTH; chan_conf: ALLEGRO_CHANNEL_CONF): PALLEGRO_AUDIO_RECORDER; cdecl;
+  al_start_audio_recorder: function(r: PALLEGRO_AUDIO_RECORDER): Boolean; cdecl;
+  al_stop_audio_recorder: procedure(r: PALLEGRO_AUDIO_RECORDER); cdecl;
+  al_is_audio_recorder_recording: function(r: PALLEGRO_AUDIO_RECORDER): Boolean; cdecl;
+  al_get_audio_recorder_event_source: function(r: PALLEGRO_AUDIO_RECORDER): PALLEGRO_EVENT_SOURCE; cdecl;
+  al_get_audio_recorder_event: function(event: PALLEGRO_EVENT): PALLEGRO_AUDIO_RECORDER_EVENT; cdecl;
+  al_destroy_audio_recorder: procedure(r: PALLEGRO_AUDIO_RECORDER); cdecl;
+  al_init_acodec_addon: function(): Boolean; cdecl;
+  al_is_acodec_addon_initialized: function(): Boolean; cdecl;
+  al_get_allegro_acodec_version: function(): UInt32; cdecl;
+  al_get_allegro_color_version: function(): UInt32; cdecl;
+  al_color_hsv_to_rgb: procedure(hue: Single; saturation: Single; value: Single; red: PSingle; green: PSingle; blue: PSingle); cdecl;
+  al_color_rgb_to_hsl: procedure(red: Single; green: Single; blue: Single; hue: PSingle; saturation: PSingle; lightness: PSingle); cdecl;
+  al_color_rgb_to_hsv: procedure(red: Single; green: Single; blue: Single; hue: PSingle; saturation: PSingle; value: PSingle); cdecl;
+  al_color_hsl_to_rgb: procedure(hue: Single; saturation: Single; lightness: Single; red: PSingle; green: PSingle; blue: PSingle); cdecl;
+  al_color_name_to_rgb: function(const name: PUTF8Char; r: PSingle; g: PSingle; b: PSingle): Boolean; cdecl;
+  al_color_rgb_to_name: function(r: Single; g: Single; b: Single): PUTF8Char; cdecl;
+  al_color_cmyk_to_rgb: procedure(cyan: Single; magenta: Single; yellow: Single; key: Single; red: PSingle; green: PSingle; blue: PSingle); cdecl;
+  al_color_rgb_to_cmyk: procedure(red: Single; green: Single; blue: Single; cyan: PSingle; magenta: PSingle; yellow: PSingle; key: PSingle); cdecl;
+  al_color_yuv_to_rgb: procedure(y: Single; u: Single; v: Single; red: PSingle; green: PSingle; blue: PSingle); cdecl;
+  al_color_rgb_to_yuv: procedure(red: Single; green: Single; blue: Single; y: PSingle; u: PSingle; v: PSingle); cdecl;
+  al_color_rgb_to_html: procedure(red: Single; green: Single; blue: Single; &string: PUTF8Char); cdecl;
+  al_color_html_to_rgb: function(const &string: PUTF8Char; red: PSingle; green: PSingle; blue: PSingle): Boolean; cdecl;
+  al_color_yuv: function(y: Single; u: Single; v: Single): ALLEGRO_COLOR; cdecl;
+  al_color_cmyk: function(c: Single; m: Single; y: Single; k: Single): ALLEGRO_COLOR; cdecl;
+  al_color_hsl: function(h: Single; s: Single; l: Single): ALLEGRO_COLOR; cdecl;
+  al_color_hsv: function(h: Single; s: Single; v: Single): ALLEGRO_COLOR; cdecl;
+  al_color_name: function(const name: PUTF8Char): ALLEGRO_COLOR; cdecl;
+  al_color_html: function(const &string: PUTF8Char): ALLEGRO_COLOR; cdecl;
+  al_color_xyz_to_rgb: procedure(x: Single; y: Single; z: Single; red: PSingle; green: PSingle; blue: PSingle); cdecl;
+  al_color_rgb_to_xyz: procedure(red: Single; green: Single; blue: Single; x: PSingle; y: PSingle; z: PSingle); cdecl;
+  al_color_xyz: function(x: Single; y: Single; z: Single): ALLEGRO_COLOR; cdecl;
+  al_color_lab_to_rgb: procedure(l: Single; a: Single; b: Single; red: PSingle; green: PSingle; blue: PSingle); cdecl;
+  al_color_rgb_to_lab: procedure(red: Single; green: Single; blue: Single; l: PSingle; a: PSingle; b: PSingle); cdecl;
+  al_color_lab: function(l: Single; a: Single; b: Single): ALLEGRO_COLOR; cdecl;
+  al_color_xyy_to_rgb: procedure(x: Single; y: Single; y2: Single; red: PSingle; green: PSingle; blue: PSingle); cdecl;
+  al_color_rgb_to_xyy: procedure(red: Single; green: Single; blue: Single; x: PSingle; y: PSingle; y2: PSingle); cdecl;
+  al_color_xyy: function(x: Single; y: Single; y2: Single): ALLEGRO_COLOR; cdecl;
+  al_color_distance_ciede2000: function(c1: ALLEGRO_COLOR; c2: ALLEGRO_COLOR): Double; cdecl;
+  al_color_lch_to_rgb: procedure(l: Single; c: Single; h: Single; red: PSingle; green: PSingle; blue: PSingle); cdecl;
+  al_color_rgb_to_lch: procedure(red: Single; green: Single; blue: Single; l: PSingle; c: PSingle; h: PSingle); cdecl;
+  al_color_lch: function(l: Single; c: Single; h: Single): ALLEGRO_COLOR; cdecl;
+  al_is_color_valid: function(color: ALLEGRO_COLOR): Boolean; cdecl;
+  al_color_oklab_to_rgb: procedure(l: Single; a: Single; b: Single; red: PSingle; green: PSingle; blue: PSingle); cdecl;
+  al_color_rgb_to_oklab: procedure(red: Single; green: Single; blue: Single; l: PSingle; a: PSingle; b: PSingle); cdecl;
+  al_color_oklab: function(l: Single; a: Single; b: Single): ALLEGRO_COLOR; cdecl;
+  al_color_linear_to_rgb: procedure(x: Single; y: Single; z: Single; red: PSingle; green: PSingle; blue: PSingle); cdecl;
+  al_color_rgb_to_linear: procedure(red: Single; green: Single; blue: Single; x: PSingle; y: PSingle; z: PSingle); cdecl;
+  al_color_linear: function(r: Single; g: Single; b: Single): ALLEGRO_COLOR; cdecl;
+  al_register_font_loader: function(const ext: PUTF8Char; load: al_register_font_loader_load): Boolean; cdecl;
+  al_load_bitmap_font: function(const filename: PUTF8Char): PALLEGRO_FONT; cdecl;
+  al_load_bitmap_font_flags: function(const filename: PUTF8Char; flags: Integer): PALLEGRO_FONT; cdecl;
+  al_load_font: function(const filename: PUTF8Char; size: Integer; flags: Integer): PALLEGRO_FONT; cdecl;
+  al_grab_font_from_bitmap: function(bmp: PALLEGRO_BITMAP; n: Integer; ranges: PInteger): PALLEGRO_FONT; cdecl;
+  al_create_builtin_font: function(): PALLEGRO_FONT; cdecl;
+  al_draw_ustr: procedure(const font: PALLEGRO_FONT; color: ALLEGRO_COLOR; x: Single; y: Single; flags: Integer; const ustr: PALLEGRO_USTR); cdecl;
+  al_draw_text: procedure(const font: PALLEGRO_FONT; color: ALLEGRO_COLOR; x: Single; y: Single; flags: Integer; const text: PUTF8Char); cdecl;
+  al_draw_justified_text: procedure(const font: PALLEGRO_FONT; color: ALLEGRO_COLOR; x1: Single; x2: Single; y: Single; diff: Single; flags: Integer; const text: PUTF8Char); cdecl;
+  al_draw_justified_ustr: procedure(const font: PALLEGRO_FONT; color: ALLEGRO_COLOR; x1: Single; x2: Single; y: Single; diff: Single; flags: Integer; const text: PALLEGRO_USTR); cdecl;
+  al_draw_textf: procedure(const font: PALLEGRO_FONT; color: ALLEGRO_COLOR; x: Single; y: Single; flags: Integer; const format: PUTF8Char) varargs; cdecl;
+  al_draw_justified_textf: procedure(const font: PALLEGRO_FONT; color: ALLEGRO_COLOR; x1: Single; x2: Single; y: Single; diff: Single; flags: Integer; const format: PUTF8Char) varargs; cdecl;
+  al_get_text_width: function(const f: PALLEGRO_FONT; const str: PUTF8Char): Integer; cdecl;
+  al_get_ustr_width: function(const f: PALLEGRO_FONT; const ustr: PALLEGRO_USTR): Integer; cdecl;
+  al_get_font_line_height: function(const f: PALLEGRO_FONT): Integer; cdecl;
+  al_get_font_ascent: function(const f: PALLEGRO_FONT): Integer; cdecl;
+  al_get_font_descent: function(const f: PALLEGRO_FONT): Integer; cdecl;
+  al_destroy_font: procedure(f: PALLEGRO_FONT); cdecl;
+  al_get_ustr_dimensions: procedure(const f: PALLEGRO_FONT; const text: PALLEGRO_USTR; bbx: PInteger; bby: PInteger; bbw: PInteger; bbh: PInteger); cdecl;
+  al_get_text_dimensions: procedure(const f: PALLEGRO_FONT; const text: PUTF8Char; bbx: PInteger; bby: PInteger; bbw: PInteger; bbh: PInteger); cdecl;
+  al_init_font_addon: function(): Boolean; cdecl;
+  al_is_font_addon_initialized: function(): Boolean; cdecl;
+  al_shutdown_font_addon: procedure(); cdecl;
+  al_get_allegro_font_version: function(): UInt32; cdecl;
+  al_get_font_ranges: function(font: PALLEGRO_FONT; ranges_count: Integer; ranges: PInteger): Integer; cdecl;
+  al_draw_glyph: procedure(const font: PALLEGRO_FONT; color: ALLEGRO_COLOR; x: Single; y: Single; codepoint: Integer); cdecl;
+  al_get_glyph_width: function(const f: PALLEGRO_FONT; codepoint: Integer): Integer; cdecl;
+  al_get_glyph_dimensions: function(const f: PALLEGRO_FONT; codepoint: Integer; bbx: PInteger; bby: PInteger; bbw: PInteger; bbh: PInteger): Boolean; cdecl;
+  al_get_glyph_advance: function(const f: PALLEGRO_FONT; codepoint1: Integer; codepoint2: Integer): Integer; cdecl;
+  al_get_glyph: function(const f: PALLEGRO_FONT; prev_codepoint: Integer; codepoint: Integer; glyph: PALLEGRO_GLYPH): Boolean; cdecl;
+  al_draw_multiline_text: procedure(const font: PALLEGRO_FONT; color: ALLEGRO_COLOR; x: Single; y: Single; max_width: Single; line_height: Single; flags: Integer; const text: PUTF8Char); cdecl;
+  al_draw_multiline_textf: procedure(const font: PALLEGRO_FONT; color: ALLEGRO_COLOR; x: Single; y: Single; max_width: Single; line_height: Single; flags: Integer; const format: PUTF8Char) varargs; cdecl;
+  al_draw_multiline_ustr: procedure(const font: PALLEGRO_FONT; color: ALLEGRO_COLOR; x: Single; y: Single; max_width: Single; line_height: Single; flags: Integer; const text: PALLEGRO_USTR); cdecl;
+  al_do_multiline_text: procedure(const font: PALLEGRO_FONT; max_width: Single; const text: PUTF8Char; cb: al_do_multiline_text_cb; extra: Pointer); cdecl;
+  al_do_multiline_ustr: procedure(const font: PALLEGRO_FONT; max_width: Single; const ustr: PALLEGRO_USTR; cb: al_do_multiline_ustr_cb; extra: Pointer); cdecl;
+  al_set_fallback_font: procedure(font: PALLEGRO_FONT; fallback: PALLEGRO_FONT); cdecl;
+  al_get_fallback_font: function(font: PALLEGRO_FONT): PALLEGRO_FONT; cdecl;
+  al_init_image_addon: function(): Boolean; cdecl;
+  al_is_image_addon_initialized: function(): Boolean; cdecl;
+  al_shutdown_image_addon: procedure(); cdecl;
+  al_get_allegro_image_version: function(): UInt32; cdecl;
+  al_open_memfile: function(mem: Pointer; size: Int64; const mode: PUTF8Char): PALLEGRO_FILE; cdecl;
+  al_get_allegro_memfile_version: function(): UInt32; cdecl;
+  al_init_native_dialog_addon: function(): Boolean; cdecl;
+  al_is_native_dialog_addon_initialized: function(): Boolean; cdecl;
+  al_shutdown_native_dialog_addon: procedure(); cdecl;
+  al_create_native_file_dialog: function(const initial_path: PUTF8Char; const title: PUTF8Char; const patterns: PUTF8Char; mode: Integer): PALLEGRO_FILECHOOSER; cdecl;
+  al_show_native_file_dialog: function(display: PALLEGRO_DISPLAY; dialog: PALLEGRO_FILECHOOSER): Boolean; cdecl;
+  al_get_native_file_dialog_count: function(const dialog: PALLEGRO_FILECHOOSER): Integer; cdecl;
+  al_get_native_file_dialog_path: function(const dialog: PALLEGRO_FILECHOOSER; index: NativeUInt): PUTF8Char; cdecl;
+  al_destroy_native_file_dialog: procedure(dialog: PALLEGRO_FILECHOOSER); cdecl;
+  al_show_native_message_box: function(display: PALLEGRO_DISPLAY; const title: PUTF8Char; const heading: PUTF8Char; const text: PUTF8Char; const buttons: PUTF8Char; flags: Integer): Integer; cdecl;
+  al_open_native_text_log: function(const title: PUTF8Char; flags: Integer): PALLEGRO_TEXTLOG; cdecl;
+  al_close_native_text_log: procedure(textlog: PALLEGRO_TEXTLOG); cdecl;
+  al_append_native_text_log: procedure(textlog: PALLEGRO_TEXTLOG; const format: PUTF8Char) varargs; cdecl;
+  al_get_native_text_log_event_source: function(textlog: PALLEGRO_TEXTLOG): PALLEGRO_EVENT_SOURCE; cdecl;
+  al_create_menu: function(): PALLEGRO_MENU; cdecl;
+  al_create_popup_menu: function(): PALLEGRO_MENU; cdecl;
+  al_build_menu: function(info: PALLEGRO_MENU_INFO): PALLEGRO_MENU; cdecl;
+  al_append_menu_item: function(parent: PALLEGRO_MENU; const title: PUTF8Char; id: UInt16; flags: Integer; icon: PALLEGRO_BITMAP; submenu: PALLEGRO_MENU): Integer; cdecl;
+  al_insert_menu_item: function(parent: PALLEGRO_MENU; pos: Integer; const title: PUTF8Char; id: UInt16; flags: Integer; icon: PALLEGRO_BITMAP; submenu: PALLEGRO_MENU): Integer; cdecl;
+  al_remove_menu_item: function(menu: PALLEGRO_MENU; pos: Integer): Boolean; cdecl;
+  al_clone_menu: function(menu: PALLEGRO_MENU): PALLEGRO_MENU; cdecl;
+  al_clone_menu_for_popup: function(menu: PALLEGRO_MENU): PALLEGRO_MENU; cdecl;
+  al_destroy_menu: procedure(menu: PALLEGRO_MENU); cdecl;
+  al_get_menu_item_caption: function(menu: PALLEGRO_MENU; pos: Integer): PUTF8Char; cdecl;
+  al_set_menu_item_caption: procedure(menu: PALLEGRO_MENU; pos: Integer; const caption: PUTF8Char); cdecl;
+  al_get_menu_item_flags: function(menu: PALLEGRO_MENU; pos: Integer): Integer; cdecl;
+  al_set_menu_item_flags: procedure(menu: PALLEGRO_MENU; pos: Integer; flags: Integer); cdecl;
+  al_get_menu_item_icon: function(menu: PALLEGRO_MENU; pos: Integer): PALLEGRO_BITMAP; cdecl;
+  al_set_menu_item_icon: procedure(menu: PALLEGRO_MENU; pos: Integer; icon: PALLEGRO_BITMAP); cdecl;
+  al_toggle_menu_item_flags: function(menu: PALLEGRO_MENU; pos: Integer; flags: Integer): Integer; cdecl;
+  al_find_menu: function(haystack: PALLEGRO_MENU; id: UInt16): PALLEGRO_MENU; cdecl;
+  al_find_menu_item: function(haystack: PALLEGRO_MENU; id: UInt16; menu: PPALLEGRO_MENU; index: PInteger): Boolean; cdecl;
+  al_get_default_menu_event_source: function(): PALLEGRO_EVENT_SOURCE; cdecl;
+  al_enable_menu_event_source: function(menu: PALLEGRO_MENU): PALLEGRO_EVENT_SOURCE; cdecl;
+  al_disable_menu_event_source: procedure(menu: PALLEGRO_MENU); cdecl;
+  al_get_display_menu: function(display: PALLEGRO_DISPLAY): PALLEGRO_MENU; cdecl;
+  al_set_display_menu: function(display: PALLEGRO_DISPLAY; menu: PALLEGRO_MENU): Boolean; cdecl;
+  al_popup_menu: function(popup: PALLEGRO_MENU; display: PALLEGRO_DISPLAY): Boolean; cdecl;
+  al_remove_display_menu: function(display: PALLEGRO_DISPLAY): PALLEGRO_MENU; cdecl;
+  al_get_allegro_native_dialog_version: function(): UInt32; cdecl;
+  al_get_allegro_primitives_version: function(): UInt32; cdecl;
+  al_init_primitives_addon: function(): Boolean; cdecl;
+  al_is_primitives_addon_initialized: function(): Boolean; cdecl;
+  al_shutdown_primitives_addon: procedure(); cdecl;
+  al_draw_prim: function(const vtxs: Pointer; const decl: PALLEGRO_VERTEX_DECL; texture: PALLEGRO_BITMAP; start: Integer; &end: Integer; &type: Integer): Integer; cdecl;
+  al_draw_indexed_prim: function(const vtxs: Pointer; const decl: PALLEGRO_VERTEX_DECL; texture: PALLEGRO_BITMAP; const indices: PInteger; num_vtx: Integer; &type: Integer): Integer; cdecl;
+  al_draw_vertex_buffer: function(vertex_buffer: PALLEGRO_VERTEX_BUFFER; texture: PALLEGRO_BITMAP; start: Integer; &end: Integer; &type: Integer): Integer; cdecl;
+  al_draw_indexed_buffer: function(vertex_buffer: PALLEGRO_VERTEX_BUFFER; texture: PALLEGRO_BITMAP; index_buffer: PALLEGRO_INDEX_BUFFER; start: Integer; &end: Integer; &type: Integer): Integer; cdecl;
+  al_create_vertex_decl: function(const elements: PALLEGRO_VERTEX_ELEMENT; stride: Integer): PALLEGRO_VERTEX_DECL; cdecl;
+  al_destroy_vertex_decl: procedure(decl: PALLEGRO_VERTEX_DECL); cdecl;
+  al_create_vertex_buffer: function(decl: PALLEGRO_VERTEX_DECL; const initial_data: Pointer; num_vertices: Integer; flags: Integer): PALLEGRO_VERTEX_BUFFER; cdecl;
+  al_destroy_vertex_buffer: procedure(buffer: PALLEGRO_VERTEX_BUFFER); cdecl;
+  al_lock_vertex_buffer: function(buffer: PALLEGRO_VERTEX_BUFFER; offset: Integer; length: Integer; flags: Integer): Pointer; cdecl;
+  al_unlock_vertex_buffer: procedure(buffer: PALLEGRO_VERTEX_BUFFER); cdecl;
+  al_get_vertex_buffer_size: function(buffer: PALLEGRO_VERTEX_BUFFER): Integer; cdecl;
+  al_create_index_buffer: function(index_size: Integer; const initial_data: Pointer; num_indices: Integer; flags: Integer): PALLEGRO_INDEX_BUFFER; cdecl;
+  al_destroy_index_buffer: procedure(buffer: PALLEGRO_INDEX_BUFFER); cdecl;
+  al_lock_index_buffer: function(buffer: PALLEGRO_INDEX_BUFFER; offset: Integer; length: Integer; flags: Integer): Pointer; cdecl;
+  al_unlock_index_buffer: procedure(buffer: PALLEGRO_INDEX_BUFFER); cdecl;
+  al_get_index_buffer_size: function(buffer: PALLEGRO_INDEX_BUFFER): Integer; cdecl;
+  al_triangulate_polygon: function(const vertices: PSingle; vertex_stride: NativeUInt; const vertex_counts: PInteger; emit_triangle: al_triangulate_polygon_emit_triangle; userdata: Pointer): Boolean; cdecl;
+  al_draw_soft_triangle: procedure(v1: PALLEGRO_VERTEX; v2: PALLEGRO_VERTEX; v3: PALLEGRO_VERTEX; state: UIntPtr; init: al_draw_soft_triangle_init; first: al_draw_soft_triangle_first; step: al_draw_soft_triangle_step; draw: al_draw_soft_triangle_draw); cdecl;
+  al_draw_soft_line: procedure(v1: PALLEGRO_VERTEX; v2: PALLEGRO_VERTEX; state: UIntPtr; first: al_draw_soft_line_first; step: al_draw_soft_line_step; draw: al_draw_soft_line_draw); cdecl;
+  al_draw_line: procedure(x1: Single; y1: Single; x2: Single; y2: Single; color: ALLEGRO_COLOR; thickness: Single); cdecl;
+  al_draw_triangle: procedure(x1: Single; y1: Single; x2: Single; y2: Single; x3: Single; y3: Single; color: ALLEGRO_COLOR; thickness: Single); cdecl;
+  al_draw_rectangle: procedure(x1: Single; y1: Single; x2: Single; y2: Single; color: ALLEGRO_COLOR; thickness: Single); cdecl;
+  al_draw_rounded_rectangle: procedure(x1: Single; y1: Single; x2: Single; y2: Single; rx: Single; ry: Single; color: ALLEGRO_COLOR; thickness: Single); cdecl;
+  al_calculate_arc: procedure(dest: PSingle; stride: Integer; cx: Single; cy: Single; rx: Single; ry: Single; start_theta: Single; delta_theta: Single; thickness: Single; num_points: Integer); cdecl;
+  al_draw_circle: procedure(cx: Single; cy: Single; r: Single; color: ALLEGRO_COLOR; thickness: Single); cdecl;
+  al_draw_ellipse: procedure(cx: Single; cy: Single; rx: Single; ry: Single; color: ALLEGRO_COLOR; thickness: Single); cdecl;
+  al_draw_arc: procedure(cx: Single; cy: Single; r: Single; start_theta: Single; delta_theta: Single; color: ALLEGRO_COLOR; thickness: Single); cdecl;
+  al_draw_elliptical_arc: procedure(cx: Single; cy: Single; rx: Single; ry: Single; start_theta: Single; delta_theta: Single; color: ALLEGRO_COLOR; thickness: Single); cdecl;
+  al_draw_pieslice: procedure(cx: Single; cy: Single; r: Single; start_theta: Single; delta_theta: Single; color: ALLEGRO_COLOR; thickness: Single); cdecl;
+  al_calculate_spline: procedure(dest: PSingle; stride: Integer; points: PSingle; thickness: Single; num_segments: Integer); cdecl;
+  al_draw_spline: procedure(points: PSingle; color: ALLEGRO_COLOR; thickness: Single); cdecl;
+  al_calculate_ribbon: procedure(dest: PSingle; dest_stride: Integer; const points: PSingle; points_stride: Integer; thickness: Single; num_segments: Integer); cdecl;
+  al_draw_ribbon: procedure(const points: PSingle; points_stride: Integer; color: ALLEGRO_COLOR; thickness: Single; num_segments: Integer); cdecl;
+  al_draw_filled_triangle: procedure(x1: Single; y1: Single; x2: Single; y2: Single; x3: Single; y3: Single; color: ALLEGRO_COLOR); cdecl;
+  al_draw_filled_rectangle: procedure(x1: Single; y1: Single; x2: Single; y2: Single; color: ALLEGRO_COLOR); cdecl;
+  al_draw_filled_ellipse: procedure(cx: Single; cy: Single; rx: Single; ry: Single; color: ALLEGRO_COLOR); cdecl;
+  al_draw_filled_circle: procedure(cx: Single; cy: Single; r: Single; color: ALLEGRO_COLOR); cdecl;
+  al_draw_filled_pieslice: procedure(cx: Single; cy: Single; r: Single; start_theta: Single; delta_theta: Single; color: ALLEGRO_COLOR); cdecl;
+  al_draw_filled_rounded_rectangle: procedure(x1: Single; y1: Single; x2: Single; y2: Single; rx: Single; ry: Single; color: ALLEGRO_COLOR); cdecl;
+  al_draw_polyline: procedure(const vertices: PSingle; vertex_stride: Integer; vertex_count: Integer; join_style: Integer; cap_style: Integer; color: ALLEGRO_COLOR; thickness: Single; miter_limit: Single); cdecl;
+  al_draw_polygon: procedure(const vertices: PSingle; vertex_count: Integer; join_style: Integer; color: ALLEGRO_COLOR; thickness: Single; miter_limit: Single); cdecl;
+  al_draw_filled_polygon: procedure(const vertices: PSingle; vertex_count: Integer; color: ALLEGRO_COLOR); cdecl;
+  al_draw_filled_polygon_with_holes: procedure(const vertices: PSingle; const vertex_counts: PInteger; color: ALLEGRO_COLOR); cdecl;
+  al_load_ttf_font: function(const filename: PUTF8Char; size: Integer; flags: Integer): PALLEGRO_FONT; cdecl;
+  al_load_ttf_font_f: function(&file: PALLEGRO_FILE; const filename: PUTF8Char; size: Integer; flags: Integer): PALLEGRO_FONT; cdecl;
+  al_load_ttf_font_stretch: function(const filename: PUTF8Char; w: Integer; h: Integer; flags: Integer): PALLEGRO_FONT; cdecl;
+  al_load_ttf_font_stretch_f: function(&file: PALLEGRO_FILE; const filename: PUTF8Char; w: Integer; h: Integer; flags: Integer): PALLEGRO_FONT; cdecl;
+  al_init_ttf_addon: function(): Boolean; cdecl;
+  al_is_ttf_addon_initialized: function(): Boolean; cdecl;
+  al_shutdown_ttf_addon: procedure(); cdecl;
+  al_get_allegro_ttf_version: function(): UInt32; cdecl;
+  al_open_video: function(const filename: PUTF8Char): PALLEGRO_VIDEO; cdecl;
+  al_close_video: procedure(video: PALLEGRO_VIDEO); cdecl;
+  al_start_video: procedure(video: PALLEGRO_VIDEO; mixer: PALLEGRO_MIXER); cdecl;
+  al_start_video_with_voice: procedure(video: PALLEGRO_VIDEO; voice: PALLEGRO_VOICE); cdecl;
+  al_get_video_event_source: function(video: PALLEGRO_VIDEO): PALLEGRO_EVENT_SOURCE; cdecl;
+  al_set_video_playing: procedure(video: PALLEGRO_VIDEO; playing: Boolean); cdecl;
+  al_is_video_playing: function(video: PALLEGRO_VIDEO): Boolean; cdecl;
+  al_get_video_audio_rate: function(video: PALLEGRO_VIDEO): Double; cdecl;
+  al_get_video_fps: function(video: PALLEGRO_VIDEO): Double; cdecl;
+  al_get_video_scaled_width: function(video: PALLEGRO_VIDEO): Single; cdecl;
+  al_get_video_scaled_height: function(video: PALLEGRO_VIDEO): Single; cdecl;
+  al_get_video_frame: function(video: PALLEGRO_VIDEO): PALLEGRO_BITMAP; cdecl;
+  al_get_video_position: function(video: PALLEGRO_VIDEO; which: ALLEGRO_VIDEO_POSITION_TYPE): Double; cdecl;
+  al_seek_video: function(video: PALLEGRO_VIDEO; pos_in_seconds: Double): Boolean; cdecl;
+  al_init_video_addon: function(): Boolean; cdecl;
+  al_is_video_addon_initialized: function(): Boolean; cdecl;
+  al_shutdown_video_addon: procedure(); cdecl;
+  al_get_allegro_video_version: function(): UInt32; cdecl;
+  al_identify_video_f: function(fp: PALLEGRO_FILE): PUTF8Char; cdecl;
+  al_identify_video: function(const filename: PUTF8Char): PUTF8Char; cdecl;
+  al_set_physfs_file_interface: procedure(); cdecl;
+  al_get_allegro_physfs_version: function(): UInt32; cdecl;
+  al_get_win_window_handle: function(display: PALLEGRO_DISPLAY): HWND; cdecl;
+  al_win_add_window_callback: function(display: PALLEGRO_DISPLAY; callback: al_win_add_window_callback_callback; userdata: Pointer): Boolean; cdecl;
+  al_win_remove_window_callback: function(display: PALLEGRO_DISPLAY; callback: al_win_remove_window_callback_callback; userdata: Pointer): Boolean; cdecl;
 
+  PHYSFS_init: function(const argv0: PUTF8Char): Integer; cdecl;
+  PHYSFS_deinit: function: Integer; cdecl;
+  PHYSFS_mount: function(const newDir: PUTF8Char; const mountPoint: PUTF8Char; appendToPath: Integer): Integer; cdecl;
+  PHYSFS_unmount: function(const oldDir: PUTF8Char): Integer; cdecl;
 
-PHYSFS_init: function(const argv0: PUTF8Char): Integer; cdecl;
-
-PHYSFS_deinit: function: Integer; cdecl;
-
-PHYSFS_mount: function(const newDir: PUTF8Char; const mountPoint: PUTF8Char; appendToPath: Integer): Integer; cdecl;
-
-PHYSFS_unmount: function(const oldDir: PUTF8Char): Integer; cdecl;
-
-function  al_init: Boolean; cdecl;
+  function al_init: Boolean; cdecl;
 
 implementation
 
@@ -3398,7 +2316,6 @@ uses
 var
   LDllHandle: THandle;
   LDllName: string;
-
 
 function al_init: Boolean;
 begin
